@@ -1,0 +1,15 @@
+[
+  {
+    "asset_id": "cqa-2026-06-11-canary-001",
+    "filename": "cqa-2026-06-11-canary-001_001.jpg",
+    "path": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
+    "model": "image-01",
+    "prompt": "A scholarly yet vibrant illustration of Flaws in the LLM Automation Narrative — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic",
+    "aspect_ratio": "16:9",
+    "content_pack": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+    "source_type": "academic",
+    "generated_at": "2026-06-11T03:04:00+08:00",
+    "watermark": true,
+    "file_size_kb": 325
+  }
+]

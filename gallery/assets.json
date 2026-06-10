@@ -1,8 +1,32 @@
 {
   "version": "0.2.0",
-  "updatedAt": "2026-06-10T17:22:39.596Z",
-  "totalAssets": 13,
+  "updatedAt": "2026-06-11T03:04:00+08:00",
+  "totalAssets": 14,
   "assets": [
+    {
+      "id": "cqa-canary-001",
+      "type": "image",
+      "title": "Flaws in the LLM Automation Narrative (Canary)",
+      "description": "First MiniMax image generation — academic paper brief on LLM automation limitations, generated via image-01 model",
+      "thumbnail": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
+      "full": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
+      "prompt": "A scholarly yet vibrant illustration of Flaws in the LLM Automation Narrative — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic",
+      "tags": [
+        "academic",
+        "llm",
+        "automation",
+        "neural-networks",
+        "manuscripts"
+      ],
+      "createdAt": "2026-06-11T03:04:00+08:00",
+      "packId": "cqa-2026-06-11-canary-001",
+      "sourceUrl": "https://arxiv.org/abs/XXXX",
+      "model": "image-01",
+      "aspect_ratio": "16:9",
+      "watermark": true,
+      "file_size_kb": 325,
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative"
+    },
     {
       "id": "cqh-img-001",
       "type": "image",

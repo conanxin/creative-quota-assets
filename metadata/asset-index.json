@@ -1,8 +1,32 @@
 {
   "version": "0.2.0",
-  "generatedAt": "2026-06-10T17:22:39.597Z",
-  "totalAssets": 8,
+  "generatedAt": "2026-06-11T03:04:00+08:00",
+  "totalAssets": 9,
   "assets": [
+    {
+      "assetId": "cqa-canary-001",
+      "type": "image",
+      "filePath": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
+      "thumbnailPath": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
+      "mimeType": "image/jpeg",
+      "fileSize": 325,
+      "dimensions": {
+        "width": 1024,
+        "height": 576
+      },
+      "generatedAt": "2026-06-11T03:04:00+08:00",
+      "packId": "cqa-2026-06-11-canary-001",
+      "contentPackDir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "tags": [
+        "academic",
+        "llm",
+        "automation",
+        "neural-networks"
+      ],
+      "model": "image-01",
+      "aspect_ratio": "16:9",
+      "watermark": true
+    },
     {
       "assetId": "cqh-img-001",
       "type": "image",
