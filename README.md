@@ -24,11 +24,11 @@ Or open `gallery/index.html` directly — no build required.
 |-------|--------|-------------|
 | Phase 0A–2B | ✅ Complete | Signal collection through asset gallery |
 | **Phase 2C** | **✅ Complete** | **GitHub open source publish + GitHub Pages** |
-| Phase 3A | ⬜ Planned | MiniMax quota-aware generation |
+| **Phase 3A** | **✅ Complete** | **First MiniMax image canary — 1 real image generated** |
 | Phase 3B | ⬜ Planned | Telegram daily report |
 | Phase 4 | ⬜ Planned | Scheduled automation |
 
-**Note:** This repo contains prompts and metadata only — no real generated images, music, or video yet. Media generation is Phase 3A.
+**Note:** Phase 3A canary complete — 1 real MiniMax image generated (`cqa-2026-06-11-canary-001_001.jpg`). Music/video generation is Phase 3A full batch.
 
 ---
 
@@ -57,7 +57,7 @@ creative-quota-assets/
 │   ├── asset-index.json     # All assets master index
 │   ├── source-index.json   # Assets grouped by source type
 │   └── daily-index.json    # Assets grouped by date
-├── images/                 # Generated images (Phase 3A+)
+├── images/                 # Generated images (Phase 3A: 1 canary image so far)
 ├── music/                   # Generated music (Phase 3A+)
 ├── videos/                  # Generated video (Phase 3A+)
 └── prompts/                 # Standalone prompt files
