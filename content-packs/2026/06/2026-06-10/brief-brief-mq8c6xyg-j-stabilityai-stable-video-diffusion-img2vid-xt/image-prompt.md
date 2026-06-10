@@ -1,0 +1,1 @@
+A breathtaking visualization of AI model ecosystem — "stabilityai/stable-video-diffusion-img2vid-xt" as a central star with radiating capabilities, holographic style

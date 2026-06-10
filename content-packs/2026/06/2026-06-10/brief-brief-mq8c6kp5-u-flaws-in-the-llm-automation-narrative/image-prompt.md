@@ -1,0 +1,1 @@
+A scholarly yet vibrant illustration of "Flaws in the LLM Automation Narrative" — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic

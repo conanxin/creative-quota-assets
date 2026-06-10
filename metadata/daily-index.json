@@ -1,0 +1,33 @@
+{
+  "version": "0.1.0",
+  "days": [
+    {
+      "date": "2026-06-10",
+      "signalsCollected": 3,
+      "briefsCreated": 2,
+      "assetsGenerated": {
+        "image": 1,
+        "music": 0,
+        "video": 0,
+        "prompt-text": 2
+      },
+      "quotaUsed": 0,
+      "contentPacks": [
+        "cqh-2026-06-10-001"
+      ],
+      "note": "Phase 0A dry-run: mock data only, no real MiniMax generation"
+    }
+  ],
+  "2026-06-10": [
+    "brief-mq8c6kp4-7z62f",
+    "brief-mq8c6kp5-ucw76",
+    "brief-mq8c6kp5-5u8ow",
+    "brief-mq8c6kp5-1c6x6",
+    "brief-mq8c6kp5-ral6w",
+    "brief-mq8c6xyg-bqh3n",
+    "brief-mq8c6xyg-voua2",
+    "brief-mq8c6xyg-jhln2",
+    "brief-mq8c6xyg-op6l2",
+    "brief-mq8c6xyg-5wjlw"
+  ]
+}

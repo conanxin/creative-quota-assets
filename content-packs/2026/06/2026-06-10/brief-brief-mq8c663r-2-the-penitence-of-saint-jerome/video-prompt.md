@@ -1,0 +1,1 @@
+Cinematic video sequence: opening with "The Penitence of Saint Jerome" concept visualization, 5-second establishing shot, smooth camera movement, warm color grade, ending on a reflective moment — high production value, professional voiceover ready

@@ -1,0 +1,27 @@
+{
+  "brief_id": "brief-mq8c6xyg-jhln2",
+  "brief_title": "stabilityai/stable-video-diffusion-img2vid-xt",
+  "recommended_outputs": [
+    {
+      "type": "x-post",
+      "priority": "low"
+    },
+    {
+      "type": "image",
+      "priority": "low"
+    },
+    {
+      "type": "webpage",
+      "priority": "low"
+    }
+  ],
+  "x_post": {
+    "zh": "📌 stabilityai/stable-video-diffusion-img2vid-xt\n\nAI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。\n\n对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt\n\n#AI #创意 #ai-ecosystem #huggingface #image-to-video",
+    "en": "📌 stabilityai/stable-video-diffusion-img2vid-xt\n\nAI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。\n\n对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt\n\n#AI #creative #ai-ecosystem #huggingface #image-to-video"
+  },
+  "image_prompt": "A breathtaking visualization of AI model ecosystem — \"stabilityai/stable-video-diffusion-img2vid-xt\" as a central star with radiating capabilities, holographic style",
+  "webpage_outline": "# stabilityai/stable-video-diffusion-img2vid-xt\n\n## Overview\nAI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。\n\n## Key Insights\n对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt\n\n## Factual Basis\n1. Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356\n\n## Recommended Assets\nx-post, image, webpage\n\n## Further Reading\n- https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+  "asset_repo_target_dir": "brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
+  "estimated_generation_priority": "low",
+  "created_at": "2026-06-10T17:22:39.593Z"
+}

@@ -1,0 +1,139 @@
+{
+  "version": "0.1.0",
+  "updatedAt": "2026-06-10T15:52:00Z",
+  "sources": [
+    {
+      "sourceType": "academic",
+      "sourceName": "arXiv AI",
+      "adapter": "arxiv-ai.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "code",
+      "sourceName": "GitHub Open Source Radar",
+      "adapter": "github-open-source-radar.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned",
+      "note": "Explicitly excludes conanxin/* — external repos only"
+    },
+    {
+      "sourceType": "dev-community",
+      "sourceName": "Hacker News",
+      "adapter": "hackernews.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "ai-ecosystem",
+      "sourceName": "Hugging Face Hub",
+      "adapter": "huggingface-hub.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "news",
+      "sourceName": "GDELT",
+      "adapter": "gdelt.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "news",
+      "sourceName": "RSS Feeds",
+      "adapter": "rss.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "context",
+      "sourceName": "Open-Meteo",
+      "adapter": "open-meteo.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "context",
+      "sourceName": "Date Context",
+      "adapter": "date-context.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "context",
+      "sourceName": "Holidays",
+      "adapter": "holidays.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "context",
+      "sourceName": "Solar Terms",
+      "adapter": "solar-terms.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "culture-art",
+      "sourceName": "The Met Collection",
+      "adapter": "met-collection.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "culture-art",
+      "sourceName": "Art Institute of Chicago",
+      "adapter": "artic-api.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "culture-art",
+      "sourceName": "Smithsonian",
+      "adapter": "smithsonian.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    },
+    {
+      "sourceType": "culture-art",
+      "sourceName": "Wikimedia",
+      "adapter": "wikimedia.ts",
+      "lastFetchedAt": null,
+      "signalsCount": 0,
+      "status": "planned"
+    }
+  ],
+  "code": [
+    "brief-mq8c6kp4-7z62f",
+    "brief-mq8c6xyg-bqh3n"
+  ],
+  "academic": [
+    "brief-mq8c6kp5-ucw76",
+    "brief-mq8c6xyg-voua2"
+  ],
+  "ai-ecosystem": [
+    "brief-mq8c6kp5-5u8ow",
+    "brief-mq8c6xyg-jhln2"
+  ],
+  "dev-community": [
+    "brief-mq8c6kp5-1c6x6",
+    "brief-mq8c6xyg-op6l2"
+  ],
+  "culture-art": [
+    "brief-mq8c6kp5-ral6w",
+    "brief-mq8c6xyg-5wjlw"
+  ]
+}

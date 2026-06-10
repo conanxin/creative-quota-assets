@@ -1,0 +1,152 @@
+{
+  "id": "cqh-manifest-cqh-2026-06-10-001",
+  "packId": "cqh-2026-06-10-001",
+  "name": "AI Agent & Metropolitan Art — Phase 0A Dry-Run Collection",
+  "description": "Phase 0A dry-run content pack demonstrating the Creative Quota Harvester pipeline. Contains mock signals, briefs, and asset plans. No real MiniMax generation was performed.",
+  "version": "0.1.0",
+  "createdAt": "2026-06-10T16:06:51.941Z",
+  "tags": [
+    "ai-agent",
+    "met",
+    "dry-run",
+    "phase-0a",
+    "2026-06-10"
+  ],
+  "assets": [
+    {
+      "assetId": "cqh-img-001",
+      "type": "image",
+      "filePath": "images/cqh-2026-06-10-001-img-001.jpg",
+      "thumbnailPath": "images/cqh-2026-06-10-001-img-001-thumb.jpg",
+      "metadata": {
+        "prompt": "A futuristic neural network visualization with autonomous AI agents in a state of flow, floating holographic interfaces, deep blue and cyan color palette, cinematic lighting, particle effects, 8K detail, concept art style",
+        "model": "minimax/image-01",
+        "generationTimeMs": 0,
+        "dimensions": {
+          "width": 1024,
+          "height": 1024
+        },
+        "fileSize": 0,
+        "mimeType": "image/jpeg"
+      }
+    },
+    {
+      "assetId": "cqh-prompt-001",
+      "type": "prompt-text",
+      "filePath": "prompts/cqh-2026-06-10-001-prompt-001.txt",
+      "metadata": {
+        "prompt": "A futuristic neural network visualization with autonomous AI agents in a state of flow, floating holographic interfaces, deep blue and cyan color palette, cinematic lighting, particle effects, 8K detail, concept art style\n\nStyle: Cinematic concept art\nMood: Mysterious, high-tech, serene\nComposition: Central neural core with radiating agent nodes",
+        "model": "text",
+        "generationTimeMs": 0,
+        "fileSize": 0,
+        "mimeType": "text/plain"
+      }
+    },
+    {
+      "assetId": "cqh-prompt-002",
+      "type": "prompt-text",
+      "filePath": "prompts/cqh-2026-06-10-001-prompt-002.txt",
+      "metadata": {
+        "prompt": "Ancient Egyptian broad collar (wesekh) necklace, gold and faience beads, inlaid semi-precious stones, funerary context, New Kingdom dynasty style, detailed textile background, museum lighting, photographic quality\n\nStyle: Museum photography with dramatic lighting\nMood: Regal, ancient, reverent\nComposition: Centered jewelry piece with shallow depth of field",
+        "model": "text",
+        "generationTimeMs": 0,
+        "fileSize": 0,
+        "mimeType": "text/plain"
+      }
+    }
+  ],
+  "briefs": [
+    {
+      "id": "brief-001",
+      "signalId": "signal-001",
+      "title": "Neural Flow — AI Agent Creative Brief",
+      "concept": "A visual exploration of autonomous AI agents in flow state, navigating through a neural network landscape where multiple agents collaborate in real-time.",
+      "keywords": [
+        "ai-agent",
+        "neural",
+        "autonomous",
+        "flow",
+        "interface",
+        "multi-agent",
+        "collaborative"
+      ],
+      "narrative": "The concept of an AI agent in its natural flow state is a powerful visual metaphor. AutoGen's multi-agent architecture provides the perfect inspiration: agents communicating, delegating, and synthesizing information in a seamless dance of intelligence.\n\nThis brief explores the aesthetic of autonomous agents — not as cold utility tools, but as dynamic entities navigating a living network. The visual should evoke wonder and complexity, suggesting emergent behavior arising from simple interactions.",
+      "visualDirection": "Cinematic, high-tech aesthetic with bioluminescent accents. Think Tron meets cellular biology. Deep blue and cyan color palette with glowing connection lines. Neural network rendered as organic, flowing structure.",
+      "tone": "cinematic",
+      "audience": "Tech-forward creative professionals, AI researchers, generative art enthusiasts",
+      "createdAt": "2026-06-10T15:52:00Z",
+      "cached": false
+    },
+    {
+      "id": "brief-002",
+      "signalId": "signal-002",
+      "title": "Metropolitan Gold — Ancient Art Creative Brief",
+      "concept": "A photographic study of an ancient Egyptian broad collar necklace, capturing the intricate layering of gold and faience beads in museum-quality detail.",
+      "keywords": [
+        "met",
+        "art",
+        "ancient",
+        "egyptian",
+        "jewelry",
+        "gold",
+        "museum",
+        "photographic"
+      ],
+      "narrative": "The Met's collection of Egyptian jewelry represents millennia of craftsmanship and symbolism. The broad collar (wesekh) was both funerary amulet and status symbol, worn by royalty and nobility.\n\nThis brief approaches the artifact not as a static museum object but as a living piece of ancient culture — gold that once caught the fire of oil lamps in a Theban tomb, faience that shimmered with magical significance.",
+      "visualDirection": "Museum photography with dramatic directional lighting. Shallow depth of field isolating the piece against a dark background. The gold should appear warm and luminous, the faience beads with their characteristic blue-green sheen. High detail for texture appreciation.",
+      "tone": "reverent",
+      "audience": "Art history enthusiasts, museum lovers, jewelry designers, cultural preservation advocates",
+      "createdAt": "2026-06-10T15:52:00Z",
+      "cached": false
+    }
+  ],
+  "signals": [
+    {
+      "id": "signal-001",
+      "title": "AutoGen: Building Multi-Agent Applications with LLMs",
+      "sourceType": "code",
+      "url": "https://github.com/microsoft/autogen",
+      "metadata": {
+        "stars": 28000,
+        "language": "Python",
+        "topics": [
+          "ai-agent",
+          "multi-agent",
+          "llm"
+        ],
+        "pushedAt": "2026-06-09T00:00:00Z"
+      }
+    },
+    {
+      "id": "signal-002",
+      "title": "Broad Collar Necklace — New Kingdom Egypt",
+      "sourceType": "culture-art",
+      "url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/123456",
+      "metadata": {
+        "department": "Egyptian Art",
+        "classification": " jewelry",
+        "imageId": "test-image-id"
+      }
+    },
+    {
+      "id": "signal-003",
+      "title": "Claude Code — Anthropic's Official CLI for AI Coding",
+      "sourceType": "code",
+      "url": "https://github.com/anthropics/claude-code",
+      "metadata": {
+        "stars": 12000,
+        "language": "TypeScript",
+        "topics": [
+          "coding-agent",
+          "ai-tooling",
+          "cli"
+        ],
+        "pushedAt": "2026-06-09T00:00:00Z"
+      }
+    }
+  ],
+  "quotaConsumed": {
+    "tokens": 0,
+    "generationCount": 0
+  }
+}

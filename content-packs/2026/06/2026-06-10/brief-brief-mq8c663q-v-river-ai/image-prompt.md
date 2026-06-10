@@ -1,0 +1,1 @@
+Minimalist tech illustration — a developer workspace with AI assistant elements, clean lines, inviting color palette

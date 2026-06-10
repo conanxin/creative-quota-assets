@@ -1,0 +1,179 @@
+{
+  "version": "0.2.0",
+  "updatedAt": "2026-06-10T17:22:39.596Z",
+  "totalAssets": 13,
+  "assets": [
+    {
+      "id": "cqh-img-001",
+      "type": "image",
+      "title": "Neural Flow — AI Agent Interface",
+      "description": "Generated from GitHub Open Source Radar signal about AI Agent frameworks (AutoGen)",
+      "thumbnail": "images/cqh-2026-06-10-001-img-001.jpg",
+      "full": "images/cqh-2026-06-10-001-img-001.jpg",
+      "prompt": "A futuristic neural network visualization with autonomous AI agents in a state of flow, floating holographic interfaces, deep blue and cyan color palette, cinematic lighting, 8K detail",
+      "tags": [
+        "ai-agent",
+        "neural",
+        "blue",
+        "autonomous",
+        "holographic"
+      ],
+      "createdAt": "2026-06-10T15:52:00Z",
+      "packId": "cqh-2026-06-10-001",
+      "sourceUrl": "https://github.com/microsoft/autogen"
+    },
+    {
+      "id": "cqh-prompt-001",
+      "type": "prompt-text",
+      "title": "AI Agent Neural Flow — Image Prompt",
+      "description": "Text prompt for generating AI agent interface artwork based on AutoGen signal",
+      "prompt": "A futuristic neural network visualization with autonomous AI agents in a state of flow, floating holographic interfaces, deep blue and cyan color palette, cinematic lighting, particle effects, 8K detail, concept art style\n\nStyle: Cinematic concept art\nMood: Mysterious, high-tech, serene\nComposition: Central neural core with radiating agent nodes",
+      "tags": [
+        "ai-agent",
+        "autonomous",
+        "neural",
+        "concept-art"
+      ],
+      "createdAt": "2026-06-10T15:52:00Z",
+      "packId": "cqh-2026-06-10-001",
+      "sourceUrl": "https://github.com/microsoft/autogen"
+    },
+    {
+      "id": "cqh-prompt-002",
+      "type": "prompt-text",
+      "title": "Metropolitan Museum — Ancient Art Brief",
+      "description": "Text prompt derived from Met Collection API signal: Ancient Egyptian gold collar",
+      "prompt": "Ancient Egyptian broad collar (wesekh) necklace, gold and faience beads, inlaid semi-precious stones, funerary context, New Kingdom dynasty style, detailed textile background, museum lighting, photographic quality\n\nStyle: Museum photography with dramatic lighting\nMood: Regal, ancient, reverent\nComposition: Centered jewelry piece with shallow depth of field",
+      "tags": [
+        "met",
+        "art",
+        "ancient",
+        "egyptian",
+        "jewelry"
+      ],
+      "createdAt": "2026-06-10T15:52:00Z",
+      "packId": "cqh-2026-06-10-001",
+      "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/123456"
+    },
+    {
+      "id": "brief-mq8c6kp4-7z62f",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.7025,
+      "created_at": "2026-06-10T17:22:22.413Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills"
+    },
+    {
+      "id": "brief-mq8c6xyg-bqh3n",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.7025,
+      "created_at": "2026-06-10T17:22:39.596Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills"
+    },
+    {
+      "id": "brief-mq8c6kp5-ucw76",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-10T17:22:22.413Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative"
+    },
+    {
+      "id": "brief-mq8c6xyg-voua2",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-10T17:22:39.596Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative"
+    },
+    {
+      "id": "brief-mq8c6kp5-ral6w",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.6,
+      "created_at": "2026-06-10T17:22:22.413Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome"
+    },
+    {
+      "id": "brief-mq8c6xyg-5wjlw",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.6,
+      "created_at": "2026-06-10T17:22:39.596Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome"
+    },
+    {
+      "id": "brief-mq8c6kp5-1c6x6",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-10T17:22:22.413Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai"
+    },
+    {
+      "id": "brief-mq8c6xyg-op6l2",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-10T17:22:39.596Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai"
+    },
+    {
+      "id": "brief-mq8c6kp5-5u8ow",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-10T17:22:22.413Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt"
+    },
+    {
+      "id": "brief-mq8c6xyg-jhln2",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [],
+      "tags": [],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-10T17:22:39.596Z",
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt"
+    }
+  ]
+}

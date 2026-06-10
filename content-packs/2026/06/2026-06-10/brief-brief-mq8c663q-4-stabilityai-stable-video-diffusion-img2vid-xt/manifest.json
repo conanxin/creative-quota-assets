@@ -1,0 +1,30 @@
+{
+  "id": "brief-mq8c663q-4ra4a",
+  "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+  "source_types": [
+    "ai-ecosystem"
+  ],
+  "source_signal_ids": [
+    "hf-mq8bouo8-womw2"
+  ],
+  "final_score": 0.47624999999999995,
+  "recommended_assets": [
+    "x-post",
+    "image",
+    "webpage"
+  ],
+  "tags": [
+    "ai-ecosystem",
+    "huggingface",
+    "image-to-video",
+    "model",
+    "[\"huggingface\"",
+    "\"ai-ecosystem\"",
+    "\"image-to-video\"",
+    "\"model\"",
+    "\"ai-ecosystem\"]"
+  ],
+  "created_at": "2026-06-10T17:22:03.494Z",
+  "plan_id": "brief-mq8c663q-4ra4a",
+  "asset_repo_target_dir": "brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt"
+}

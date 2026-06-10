@@ -1,0 +1,27 @@
+{
+  "id": "brief-mq8c6xyg-op6l2",
+  "title": "River AI",
+  "source_types": [
+    "dev-community"
+  ],
+  "source_signal_ids": [
+    "hn-mq8bnort-zcqa3"
+  ],
+  "final_score": 0.5253579016762474,
+  "recommended_assets": [
+    "x-post",
+    "image"
+  ],
+  "tags": [
+    "dev-community",
+    "hackernews",
+    "river.ai",
+    "[\"hackernews\"",
+    "\"dev-community\"",
+    "\"riverai\"",
+    "\"dev-community\"]"
+  ],
+  "created_at": "2026-06-10T17:22:39.592Z",
+  "plan_id": "brief-mq8c6xyg-op6l2",
+  "asset_repo_target_dir": "brief-brief-mq8c6xyg-o-river-ai"
+}

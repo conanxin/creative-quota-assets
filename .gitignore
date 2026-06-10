@@ -1,0 +1,37 @@
+# macOS
+.DS_Store
+*.DS_Store
+
+# Logs and temp files
+logs/
+tmp/
+*.log
+*.tmp
+*.temp
+
+# Generated media (Phase 3A+ will populate these — keep structure only)
+images/*.jpg
+images/*.png
+images/*.jpeg
+images/*.webp
+videos/*.mp4
+videos/*.webm
+music/*.mp3
+music/*.wav
+music/*.flac
+
+# Placeholder to keep directory structure
+images/.gitkeep
+videos/.gitkeep
+music/.gitkeep
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS temp
+Thumbs.db
+desktop.ini

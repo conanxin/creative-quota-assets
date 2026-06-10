@@ -1,0 +1,1 @@
+Ambient music track inspired by "The Penitence of Saint Jerome" — soft synthesizer pads, gentle rhythmic pulses, contemplative mood, 60-90 seconds, suitable for tech/creative content background

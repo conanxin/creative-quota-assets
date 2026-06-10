@@ -1,0 +1,36 @@
+{
+  "id": "brief-mq8c663r-2uj3m",
+  "title": "The Penitence of Saint Jerome",
+  "source_types": [
+    "culture-art"
+  ],
+  "source_signal_ids": [
+    "met-mq8bqm4f-5uipo"
+  ],
+  "final_score": 0.6,
+  "recommended_assets": [
+    "x-post",
+    "image",
+    "video",
+    "music"
+  ],
+  "tags": [
+    "culture-art",
+    "met",
+    "art",
+    "museum",
+    "cultural",
+    "european paintings",
+    "landscape",
+    "[\"met\"",
+    "\"art\"",
+    "\"museum\"",
+    "\"cultural\"",
+    "\"european paintings\"",
+    "\"landscape\"",
+    "\"culture-art\"]"
+  ],
+  "created_at": "2026-06-10T17:22:03.495Z",
+  "plan_id": "brief-mq8c663r-2uj3m",
+  "asset_repo_target_dir": "brief-brief-mq8c663r-2-the-penitence-of-saint-jerome"
+}

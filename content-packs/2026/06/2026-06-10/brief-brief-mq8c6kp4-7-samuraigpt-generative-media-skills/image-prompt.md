@@ -1,0 +1,1 @@
+Abstract representation of open source AI tools — interconnected nodes glowing in blue and purple, dark background, tech art style

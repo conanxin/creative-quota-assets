@@ -1,0 +1,1 @@
+Museum-quality illustration inspired by "The Penitence of Saint Jerome" — classical techniques meet digital art, rich textures, museum lighting

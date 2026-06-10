@@ -1,0 +1,29 @@
+{
+  "id": "brief-mq8c6kp5-ucw76",
+  "title": "Flaws in the LLM Automation Narrative",
+  "source_types": [
+    "academic"
+  ],
+  "source_signal_ids": [
+    "arxiv-mq8bi92l-ohjvh"
+  ],
+  "final_score": 0.6619877011020773,
+  "recommended_assets": [
+    "x-post",
+    "image",
+    "webpage"
+  ],
+  "tags": [
+    "academic",
+    "arxiv:cs.AI",
+    "ai",
+    "paper",
+    "[\"arxivcsai\"",
+    "\"academic\"",
+    "\"paper\"",
+    "\"academic\"]"
+  ],
+  "created_at": "2026-06-10T17:22:22.409Z",
+  "plan_id": "brief-mq8c6kp5-ucw76",
+  "asset_repo_target_dir": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative"
+}

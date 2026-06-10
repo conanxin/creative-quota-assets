@@ -1,0 +1,27 @@
+{
+  "brief_id": "brief-mq8c6xyg-bqh3n",
+  "brief_title": "SamurAIGPT/Generative-Media-Skills",
+  "recommended_outputs": [
+    {
+      "type": "x-post",
+      "priority": "high"
+    },
+    {
+      "type": "image",
+      "priority": "high"
+    },
+    {
+      "type": "webpage",
+      "priority": "high"
+    }
+  ],
+  "x_post": {
+    "zh": "📌 SamurAIGPT/Generative-Media-Skills\n\n开源项目领域动态：SamurAIGPT/Generative-Media-Skills。\n\n适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills\n\n#AI #创意 #code #agent-tools #ai-agents",
+    "en": "📌 SamurAIGPT/Generative-Media-Skills\n\n开源项目领域动态：SamurAIGPT/Generative-Media-Skills。\n\n适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills\n\n#AI #creative #code #agent-tools #ai-agents"
+  },
+  "image_prompt": "Abstract representation of open source AI tools — interconnected nodes glowing in blue and purple, dark background, tech art style",
+  "webpage_outline": "# SamurAIGPT/Generative-Media-Skills\n\n## Overview\n开源项目领域动态：SamurAIGPT/Generative-Media-Skills。\n\n## Key Insights\n适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills\n\n## Factual Basis\n1. Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.\n\n## Recommended Assets\nx-post, image, webpage\n\n## Further Reading\n- https://github.com/SamurAIGPT/Generative-Media-Skills",
+  "asset_repo_target_dir": "brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+  "estimated_generation_priority": "high",
+  "created_at": "2026-06-10T17:22:39.593Z"
+}
