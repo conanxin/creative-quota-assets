@@ -1,0 +1,746 @@
+{
+  "content_packs": [
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "date": "2026-06-11",
+      "source_types": [
+        "code"
+      ],
+      "score": 0.7025,
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "date": "2026-06-11",
+      "source_types": [
+        "code"
+      ],
+      "score": 0.7025,
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "date": "2026-06-11",
+      "source_types": [
+        "academic"
+      ],
+      "score": 0.6619877011020773,
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "date": "2026-06-11",
+      "source_types": [
+        "academic"
+      ],
+      "score": 0.6619877011020773,
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "date": "2026-06-11",
+      "source_types": [
+        "culture-art"
+      ],
+      "score": 0.6,
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "date": "2026-06-11",
+      "source_types": [
+        "culture-art"
+      ],
+      "score": 0.6,
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai",
+      "title": "River AI",
+      "date": "2026-06-11",
+      "source_types": [
+        "dev-community"
+      ],
+      "score": 0.5253579016762474,
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai",
+      "title": "River AI",
+      "date": "2026-06-11",
+      "source_types": [
+        "dev-community"
+      ],
+      "score": 0.5253579016762474,
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "date": "2026-06-11",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "score": 0.47624999999999995,
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "date": "2026-06-11",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "score": 0.47624999999999995,
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "date": "2026-06-10",
+      "source_types": [
+        "code"
+      ],
+      "score": 0.7025,
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "date": "2026-06-10",
+      "source_types": [
+        "code"
+      ],
+      "score": 0.7025,
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "has_generated_image": true
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "date": "2026-06-10",
+      "source_types": [
+        "code"
+      ],
+      "score": 0.7025,
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "date": "2026-06-10",
+      "source_types": [
+        "academic"
+      ],
+      "score": 0.6619877011020773,
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "has_generated_image": true
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "date": "2026-06-10",
+      "source_types": [
+        "academic"
+      ],
+      "score": 0.6619877011020773,
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "date": "2026-06-10",
+      "source_types": [
+        "academic"
+      ],
+      "score": 0.6619877011020773,
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "date": "2026-06-10",
+      "source_types": [
+        "culture-art"
+      ],
+      "score": 0.6,
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "has_generated_image": true
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "date": "2026-06-10",
+      "source_types": [
+        "culture-art"
+      ],
+      "score": 0.6,
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "date": "2026-06-10",
+      "source_types": [
+        "culture-art"
+      ],
+      "score": 0.6,
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai",
+      "title": "River AI",
+      "date": "2026-06-10",
+      "source_types": [
+        "dev-community"
+      ],
+      "score": 0.5253579016762474,
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
+      "title": "River AI",
+      "date": "2026-06-10",
+      "source_types": [
+        "dev-community"
+      ],
+      "score": 0.5253579016762474,
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
+      "title": "River AI",
+      "date": "2026-06-10",
+      "source_types": [
+        "dev-community"
+      ],
+      "score": 0.5253579016762474,
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "date": "2026-06-10",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "score": 0.47624999999999995,
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "date": "2026-06-10",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "score": 0.47624999999999995,
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "has_generated_image": false
+    },
+    {
+      "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "date": "2026-06-10",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "score": 0.47624999999999995,
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "has_generated_image": false
+    }
+  ],
+  "total": 25,
+  "last_updated": "2026-06-11"
+}

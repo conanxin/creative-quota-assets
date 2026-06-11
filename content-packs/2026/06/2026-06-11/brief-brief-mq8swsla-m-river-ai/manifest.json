@@ -1,0 +1,27 @@
+{
+  "id": "brief-mq8swsla-mj24r",
+  "title": "River AI",
+  "source_types": [
+    "dev-community"
+  ],
+  "source_signal_ids": [
+    "hn-mq8bnort-zcqa3"
+  ],
+  "final_score": 0.5253579016762474,
+  "recommended_assets": [
+    "x-post",
+    "image"
+  ],
+  "tags": [
+    "dev-community",
+    "hackernews",
+    "river.ai",
+    "[\"hackernews\"",
+    "\"dev-community\"",
+    "\"riverai\"",
+    "\"dev-community\"]"
+  ],
+  "created_at": "2026-06-11T01:10:39.550Z",
+  "plan_id": "brief-mq8swsla-mj24r",
+  "asset_repo_target_dir": "brief-brief-mq8swsla-m-river-ai"
+}

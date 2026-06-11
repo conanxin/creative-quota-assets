@@ -75,3 +75,37 @@
 ---
 
 _Creative Quota Assets — AI 创意素材库_
+
+---
+
+## 📦 Content Pack 详情
+
+每个 Content Pack 现在包含：
+
+| 文件 | 说明 |
+|------|------|
+| `manifest.json` | 元数据（标题、来源类型、评分、标签） |
+| `detail.json` | 结构化详情（一句话介绍、背景、推荐用途） |
+| `content-summary.zh.md` | 中文内容摘要 |
+| `brief.md` | Creative Brief |
+| `facts.md` | 事实依据 |
+| `x-post.zh.md` | X 帖草稿 |
+| `image-prompt.md` | 图片生成 Prompt |
+| `video-prompt.md` | 视频 Prompt |
+| `music-prompt.md` | 音乐 Prompt |
+| `webpage-outline.md` | 网页大纲 |
+
+Gallery 页面可直接查看每个 Pack 的**一句话介绍**和**推荐用途**。
+
+---
+
+## 🖼️ 已生成图片说明
+
+`metadata/generated-image-descriptions.json` 包含每张图片的中文描述：
+
+| 图片 | 内容描述 |
+|------|---------|
+| cqa-2026-06-11-canary-001_001.jpg | 基于学术论文"Flaws in the LLM Automation Narrative"主题生成，呈现古典手稿与神经网络视觉融合 |
+| cqa-2026-06-11-gen-002_001.jpg | 基于 SamurAIGPT/Generative-Media-Skills 项目主题生成 |
+| cqa-2026-06-11-gen-003_001.jpg | 基于 The Penitence of Saint Jerome 艺术作品主题生成 |
+

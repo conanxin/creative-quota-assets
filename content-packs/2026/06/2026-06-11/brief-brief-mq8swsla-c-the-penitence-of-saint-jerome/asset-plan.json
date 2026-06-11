@@ -1,0 +1,32 @@
+{
+  "brief_id": "brief-mq8swsla-cw74l",
+  "brief_title": "The Penitence of Saint Jerome",
+  "recommended_outputs": [
+    {
+      "type": "x-post",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "priority": "medium"
+    },
+    {
+      "type": "video",
+      "priority": "medium"
+    },
+    {
+      "type": "music",
+      "priority": "medium"
+    }
+  ],
+  "x_post": {
+    "zh": "📌 The Penitence of Saint Jerome\n\n文化艺术领域动态：The Penitence of Saint Jerome。\n\n与现代科技有什么交集？ — The Penitence of Saint Jerome\n\n#AI #创意 #culture-art #met #art",
+    "en": "📌 The Penitence of Saint Jerome\n\n文化艺术领域动态：The Penitence of Saint Jerome。\n\n与现代科技有什么交集？ — The Penitence of Saint Jerome\n\n#AI #creative #culture-art #met #art"
+  },
+  "image_prompt": "Artistic visualization of cultural heritage — \"The Penitence of Saint Jerome\" reimagined with modern AI aesthetic, dramatic lighting, museum backdrop",
+  "video_prompt": "Cinematic video sequence: opening with \"The Penitence of Saint Jerome\" concept visualization, 5-second establishing shot, smooth camera movement, warm color grade, ending on a reflective moment — high production value, professional voiceover ready",
+  "music_prompt": "Ambient music track inspired by \"The Penitence of Saint Jerome\" — soft synthesizer pads, gentle rhythmic pulses, contemplative mood, 60-90 seconds, suitable for tech/creative content background",
+  "asset_repo_target_dir": "brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
+  "estimated_generation_priority": "medium",
+  "created_at": "2026-06-11T01:10:39.551Z"
+}

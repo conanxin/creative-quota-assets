@@ -1,0 +1,42 @@
+{
+  "title": "The Penitence of Saint Jerome",
+  "source_type": "culture-art",
+  "source_label_zh": "文化艺术",
+  "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作...",
+  "background": "来自 The Met Collection / Smithsonian 等文化艺术机构 API，反映经典艺术与文物。",
+  "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landsca",
+  "recommended_uses": [
+    "x-post",
+    "image",
+    "music"
+  ],
+  "available_assets": {
+    "brief": true,
+    "facts": true,
+    "x_post_zh": true,
+    "image_prompt": true,
+    "video_prompt": true,
+    "music_prompt": true,
+    "webpage_outline": false,
+    "generated_images": []
+  },
+  "tags": [
+    "culture-art",
+    "met",
+    "art",
+    "museum",
+    "cultural",
+    "european paintings",
+    "landscape",
+    "[\"met\"",
+    "\"art\"",
+    "\"museum\"",
+    "\"cultural\"",
+    "\"european paintings\"",
+    "\"landscape\"",
+    "\"culture-art\"]"
+  ],
+  "score": 0.6,
+  "date": "2026-06-10",
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+}

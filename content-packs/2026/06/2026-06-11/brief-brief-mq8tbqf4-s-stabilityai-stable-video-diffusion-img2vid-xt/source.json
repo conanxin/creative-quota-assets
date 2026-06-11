@@ -1,0 +1,11 @@
+{
+  "source_types": [
+    "ai-ecosystem"
+  ],
+  "source_titles": [
+    "stabilityai/stable-video-diffusion-img2vid-xt"
+  ],
+  "source_urls": [
+    "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt"
+  ]
+}

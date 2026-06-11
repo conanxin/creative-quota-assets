@@ -1,0 +1,52 @@
+{
+  "exported_at": "2026-06-11T01:22:16.579Z",
+  "pack_count": 5,
+  "briefs": [
+    {
+      "id": "brief-mq8tbqf3-wsi8d",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
+      ],
+      "final_score": 0.7025,
+      "pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills"
+    },
+    {
+      "id": "brief-mq8tbqf4-jpit4",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "final_score": 0.6619877011020773,
+      "pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative"
+    },
+    {
+      "id": "brief-mq8tbqf4-sjj60",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "final_score": 0.47624999999999995,
+      "pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt"
+    },
+    {
+      "id": "brief-mq8tbqf4-qm0of",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "final_score": 0.5253579016762474,
+      "pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai"
+    },
+    {
+      "id": "brief-mq8tbqf4-8cz35",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "final_score": 0.6,
+      "pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome"
+    }
+  ],
+  "total_files": 45
+}

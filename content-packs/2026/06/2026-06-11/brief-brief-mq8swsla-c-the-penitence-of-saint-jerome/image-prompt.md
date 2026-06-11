@@ -1,0 +1,1 @@
+Artistic visualization of cultural heritage — "The Penitence of Saint Jerome" reimagined with modern AI aesthetic, dramatic lighting, museum backdrop

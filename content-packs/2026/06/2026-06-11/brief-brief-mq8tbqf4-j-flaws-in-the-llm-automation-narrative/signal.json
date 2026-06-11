@@ -1,0 +1,8 @@
+{
+  "id": "brief-mq8tbqf4-jpit4",
+  "title": "Flaws in the LLM Automation Narrative",
+  "summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tasks that measure average performance across standardized datasets. Primary limitations of many benchmarking tasks are that they often measure performance based on content directly included in LLM training data, and they frequently do not asses",
+  "source_signal_ids": [
+    "arxiv-mq8bi92l-ohjvh"
+  ]
+}

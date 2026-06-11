@@ -1,0 +1,44 @@
+[
+  {
+    "asset_id": "cqa-2026-06-11-canary-001_001.jpg",
+    "filename": "cqa-2026-06-11-canary-001_001.jpg",
+    "title": "cqa-2026-06-11-canary-001_001.jpg",
+    "description_zh": "基于学术论文 'mq8c6kp5 u flaws in the llm automation narrative' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。",
+    "visual_elements": [
+      "神经网络可视化元素",
+      "古典手稿",
+      "学术/学院风格",
+      "特殊光照效果"
+    ],
+    "source_content_pack": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+    "model": "image-01",
+    "prompt_summary_zh": "A scholarly yet vibrant illustration of \"Flaws in the LLM Automation Narrative\" — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic",
+    "recommended_use_zh": "适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。"
+  },
+  {
+    "asset_id": "cqa-2026-06-11-gen-002_001.jpg",
+    "filename": "cqa-2026-06-11-gen-002_001.jpg",
+    "title": "cqa-2026-06-11-gen-002_001.jpg",
+    "description_zh": "基于学术论文 'mq8c6kp4 7 samuraigpt generative media skills' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。",
+    "visual_elements": [
+      "蓝色色调"
+    ],
+    "source_content_pack": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+    "model": "image-01",
+    "prompt_summary_zh": "Abstract representation of open source AI tools — interconnected nodes glowing in blue and purple, dark background, tech art style",
+    "recommended_use_zh": "适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。"
+  },
+  {
+    "asset_id": "cqa-2026-06-11-gen-003_001.jpg",
+    "filename": "cqa-2026-06-11-gen-003_001.jpg",
+    "title": "cqa-2026-06-11-gen-003_001.jpg",
+    "description_zh": "基于学术论文 'mq8c6kp5 r the penitence of saint jerome' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。",
+    "visual_elements": [
+      "特殊光照效果"
+    ],
+    "source_content_pack": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+    "model": "image-01",
+    "prompt_summary_zh": "Museum-quality illustration inspired by \"The Penitence of Saint Jerome\" — classical techniques meet digital art, rich textures, museum lighting",
+    "recommended_use_zh": "适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。"
+  }
+]

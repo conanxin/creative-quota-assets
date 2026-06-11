@@ -1,7 +1,4 @@
 {
-  "version": "0.2.0",
-  "updatedAt": "2026-06-11T03:04:00+08:00",
-  "totalAssets": 14,
   "assets": [
     {
       "id": "cqa-canary-001",
@@ -89,7 +86,16 @@
       "tags": [],
       "final_score": 0.7025,
       "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...",
+      "why_it_matters": " 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, claude-code",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6xyg-bqh3n",
@@ -101,7 +107,16 @@
       "tags": [],
       "final_score": 0.7025,
       "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...",
+      "why_it_matters": " 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, claude-code",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6kp5-ucw76",
@@ -113,7 +128,16 @@
       "tags": [],
       "final_score": 0.6619877011020773,
       "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...",
+      "why_it_matters": " 学术研究领域动态：Flaws in the LLM Automation Narrative。 这篇论文揭示了AI领域的哪个前沿问题？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [\"arxivcsai\", \"acad",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6xyg-voua2",
@@ -125,7 +149,16 @@
       "tags": [],
       "final_score": 0.6619877011020773,
       "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...",
+      "why_it_matters": " 学术研究领域动态：Flaws in the LLM Automation Narrative。 对从业者有什么实际启发？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [\"arxivcsai\", \"academic\", ",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6kp5-ral6w",
@@ -137,7 +170,16 @@
       "tags": [],
       "final_score": 0.6,
       "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作...",
+      "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landsca",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6xyg-5wjlw",
@@ -149,7 +191,16 @@
       "tags": [],
       "final_score": 0.6,
       "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作...",
+      "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landsca",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6kp5-1c6x6",
@@ -161,7 +212,15 @@
       "tags": [],
       "final_score": 0.5253579016762474,
       "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
+      "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 对AI辅助开发有什么启示？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hac...",
+      "why_it_matters": " 开发者社区领域动态：River AI。 对AI辅助开发有什么启示？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6xyg-op6l2",
@@ -173,7 +232,15 @@
       "tags": [],
       "final_score": 0.5253579016762474,
       "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
+      "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hack...",
+      "why_it_matters": " 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角度",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6kp5-5u8ow",
@@ -185,7 +252,16 @@
       "tags": [],
       "final_score": 0.47624999999999995,
       "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...",
+      "why_it_matters": " AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, image-to-vid",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md"
     },
     {
       "id": "brief-mq8c6xyg-jhln2",
@@ -197,7 +273,16 @@
       "tags": [],
       "final_score": 0.47624999999999995,
       "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt"
+      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...",
+      "why_it_matters": " AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, image-to-vid",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md"
     },
     {
       "id": "cqa-2026-06-11-gen-002",
@@ -220,5 +305,5 @@
       "generated": "2026-06-11"
     }
   ],
-  "last_updated": "2026-06-11T08:19:00+08:00"
+  "last_updated": ""
 }

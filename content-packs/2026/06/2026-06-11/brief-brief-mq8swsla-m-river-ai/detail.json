@@ -1,0 +1,34 @@
+{
+  "title": "River AI",
+  "source_type": "dev-community",
+  "source_label_zh": "开发者社区",
+  "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hack...",
+  "background": "来自 Hacker News，反映科技行业从业者关注的热点话题。",
+  "why_it_matters": " 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角度",
+  "recommended_uses": [
+    "x-post",
+    "image"
+  ],
+  "available_assets": {
+    "brief": true,
+    "facts": true,
+    "x_post_zh": true,
+    "image_prompt": true,
+    "video_prompt": false,
+    "music_prompt": false,
+    "webpage_outline": false,
+    "generated_images": []
+  },
+  "tags": [
+    "dev-community",
+    "hackernews",
+    "river.ai",
+    "[\"hackernews\"",
+    "\"dev-community\"",
+    "\"riverai\"",
+    "\"dev-community\"]"
+  ],
+  "score": 0.5253579016762474,
+  "date": "2026-06-11",
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+}

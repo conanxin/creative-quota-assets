@@ -1,0 +1,22 @@
+{
+  "brief_id": "brief-mq8tbqf4-qm0of",
+  "brief_title": "River AI",
+  "recommended_outputs": [
+    {
+      "type": "x-post",
+      "priority": "medium"
+    },
+    {
+      "type": "image",
+      "priority": "medium"
+    }
+  ],
+  "x_post": {
+    "zh": "📌 River AI\n\n开发者社区领域动态：River AI。\n\n有哪些实操经验值得分享？ — River AI\n\n#AI #创意 #dev-community #hackernews #river.ai",
+    "en": "📌 River AI\n\n开发者社区领域动态：River AI。\n\n有哪些实操经验值得分享？ — River AI\n\n#AI #creative #dev-community #hackernews #river.ai"
+  },
+  "image_prompt": "A warm, human-centered illustration of developer experience — \"River AI\" theme, soft lighting, collaborative atmosphere",
+  "asset_repo_target_dir": "brief-brief-mq8tbqf4-q-river-ai",
+  "estimated_generation_priority": "medium",
+  "created_at": "2026-06-11T01:22:16.577Z"
+}
