@@ -62,6 +62,14 @@
     }
     .asset-link:hover { background: rgba(91,91,214,0.15); }
     .prompt-card { background: var(--bg); border: 1px solid var(--card-border); border-radius: 8px; padding: 1rem; margin-bottom: 1rem; }
+    .prompt-card--enhanced { background: linear-gradient(135deg, #faf7ff 0%, #f0f4ff 100%); border-color: var(--accent); }
+    .prompt-subtitle { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 0.5rem; }
+    .badge-enhanced { font-size: 0.6rem; background: var(--accent); color: #fff; padding: 0.1rem 0.4rem; border-radius: 4px; margin-left: 0.4rem; font-weight: 700; letter-spacing: 0.05em; }
+    .enhanced-badge { display: inline-block; font-size: 0.65rem; background: linear-gradient(135deg, #5b5bd6 0%, #ec4899 100%); color: #fff; padding: 0.2rem 0.6rem; border-radius: 12px; margin-top: 0.3rem; font-weight: 600; }
+    .prompt-card--enhanced details { margin-bottom: 0.5rem; }
+    .prompt-card--enhanced summary { font-size: 0.8rem; font-weight: 600; color: var(--accent); cursor: pointer; padding: 0.2rem 0; }
+    .prompt-card--enhanced details[open] summary { margin-bottom: 0.3rem; }
+    .prompt-links { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-top: 0.5rem; }
     .prompt-card h4 { font-size: 0.9rem; font-weight: 600; margin-bottom: 0.5rem; }
     .prompt-preview {
       font-size: 0.78rem; color: var(--text-muted); background: #fff; border: 1px solid var(--card-border);
@@ -97,6 +105,7 @@
     <div class="header">
       <div class="source-badge">学术研究</div>
       <h1 class="title">Flaws in the LLM Automation Narrative</h1>
+      <span class="enhanced-badge" title="Phase 4G: Source-aware Image Prompt Enhancement">✨ Enhanced Prompt</span>
       <div class="meta">
         <span class="score">评分: 0.662</span>
         <span class="date">📅 2026-06-11</span>
@@ -168,6 +177,22 @@
         <h4>🎨 图片 Prompt</h4>
         <pre class="prompt-preview">A scholarly yet vibrant illustration of &quot;Flaws in the LLM Automation Narrative&quot; — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic</pre>
         <a class="prompt-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/image-prompt.md" target="_blank">查看完整文件 →</a>
+      </div>
+    
+
+      <div class="prompt-card prompt-card--enhanced">
+        <h4>✨ Enhanced Image Prompt <span class="badge-enhanced">Phase 4G</span></h4>
+        <p class="prompt-subtitle">源感知增强版（基于 source-type 策略）</p>
+        <details open>
+          <summary>English Prompt</summary>
+          <pre class="prompt-preview">An academic poster for a research paper. paper title &quot;Flaws in the LLM Automation Narrative&quot; in elegant serif at the top. central conceptual diagram: abstract geometric shapes forming a flow, suggesting research methodology. three small data tiles at the bottom: key metric, sample size, year. style: deep navy blue, ivory white, gold accents, light dotted grid, Edward Tufte inspired. small badge with primary category &quot;arxiv:cs.AI&quot;. no human faces, no logo of journals</pre>
+        </details>
+        
+        <div class="prompt-links">
+          <a class="prompt-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/image-prompt.enriched.md" target="_blank">📄 完整增强版（含意图/参数） →</a>
+          <a class="prompt-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/image-prompt.zh.md" target="_blank">🇨🇳 中文解释 →</a>
+          <a class="prompt-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/image-prompt.meta.json" target="_blank">🔧 meta.json →</a>
+        </div>
       </div>
     
     </div>

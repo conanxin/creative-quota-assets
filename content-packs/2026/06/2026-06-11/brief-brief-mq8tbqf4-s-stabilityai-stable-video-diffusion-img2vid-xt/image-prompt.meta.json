@@ -1,0 +1,49 @@
+{
+  "pack_id": "brief-mq8tbqf4-sjj60",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+  "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+  "source_type": "ai-ecosystem",
+  "source_label_zh": "AI 模型生态",
+  "strategy": "ai-ecosystem → 模型能力图 / pipeline flow / model card hero，强调「能力输入输出 + 关键指标」",
+  "visual_subjects": [
+    "model capability diagram",
+    "AI pipeline flow visual",
+    "model card hero image",
+    "abstract neural network with input/output arrows",
+    "frame-by-frame video timeline with motion arrows"
+  ],
+  "style_tags": [
+    "model card visual",
+    "Hugging Face inspired",
+    "amber to magenta gradient",
+    "dark slate background",
+    "monospaced metric tiles"
+  ],
+  "composition_notes": [
+    "Hero: large model name badge with version. Center: capability flow from input → model → output.",
+    "Right: 2-3 metric tiles (downloads, likes, library).",
+    "Use arrows in the model pipeline to communicate directionality."
+  ],
+  "reference_phrases": [
+    "下载量: 200,356",
+    "点赞数: 3,315",
+    "库: diffusers"
+  ],
+  "english_prompt": "A polished AI model card visual. model name \"stabilityai/stable-video-diffusion-img2vid-xt\" shown as a large hero badge. central pipeline flow: input (icon) → model block with subtle inner layers → output (icon). task label \"image-to-video\" near the input. two or three monospaced metric tiles on the right: downloads, likes, library. style: Hugging Face inspired, dark slate background, amber-to-magenta gradient, soft glow. no human faces, no company logos",
+  "negative_prompt": "low quality, blurry, distorted, watermark, signature, text overlay, ugly, deformed hands, extra fingers, jpeg artifacts, oversaturated, anime, 3d render, plastic",
+  "intent_zh": "把 HF 模型包成「模型卡 hero 图」。模型：stabilityai/stable-video-diffusion-img2vid-xt。任务类型：任务类型: image-to-video。底层库：库: diffusers。下载量：下载量: 200,356。点赞数：点赞数: 3,315。核心思路：左中右三段式 — 任务/输入图标 → 模型块（带层次感）→ 输出图标，右侧加 2-3 个指标瓦片",
+  "parameters": {
+    "aspectRatio": "16:9",
+    "resolution": "2K",
+    "style": "model card, hero, dark slate, gradient",
+    "guidance": 7,
+    "steps": 30
+  },
+  "generated_at": "2026-06-11T15:10:21.115Z",
+  "generator": "enhance-image-prompts.ts@phase4g",
+  "llm_used": false,
+  "files": {
+    "enriched_md": "image-prompt.enriched.md",
+    "zh_md": "image-prompt.zh.md"
+  }
+}

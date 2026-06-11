@@ -1,0 +1,45 @@
+{
+  "pack_id": "brief-mq8c6kp5-1c6x6",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
+  "title": "River AI",
+  "source_type": "dev-community",
+  "source_label_zh": "开发者社区",
+  "strategy": "dev-community → 开发者痛点海报 / 讨论信息图，强调「开发者一眼共情」",
+  "visual_subjects": [
+    "developer pain point poster",
+    "discussion thread infographic",
+    "quote card with developer workspace background",
+    "isometric desk with multiple monitors"
+  ],
+  "style_tags": [
+    "dev community poster",
+    "editorial flat illustration",
+    "pastel pink and slate",
+    "rounded sans-serif type",
+    "monospace accents"
+  ],
+  "composition_notes": [
+    "Top: short hook quote (3-6 words). Middle: 1-2 line \"pain point\" statement. Bottom: subtle attribution.",
+    "Use a developer workspace scene in the background, blurred."
+  ],
+  "reference_phrases": [
+    "A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI."
+  ],
+  "english_prompt": "A developer community discussion poster. topic \"River AI\" as a short hook at the top in rounded sans-serif. central visual: a stylized developer workspace with three monitors showing code, terminal, and chat. bottom one-liner summarizing the pain point in italics. style: editorial flat illustration, pastel pink and slate, soft shadows, minimal. no faces, no company logos",
+  "negative_prompt": "low quality, blurry, distorted, watermark, signature, text overlay, ugly, deformed hands, extra fingers, jpeg artifacts, oversaturated, photographic, cinematic, anime",
+  "intent_zh": "把开发者社区的讨论包成「开发者一眼共情」的痛点海报。话题：River AI。简介：A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI.。核心思路：上方一句 hook 短语（3-6 字），中间 1-2 句痛点描述，底部归属",
+  "parameters": {
+    "aspectRatio": "1:1",
+    "resolution": "2K",
+    "style": "editorial flat illustration, dev community",
+    "guidance": 6.5,
+    "steps": 28
+  },
+  "generated_at": "2026-06-11T15:10:21.123Z",
+  "generator": "enhance-image-prompts.ts@phase4g",
+  "llm_used": false,
+  "files": {
+    "enriched_md": "image-prompt.enriched.md",
+    "zh_md": "image-prompt.zh.md"
+  }
+}

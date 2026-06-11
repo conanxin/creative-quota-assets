@@ -1,0 +1,50 @@
+{
+  "pack_id": "brief-mq8c6kp5-ral6w",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+  "title": "The Penitence of Saint Jerome",
+  "source_type": "culture-art",
+  "source_label_zh": "文化艺术",
+  "strategy": "culture-art → 艺术启发的视觉 / 博物馆灯光 / 风格重绎，强调「原作气质的当代重绎」",
+  "visual_subjects": [
+    "art-inspired reinterpretation",
+    "museum lighting scene",
+    "style homage in modern AI aesthetic",
+    "dramatic spotlight on a single hero subject",
+    "contemplative figure in wilderness"
+  ],
+  "style_tags": [
+    "museum photography",
+    "dramatic directional lighting",
+    "warm wood and gold tones",
+    "oil painting texture",
+    "classical frame"
+  ],
+  "composition_notes": [
+    "Hero: single artwork or reinterpreted subject. Background: dark museum wall with warm wash.",
+    "Add a subtle museum spotlight from the top-left.",
+    "Avoid placing any text on the artwork itself."
+  ],
+  "reference_phrases": [
+    "Joachim Patinir",
+    "ca. 1515",
+    "Oil on wood",
+    "European Paintings"
+  ],
+  "english_prompt": "A museum-style photograph of a classical artwork reinterpretation. subject: \"The Penitence of Saint Jerome\" by Joachim Patinir. period: ca. 1515. medium hint: Oil on wood. museum lighting: warm spotlight from the upper-left, dark oak wall background, soft floor reflection. style: contemporary AI reinterpretation with oil-painting texture, no faces in close-up, museum placard blurred at bottom. no readable text on the image, no logos",
+  "negative_prompt": "low quality, blurry, distorted, watermark, signature, text overlay, ugly, deformed hands, extra fingers, jpeg artifacts, oversaturated, modern logos, pop art, neon, anime",
+  "intent_zh": "把馆藏艺术品包装成「博物馆灯光下的当代 AI 重绎」。作品：The Penitence of Saint Jerome。艺术家：Joachim Patinir。年代：ca. 1515。媒介：Oil on wood。部门：European Paintings。核心思路：暗色博物馆墙 + 暖色聚光，画面主体是原作的当代 AI 重绎，保留油画质感",
+  "parameters": {
+    "aspectRatio": "4:5",
+    "resolution": "2K",
+    "style": "museum, classical, oil painting, dramatic lighting",
+    "guidance": 7.5,
+    "steps": 32
+  },
+  "generated_at": "2026-06-11T15:10:21.121Z",
+  "generator": "enhance-image-prompts.ts@phase4g",
+  "llm_used": false,
+  "files": {
+    "enriched_md": "image-prompt.enriched.md",
+    "zh_md": "image-prompt.zh.md"
+  }
+}

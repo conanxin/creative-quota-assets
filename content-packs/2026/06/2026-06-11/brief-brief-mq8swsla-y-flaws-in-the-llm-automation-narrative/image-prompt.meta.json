@@ -1,0 +1,48 @@
+{
+  "pack_id": "brief-mq8swsla-y725m",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative",
+  "title": "Flaws in the LLM Automation Narrative",
+  "source_type": "academic",
+  "source_label_zh": "学术研究",
+  "strategy": "academic → 论文概念图/学术信息图，强调「研究方法 + 关键数据 + 论文气质」",
+  "visual_subjects": [
+    "paper concept diagram",
+    "academic infographic",
+    "research visual metaphor",
+    "neural network schematic with paper title overlay",
+    "benchmark score curve",
+    "human-vs-model comparison panel"
+  ],
+  "style_tags": [
+    "academic poster",
+    "serif and sans-serif typography",
+    "deep blue and gold accents",
+    "clean white background",
+    "data-ink ratio 2:1"
+  ],
+  "composition_notes": [
+    "Top: paper title in serif. Middle: one large conceptual figure. Bottom: 3-stat row (e.g. accuracy, sample size, year).",
+    "Use light gridlines like an arXiv paper.",
+    "Add a small footer with primary_category badge and year."
+  ],
+  "reference_phrases": [
+    "primary_category: arxiv:cs.AI"
+  ],
+  "english_prompt": "An academic poster for a research paper. paper title \"Flaws in the LLM Automation Narrative\" in elegant serif at the top. central conceptual diagram: abstract geometric shapes forming a flow, suggesting research methodology. three small data tiles at the bottom: key metric, sample size, year. style: deep navy blue, ivory white, gold accents, light dotted grid, Edward Tufte inspired. small badge with primary category \"arxiv:cs.AI\". no human faces, no logo of journals",
+  "negative_prompt": "low quality, blurry, distorted, watermark, signature, text overlay, ugly, deformed hands, extra fingers, jpeg artifacts, oversaturated, cartoonish, childish, fake equations",
+  "intent_zh": "把论文包装成「学术海报」风格的视觉摘要。论文标题：Flaws in the LLM Automation Narrative。核心摘要：Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tas。主图：方法论/概念图（不画人物面孔），辅以 3 项关键数据瓦片",
+  "parameters": {
+    "aspectRatio": "4:3",
+    "resolution": "2K",
+    "style": "academic poster, data-viz, minimalist",
+    "guidance": 6.5,
+    "steps": 28
+  },
+  "generated_at": "2026-06-11T15:10:21.110Z",
+  "generator": "enhance-image-prompts.ts@phase4g",
+  "llm_used": false,
+  "files": {
+    "enriched_md": "image-prompt.enriched.md",
+    "zh_md": "image-prompt.zh.md"
+  }
+}
