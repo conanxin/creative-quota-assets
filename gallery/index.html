@@ -479,21 +479,27 @@
     footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
     footer p { margin-top: 0.4rem; opacity: 0.7; }
-  </style>
+  
+    /* Accent button for primary CTA */
+    .accent-btn {
+      background: var(--accent);
+      color: #fff;
+      border: none;
+      font-weight: 600;
+    }
+    .accent-btn:hover { background: #4a4ac0; }
+
+</style>
 </head>
 <body>
 
 <!-- ── Header ──────────────────────────────────────────── -->
 <header>
   <h1><span>AI</span> 创意素材库</h1>
-  <p class="subtitle">从真实世界信号自动生成的 Creative Brief、Prompt 与内容包</p>
-  <p class="en-sub">Creative Quota Assets — AI Creative Material Library</p>
+  <p class="subtitle">真实信号生成的内容包 · 25 内容 · 3 图片 · 5 来源</p>
   <div class="status-badges">
-    <span class="badge">✅ 已接入真实信号源</span>
-    <span class="badge">✅ 已生成 Content Packs</span>
-    <span class="badge">✅ 已包含 MiniMax 图片素材</span>
-    <span class="badge">🔜 更多媒体格式持续加入中</span>
-    <a class="badge" href="/creative-quota-assets/daily/" style="text-decoration:none">📅 每日归档</a>
+    <a class="badge accent-btn" href="/creative-quota-assets/daily/" style="text-decoration:none">📅 每日归档</a>
+    <a class="badge" href="https://github.com/conanxin/creative-quota-assets" style="text-decoration:none">📂 GitHub</a>
   </div>
 </header>
 
@@ -512,7 +518,7 @@
     <div class="stat-lbl">信号来源</div>
   </div>
   <div class="stat-card">
-    <div class="stat-val" id="statUpdated">06-11T08:19:00+08:00</div>
+    <div class="stat-val" id="statUpdated">06-11 08:19</div>
     <div class="stat-lbl">最后更新</div>
   </div>
 </div>
@@ -1347,7 +1353,7 @@ function updateStats(packs, images, sources) {
   document.getElementById('statPacks').textContent = packSet.size || '—';
   document.getElementById('statImages').textContent = images.length || '0';
   document.getElementById('statSources').textContent = srcSet.size || '—';
-  document.getElementById('statUpdated').textContent = lastDate === '—' ? '—' : lastDate.slice(5); // MM-DD
+  document.getElementById('statUpdated').textContent = lastDate === '—' ? '—' : lastDate.slice(5, 16).replace('T', ' '); // MM-DD HH:MM
 }
 
 // ── Generated images ─────────────────────────────────────
@@ -1584,4 +1590,61 @@ loadData().then(result => {
 });
 </script>
 </body>
-</html>
+</html>/* ── Mobile Responsive (max-width: 720px) ───────────────────── */
+@media (max-width: 720px) {
+  body { padding: 0.75rem 0.75rem; }
+
+  /* Hero compact */
+  header { margin-bottom: 1rem; }
+  header h1 { font-size: 1.4rem; margin-bottom: 0.2rem; }
+  header .subtitle { font-size: 0.78rem; margin-bottom: 0.3rem; }
+  header .en-sub { display: none; }
+  .status-badges { gap: 0.3rem; margin-top: 0.4rem; }
+  .badge { font-size: 0.65rem; padding: 0.2rem 0.5rem; }
+
+  /* Stats: 2-col */
+  .stats-bar { grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 1.5rem; }
+  .stat-card { padding: 0.6rem 0.5rem; }
+  .stat-val { font-size: 1.3rem; }
+  .stat-lbl { font-size: 0.65rem; }
+
+  /* Gen images: horizontal scroll */
+  .gen-images { margin-bottom: 1.5rem; }
+  .gen-images h2 { font-size: 0.9rem; margin-bottom: 0.5rem; }
+  .gen-img-grid { display: flex; overflow-x: auto; gap: 0.75rem; padding-bottom: 0.5rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
+  .gen-img-grid > * { flex: 0 0 75vw; max-width: 280px; scroll-snap-align: start; }
+  .gen-img-card img { height: 180px; }
+
+  /* Filters: horizontal scroll, sticky */
+  .filters { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; margin-bottom: 1rem; padding-bottom: 0.25rem; position: sticky; top: 0; background: var(--bg); z-index: 10; }
+  .filters::-webkit-scrollbar { display: none; }
+  .filter-btn { flex: 0 0 auto; font-size: 0.75rem; padding: 0.3rem 0.75rem; }
+
+  /* Grid: single column */
+  .grid { grid-template-columns: 1fr; gap: 0.75rem; }
+
+  /* Pack card: clean mobile card */
+  .pack-card {
+    background: #fff;
+    border: 1px solid #e8e4dd;
+    border-radius: 12px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+  }
+  .pack-header { padding: 0.8rem 0.9rem 0.5rem; border-bottom: none; }
+  .pack-type { font-size: 0.62rem; }
+  .pack-title { font-size: 0.88rem; line-height: 1.35; display: block; -webkit-line-clamp: 3; overflow: hidden; }
+  .pack-score { font-size: 0.65rem; color: #7a7570; margin-top: 0.2rem; }
+  .pack-summary { padding: 0.4rem 0.9rem; font-size: 0.78rem; line-height: 1.45; color: #2c2c2c; border-top: 1px solid #f0ede8; }
+  .pack-tags { padding: 0.4rem 0.9rem; flex-wrap: wrap; gap: 0.25rem; }
+  .tag { font-size: 0.62rem; }
+  .pack-uses { padding: 0.3rem 0.9rem 0.4rem; flex-wrap: wrap; gap: 0.25rem; }
+  .use-chip { font-size: 0.6rem; padding: 0.1rem 0.35rem; }
+  .pack-links { padding: 0.4rem 0.9rem 0.6rem; display: flex; gap: 0.5rem; }
+  .pack-link { font-size: 0.72rem; }
+
+  /* Footer */
+  footer { margin-top: 2rem; padding-top: 1rem; }
+}
