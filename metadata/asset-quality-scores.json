@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-06-11T23:06:39.402Z",
+  "phase": "3E",
+  "schema": "asset-quality-scores/v1",
+  "rows": [
+    {
+      "asset_id": "cqa-2026-06-11-canary-001",
+      "filename": "cqa-2026-06-11-canary-001_001.jpg",
+      "source_type": "academic",
+      "model": "image-01",
+      "aspect_ratio": "16:9",
+      "watermark": true,
+      "file_size_kb": 325,
+      "score": 96,
+      "pct": 96,
+      "quality_label": "excellent",
+      "content_pack": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "content_pack_slug": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "dimensions": {
+        "technical_validity": 20,
+        "prompt_alignment": 17,
+        "source_relevance": 20,
+        "usability": 20,
+        "diversity_and_coverage": 19
+      },
+      "recommended_uses": [
+        "学术海报封面",
+        "论文摘要配图",
+        "信息图",
+        "带水印的预览版"
+      ],
+      "review_md_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-canary-001_001.review.zh.md"
+    },
+    {
+      "asset_id": "cqa-2026-06-11-gen-002",
+      "filename": "cqa-2026-06-11-gen-002_001.jpg",
+      "source_type": "code",
+      "model": "image-01",
+      "aspect_ratio": "16:9",
+      "watermark": false,
+      "file_size_kb": 183,
+      "score": 97,
+      "pct": 97,
+      "quality_label": "excellent",
+      "content_pack": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "content_pack_slug": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "dimensions": {
+        "technical_validity": 18,
+        "prompt_alignment": 20,
+        "source_relevance": 20,
+        "usability": 20,
+        "diversity_and_coverage": 19
+      },
+      "recommended_uses": [
+        "GitHub 仓库封面",
+        "工具能力图",
+        "X 帖头图"
+      ],
+      "review_md_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-002_001.review.zh.md"
+    },
+    {
+      "asset_id": "cqa-2026-06-11-gen-003",
+      "filename": "cqa-2026-06-11-gen-003_001.jpg",
+      "source_type": "culture-art",
+      "model": "image-01",
+      "aspect_ratio": "16:9",
+      "watermark": false,
+      "file_size_kb": 353,
+      "score": 96,
+      "pct": 96,
+      "quality_label": "excellent",
+      "content_pack": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "content_pack_slug": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "dimensions": {
+        "technical_validity": 18,
+        "prompt_alignment": 20,
+        "source_relevance": 20,
+        "usability": 19,
+        "diversity_and_coverage": 19
+      },
+      "recommended_uses": [
+        "艺术品介绍配图",
+        "风格致敬图",
+        "文化话题封面"
+      ],
+      "review_md_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-003_001.review.zh.md"
+    },
+    {
+      "asset_id": "cqa-2026-06-11-gen-004",
+      "filename": "cqa-2026-06-11-gen-004_001.jpg",
+      "source_type": "dev-community",
+      "model": "image-01",
+      "aspect_ratio": "1:1",
+      "watermark": true,
+      "file_size_kb": 112,
+      "score": 97,
+      "pct": 97,
+      "quality_label": "excellent",
+      "content_pack": "brief-brief-mq8c663q-v-river-ai",
+      "content_pack_slug": "brief-brief-mq8c663q-v-river-ai",
+      "dimensions": {
+        "technical_validity": 18,
+        "prompt_alignment": 20,
+        "source_relevance": 20,
+        "usability": 19,
+        "diversity_and_coverage": 20
+      },
+      "recommended_uses": [
+        "社区讨论海报",
+        "开发者痛点图",
+        "X 帖分享",
+        "带水印的预览版"
+      ],
+      "review_md_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/11/cqa-2026-06-11-gen-004_001.review.zh.md"
+    },
+    {
+      "asset_id": "cqa-2026-06-11-gen-005",
+      "filename": "cqa-2026-06-11-gen-005_001.jpg",
+      "source_type": "ai-ecosystem",
+      "model": "image-01",
+      "aspect_ratio": "16:9",
+      "watermark": true,
+      "file_size_kb": 102,
+      "score": 94,
+      "pct": 94,
+      "quality_label": "excellent",
+      "content_pack": "brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+      "content_pack_slug": "brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+      "dimensions": {
+        "technical_validity": 18,
+        "prompt_alignment": 17,
+        "source_relevance": 20,
+        "usability": 20,
+        "diversity_and_coverage": 19
+      },
+      "recommended_uses": [
+        "HF 模型卡 hero",
+        "能力对比图",
+        "能力边界分析配图",
+        "带水印的预览版"
+      ],
+      "review_md_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/11/cqa-2026-06-11-gen-005_001.review.zh.md"
+    }
+  ]
+}

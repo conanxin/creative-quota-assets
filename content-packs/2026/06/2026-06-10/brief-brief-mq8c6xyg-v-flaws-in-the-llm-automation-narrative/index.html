@@ -92,6 +92,38 @@
       .section { padding: 1rem; }
       .asset-grid { grid-template-columns: repeat(2, 1fr); }
     }
+    /* Phase 3E: Generated image quality card */
+    .gen-images-grid { display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+    .gen-image-card {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .gen-image-header { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem; }
+    .quality-badge {
+      font-size: 0.7rem; font-weight: 700;
+      padding: 0.2rem 0.6rem; border-radius: 4px;
+    }
+    .gen-image-meta { font-size: 0.7rem; color: var(--text-muted); }
+    .gen-image-dims {
+      display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.5rem;
+    }
+    .dim-chip {
+      font-size: 0.65rem;
+      background: var(--accent-dim);
+      color: var(--accent);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+    .gen-image-uses {
+      display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.5rem;
+    }
+    .gen-image-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .use-chip {
+      font-size: 0.65rem; background: var(--accent-dim); color: var(--accent);
+      padding: 0.15rem 0.4rem; border-radius: 4px;
+    }
   </style>
 </head>
 <body>

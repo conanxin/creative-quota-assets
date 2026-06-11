@@ -92,6 +92,38 @@
       .section { padding: 1rem; }
       .asset-grid { grid-template-columns: repeat(2, 1fr); }
     }
+    /* Phase 3E: Generated image quality card */
+    .gen-images-grid { display: grid; grid-template-columns: 1fr; gap: 0.75rem; }
+    .gen-image-card {
+      background: var(--bg);
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      padding: 1rem;
+    }
+    .gen-image-header { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; margin-bottom: 0.5rem; }
+    .quality-badge {
+      font-size: 0.7rem; font-weight: 700;
+      padding: 0.2rem 0.6rem; border-radius: 4px;
+    }
+    .gen-image-meta { font-size: 0.7rem; color: var(--text-muted); }
+    .gen-image-dims {
+      display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.5rem;
+    }
+    .dim-chip {
+      font-size: 0.65rem;
+      background: var(--accent-dim);
+      color: var(--accent);
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+    }
+    .gen-image-uses {
+      display: flex; gap: 0.3rem; flex-wrap: wrap; margin-bottom: 0.5rem;
+    }
+    .gen-image-actions { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+    .use-chip {
+      font-size: 0.65rem; background: var(--accent-dim); color: var(--accent);
+      padding: 0.15rem 0.4rem; border-radius: 4px;
+    }
   </style>
 </head>
 <body>
@@ -197,7 +229,19 @@
     </div>
     <div class="section">
       <div class="section-title">🖼️ 已生成图片</div>
-      <div class="info-box">📸 该 Content Pack 关联了已生成图片（图片展示功能开发中）</div>
+      <div class="gen-images-grid">
+      <div class="gen-image-card">
+        <div class="gen-image-header">
+          <span class="quality-badge" style="color:#22c55e;background:#22c55e15">⭐ 优秀 · 97/100</span>
+          <span class="gen-image-meta">code · 16:9 · 183KB</span>
+        </div>
+        <div class="gen-image-dims"><span class="dim-chip">technical_validity: 18/20</span><span class="dim-chip">prompt_alignment: 20/20</span><span class="dim-chip">source_relevance: 20/20</span><span class="dim-chip">usability: 20/20</span><span class="dim-chip">diversity_and_coverage: 19/20</span></div>
+        <div class="gen-image-uses"><span class="use-chip">GitHub 仓库封面</span><span class="use-chip">工具能力图</span><span class="use-chip">X 帖头图</span></div>
+        <div class="gen-image-actions">
+          <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-002_001.jpg" target="_blank">🖼️ 查看原图</a>
+          <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-002_001.review.zh.md" target="_blank">📋 质量评审</a>
+        </div>
+      </div></div>
     </div>
     
     <div class="section">

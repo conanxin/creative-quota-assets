@@ -19,13 +19,17 @@
 
 ## 🖼️ 已生成图片
 
-目前已通过 MiniMax Token Plan 生成 **3 张**图片：
+目前已通过 MiniMax Token Plan 生成 **5 张**图片，均已通过 Phase 3E 质量评审：
 
-| 文件 | 来源 | 模型 | 日期 |
-|------|------|------|------|
-| `cqa-2026-06-11-canary-001_001.jpg` | Flaws in the LLM Automation Narrative | image-01 | 2026-06-11 |
-| `cqa-2026-06-11-gen-002_001.jpg` | SamurAIGPT/Generative-Media-Skills | image-01 | 2026-06-11 |
-| `cqa-2026-06-11-gen-003_001.jpg` | The Penitence of Saint Jerome | image-01 | 2026-06-11 |
+| 文件 | 来源 | 模型 | 宽高比 | 质量评分 |
+|------|------|------|------|------|
+| `cqa-2026-06-11-canary-001_001.jpg` | Flaws in the LLM Automation Narrative | image-01 | 16:9 | ⭐ 优秀 · 96/100 |
+| `cqa-2026-06-11-gen-002_001.jpg` | SamurAIGPT/Generative-Media-Skills | image-01 | 16:9 | ⭐ 优秀 · 97/100 |
+| `cqa-2026-06-11-gen-003_001.jpg` | The Penitence of Saint Jerome | image-01 | 16:9 | ⭐ 优秀 · 96/100 |
+| `cqa-2026-06-11-gen-004_001.jpg` | River AI | image-01 | 1:1 | ⭐ 优秀 · 97/100 |
+| `cqa-2026-06-11-gen-005_001.jpg` | stabilityai/stable-video-diffusion-img2vid-xt | image-01 | 16:9 | ⭐ 优秀 · 94/100 |
+
+每张图片都有详细的 `.review.zh.md`（位于同目录下）和 `metadata/asset-quality-scores.json`。
 
 音乐 / 视频尚未启用（Phase 3C quota guard 已就位）。
 
@@ -135,7 +139,30 @@ https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-1
 | cqa-2026-06-11-canary-001_001.jpg | 基于学术论文"Flaws in the LLM Automation Narrative"主题生成，呈现古典手稿与神经网络视觉融合 |
 | cqa-2026-06-11-gen-002_001.jpg | 基于 SamurAIGPT/Generative-Media-Skills 项目主题生成 |
 | cqa-2026-06-11-gen-003_001.jpg | 基于 The Penitence of Saint Jerome 艺术作品主题生成 |
+| cqa-2026-06-11-gen-004_001.jpg | 基于 River AI 开发者社区话题生成 |
+| cqa-2026-06-11-gen-005_001.jpg | 基于 stabilityai/stable-video-diffusion-img2vid-xt 模型生成 |
 
+
+---
+
+## ⭐ 图片质量评审（Phase 3E）
+
+每张生成的图片都按 5 个维度（每维 20 分，总分 100）进行规则评分（无 LLM、无视觉模型、无 API 调用）：
+
+| 维度 | 说明 |
+|------|------|
+| technical_validity | 文件存在、大小合理、公共 URL 可访问、元数据完整 |
+| prompt_alignment | 是否使用 Phase 4G 增强 Prompt、是否含有 Phase 4F 增强事实、推荐用途、宽高比/模型 |
+| source_relevance | 是否匹配 Content Pack、来源类型、是否使用 Phase 4F/4G 增强 |
+| usability | Gallery 就绪、X 帖就绪、用途清晰、封面/信息图潜力 |
+| diversity_and_coverage | 来源类型覆盖、重复度低、覆盖广度、填补信号缺口 |
+
+评审依据：
+- `metadata/generated-assets-review.json` — 评审摘要
+- `metadata/asset-quality-scores.json` — 评分表
+- `images/.../...review.zh.md` — 每张图片的中文评审详情
+
+Gallery 中每张图片都显示质量标签、评分和推荐用途。每张图片的详情页可直接跳转查看评审原文。
 
 ---
 
