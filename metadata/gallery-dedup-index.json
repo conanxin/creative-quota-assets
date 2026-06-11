@@ -1,0 +1,380 @@
+{
+  "generated_at": "2026-06-11T13:39:51.205Z",
+  "total_packs": 25,
+  "unique_topics": 5,
+  "duplicates_collapsed": 20,
+  "items": [
+    {
+      "canonical_key": "samuraigpt/generative-media-skills__code",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_type": "code",
+      "source_label_zh": "开源项目",
+      "primary_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
+      "version_count": 5,
+      "versions": [
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
+          "title": "SamurAIGPT/Generative-Media-Skills",
+          "date": "2026-06-11",
+          "score": 0.7025,
+          "source_type": "code",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills",
+          "title": "SamurAIGPT/Generative-Media-Skills",
+          "date": "2026-06-11",
+          "score": 0.7025,
+          "source_type": "code",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills",
+          "title": "SamurAIGPT/Generative-Media-Skills",
+          "date": "2026-06-10",
+          "score": 0.7025,
+          "source_type": "code",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+          "title": "SamurAIGPT/Generative-Media-Skills",
+          "date": "2026-06-10",
+          "score": 0.7025,
+          "source_type": "code",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+          "title": "SamurAIGPT/Generative-Media-Skills",
+          "date": "2026-06-10",
+          "score": 0.7025,
+          "source_type": "code",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/index.html"
+        }
+      ],
+      "score": 0.7025,
+      "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...",
+      "why_it_matters": " 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 这个开源项目解决了什么开发痛点？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, clau",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "generated_images": [],
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json",
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ]
+    },
+    {
+      "canonical_key": "flaws in the llm automation narrative__academic",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_type": "academic",
+      "source_label_zh": "学术研究",
+      "primary_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+      "version_count": 5,
+      "versions": [
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+          "title": "Flaws in the LLM Automation Narrative",
+          "date": "2026-06-11",
+          "score": 0.6619877011020773,
+          "source_type": "academic",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative",
+          "title": "Flaws in the LLM Automation Narrative",
+          "date": "2026-06-11",
+          "score": 0.6619877011020773,
+          "source_type": "academic",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+          "title": "Flaws in the LLM Automation Narrative",
+          "date": "2026-06-10",
+          "score": 0.6619877011020773,
+          "source_type": "academic",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
+          "title": "Flaws in the LLM Automation Narrative",
+          "date": "2026-06-10",
+          "score": 0.6619877011020773,
+          "source_type": "academic",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative",
+          "title": "Flaws in the LLM Automation Narrative",
+          "date": "2026-06-10",
+          "score": 0.6619877011020773,
+          "source_type": "academic",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/index.html"
+        }
+      ],
+      "score": 0.6619877011020773,
+      "one_sentence_summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...",
+      "why_it_matters": " 学术研究领域动态：Flaws in the LLM Automation Narrative。 研究方法有什么独特之处？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [\"arxivcsai\", \"academic\", ",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "generated_images": [],
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json",
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ]
+    },
+    {
+      "canonical_key": "the penitence of saint jerome__culture-art",
+      "title": "The Penitence of Saint Jerome",
+      "source_type": "culture-art",
+      "source_label_zh": "文化艺术",
+      "primary_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
+      "version_count": 5,
+      "versions": [
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
+          "title": "The Penitence of Saint Jerome",
+          "date": "2026-06-11",
+          "score": 0.6,
+          "source_type": "culture-art",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
+          "title": "The Penitence of Saint Jerome",
+          "date": "2026-06-11",
+          "score": 0.6,
+          "source_type": "culture-art",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+          "title": "The Penitence of Saint Jerome",
+          "date": "2026-06-10",
+          "score": 0.6,
+          "source_type": "culture-art",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
+          "title": "The Penitence of Saint Jerome",
+          "date": "2026-06-10",
+          "score": 0.6,
+          "source_type": "culture-art",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome",
+          "title": "The Penitence of Saint Jerome",
+          "date": "2026-06-10",
+          "score": 0.6,
+          "source_type": "culture-art",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/index.html"
+        }
+      ],
+      "score": 0.6,
+      "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 艺术品背后有什么文化故事？ — The Penitence of Saint Jerome 创作者、...",
+      "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 艺术品背后有什么文化故事？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landscape",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "music"
+      ],
+      "generated_images": [],
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json",
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ]
+    },
+    {
+      "canonical_key": "river ai__dev-community",
+      "title": "River AI",
+      "source_type": "dev-community",
+      "source_label_zh": "开发者社区",
+      "primary_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai",
+      "version_count": 5,
+      "versions": [
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai",
+          "title": "River AI",
+          "date": "2026-06-11",
+          "score": 0.5253579016762474,
+          "source_type": "dev-community",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai",
+          "title": "River AI",
+          "date": "2026-06-11",
+          "score": 0.5253579016762474,
+          "source_type": "dev-community",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai",
+          "title": "River AI",
+          "date": "2026-06-10",
+          "score": 0.5253579016762474,
+          "source_type": "dev-community",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
+          "title": "River AI",
+          "date": "2026-06-10",
+          "score": 0.5253579016762474,
+          "source_type": "dev-community",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
+          "title": "River AI",
+          "date": "2026-06-10",
+          "score": 0.5253579016762474,
+          "source_type": "dev-community",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/index.html"
+        }
+      ],
+      "score": 0.5253579016762474,
+      "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hack...",
+      "why_it_matters": " 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角度",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "generated_images": [],
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json",
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ]
+    },
+    {
+      "canonical_key": "stabilityai/stable-video-diffusion-img2vid-xt__ai-ecosystem",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_type": "ai-ecosystem",
+      "source_label_zh": "AI 模型生态",
+      "primary_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+      "version_count": 5,
+      "versions": [
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+          "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+          "date": "2026-06-11",
+          "score": 0.47624999999999995,
+          "source_type": "ai-ecosystem",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt",
+          "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+          "date": "2026-06-11",
+          "score": 0.47624999999999995,
+          "source_type": "ai-ecosystem",
+          "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+          "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+          "date": "2026-06-10",
+          "score": 0.47624999999999995,
+          "source_type": "ai-ecosystem",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
+          "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+          "date": "2026-06-10",
+          "score": 0.47624999999999995,
+          "source_type": "ai-ecosystem",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/index.html"
+        },
+        {
+          "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
+          "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+          "date": "2026-06-10",
+          "score": 0.47624999999999995,
+          "source_type": "ai-ecosystem",
+          "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/index.html"
+        }
+      ],
+      "score": 0.47624999999999995,
+      "one_sentence_summary": "Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...",
+      "why_it_matters": " AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 这个模型/数据集代表了哪类AI能力的新高度？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, ima",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "generated_images": [],
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ]
+    }
+  ]
+}
