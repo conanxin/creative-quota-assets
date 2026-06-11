@@ -99,6 +99,21 @@ Gallery 页面可直接查看每个 Pack 的**一句话介绍**和**推荐用途
 
 ---
 
+## 📄 Content Pack 详情页
+
+每个 Content Pack 现在都有**人类可读的详情页**（index.html），从 Gallery 或每日归档中点击"详情"即可打开：
+
+| 入口 | 内容 |
+|------|------|
+| **详情页** (`index.html`) | 人类可读的可视化页面：标题、来源、一句话介绍、背景、为什么值得关注、推荐用途、已有素材、Prompt 预览、开发者文件 |
+| **摘要原文** (`content-summary.zh.md`) | Markdown 格式中文摘要 |
+| **原始数据** (`detail.json`) | 机器可读的结构化数据 |
+
+**示例详情页：**
+https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/index.html
+
+---
+
 ## 🖼️ 已生成图片说明
 
 `metadata/generated-image-descriptions.json` 包含每张图片的中文描述：
