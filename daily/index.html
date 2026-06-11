@@ -12,7 +12,12 @@
     header { text-align: center; margin-bottom: 2.5rem; }
     header h1 { font-size: 2rem; font-weight: 700; color: var(--text); margin-bottom: 0.5rem; }
     header h1 span { color: var(--accent); }
-    header p { color: var(--text-muted); font-size: 0.9rem; }
+    header p { color: var(--text-muted); font-size: 0.9rem; max-width: 600px; margin: 0 auto; }
+    .date-legend { display: flex; gap: 1.5rem; justify-content: center; margin-top: 0.75rem; font-size: 0.78rem; color: var(--text-muted); }
+    .legend-item { display: flex; align-items: center; gap: 0.3rem; }
+    .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .legend-dot.pack { background: var(--accent); }
+    .legend-dot.img { background: #22c55e; }
     .nav-links { display: flex; gap: 1rem; justify-content: center; margin-top: 1rem; }
     .nav-links a { color: var(--accent); text-decoration: none; font-size: 0.85rem; }
     .nav-links a:hover { text-decoration: underline; }
@@ -23,12 +28,10 @@
     .day-counts { display: flex; gap: 0.3rem; }
     .count-badge { font-size: 0.65rem; background: var(--accent-dim); color: var(--accent); padding: 0.15rem 0.5rem; border-radius: 999px; border: 1px solid var(--accent); }
     .count-badge.img { background: rgba(34,197,94,0.08); border-color: #22c55e; color: #22c55e; }
-    .day-sources { font-size: 0.72rem; color: var(--text-muted); margin-bottom: 0.5rem; }
-    .day-top { margin-bottom: 0.5rem; }
-    .day-top-title { font-size: 0.78rem; color: var(--text); padding: 0.2rem 0; border-bottom: 1px solid var(--card-border); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+    .day-sources { font-size: 0.72rem; color: var(--text-muted); margin-bottom: 0.4rem; }
+    .day-note { font-size: 0.72rem; color: #22c55e; margin-bottom: 0.3rem; }
     .day-link { display: block; text-align: right; font-size: 0.78rem; color: var(--accent); text-decoration: none; }
     .day-link:hover { text-decoration: underline; }
-    .empty { text-align: center; padding: 4rem; color: var(--text-muted); }
     footer { max-width: 1100px; margin: 3rem auto 0; text-align: center; border-top: 1px solid var(--card-border); padding-top: 1.5rem; color: var(--text-muted); font-size: 0.78rem; }
     footer a { color: var(--accent); text-decoration: none; }
     footer a:hover { text-decoration: underline; }
@@ -38,7 +41,11 @@
   <div class="container">
     <header>
       <h1><span>📅</span> 每日创意归档</h1>
-      <p>按日期浏览 Creative Quota Assets每日采集的信号、Content Packs 和已生成内容</p>
+      <p>按日期浏览 Creative Quota Assets 每日采集的信号、Content Packs 和已生成内容</p>
+      <div class="date-legend">
+        <div class="legend-item"><div class="legend-dot pack"></div>Content Pack 日期（内容包创建日期）</div>
+        <div class="legend-item"><div class="legend-dot img"></div>生成图片日期（实际图片生成日期）</div>
+      </div>
       <div class="nav-links">
         <a href="../gallery/">← 返回 Gallery</a>
         <a href="https://github.com/conanxin/creative-quota-assets">GitHub</a>
@@ -51,11 +58,11 @@
         <div class="day-date">2026-06-11</div>
         <div class="day-counts">
           <span class="count-badge">10 Content Packs</span>
-          
+          <span class="count-badge img">3 图片</span>
         </div>
       </div>
       <div class="day-sources">开源 · 学术 · 艺术 · 社区 · AI生态</div>
-      <div class="day-top"><div class="day-top-title">SamurAIGPT/Generative-Media-Skills</div><div class="day-top-title">SamurAIGPT/Generative-Media-Skills</div><div class="day-top-title">Flaws in the LLM Automation Narrative</div></div>
+      <div class="day-note"></div>
       <a class="day-link" href="daily/2026/06/2026-06-11/">查看当日内容 →</a>
     </div>
     <div class="day-card">
@@ -63,11 +70,11 @@
         <div class="day-date">2026-06-10</div>
         <div class="day-counts">
           <span class="count-badge">15 Content Packs</span>
-          <span class="count-badge img">3 图片</span>
+          
         </div>
       </div>
       <div class="day-sources">开源 · 学术 · 艺术 · 社区 · AI生态</div>
-      <div class="day-top"><div class="day-top-title">SamurAIGPT/Generative-Media-Skills</div><div class="day-top-title">SamurAIGPT/Generative-Media-Skills</div><div class="day-top-title">SamurAIGPT/Generative-Media-Skills</div></div>
+      <div class="day-note"></div>
       <a class="day-link" href="daily/2026/06/2026-06-10/">查看当日内容 →</a>
     </div>
     </div>

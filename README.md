@@ -119,5 +119,13 @@ Gallery 页面可直接查看每个 Pack 的**一句话介绍**和**推荐用途
 - **日历首页:** https://conanxin.github.io/creative-quota-assets/daily/
 - 按日期查看每天的 Content Packs、来源类型和已生成图片
 
-当前归档日期：2 天（2026-06-10、2026-06-11）
+**归档日期说明：**
+- **Content Pack 日期**：内容包创建日期（manifest.json 的 created_at）
+- **生成图片日期**：实际图片生成日期（metadata/generated-assets.json 的 generated_at）
+
+同一内容包的图片可能在后续日期生成。例如：Content Pack 于 2026-06-10 创建，图片于 2026-06-11 生成，图片会归档到 2026-06-11。
+
+当前归档日期：**2 天**
+- 2026-06-11：10 Content Packs + 3 生成图片
+- 2026-06-10：15 Content Packs
 

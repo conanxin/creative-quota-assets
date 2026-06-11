@@ -1,7 +1,7 @@
 {
   "date": "2026-06-10",
   "content_pack_count": 15,
-  "generated_image_count": 3,
+  "generated_image_count": 0,
   "source_types": [
     "code",
     "academic",
@@ -88,22 +88,6 @@
       ]
     }
   ],
-  "images": [
-    {
-      "filename": "cqa-2026-06-11-gen-002_001.jpg",
-      "title": "cqa-2026-06-11-gen-002_001.jpg",
-      "model": "image-01"
-    },
-    {
-      "filename": "cqa-2026-06-11-canary-001_001.jpg",
-      "title": "cqa-2026-06-11-canary-001_001.jpg",
-      "model": "image-01"
-    },
-    {
-      "filename": "cqa-2026-06-11-gen-003_001.jpg",
-      "title": "cqa-2026-06-11-gen-003_001.jpg",
-      "model": "image-01"
-    }
-  ],
-  "generated_at": "2026-06-11T03:23:43.570Z"
+  "images": [],
+  "generated_at": "2026-06-11T03:29:01.954Z"
 }
