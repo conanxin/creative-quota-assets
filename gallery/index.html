@@ -493,7 +493,7 @@
     <span class="badge">✅ 已生成 Content Packs</span>
     <span class="badge">✅ 已包含 MiniMax 图片素材</span>
     <span class="badge">🔜 更多媒体格式持续加入中</span>
-    <a class="badge" href="daily/" style="text-decoration:none">📅 每日归档</a>
+    <a class="badge" href="/creative-quota-assets/daily/" style="text-decoration:none">📅 每日归档</a>
   </div>
 </header>
 
@@ -545,7 +545,7 @@
     <a href="https://github.com/conanxin/creative-quota-assets">GitHub 仓库</a> ·
     <a href="https://github.com/conanxin/creative-quota-harvester">Harvester 项目</a> ·
     <a href="https://github.com/conanxin/creative-quota-harvester/blob/main/docs/ROADMAP.md">Roadmap</a> ·
-    <a href="daily/">📅 每日归档</a>
+    <a href="/creative-quota-assets/daily/">📅 每日归档</a>
   </p>
   <p>提示协议：CC-BY 4.0 · 元数据：MIT · 生成媒体：CC-BY-NC 4.0</p>
 </footer>
@@ -554,22 +554,48 @@
 // ── Data ────────────────────────────────────────────────
 const ASSET_DATA = []; // Will be loaded from JSON
 
+// ── Path resolution ────────────────────────────────
+function getBase() {
+  // Handle both GitHub Pages (/creative-quota-assets/) and local dev
+  const p = location.pathname;
+  if (p.includes('/creative-quota-assets/')) {
+    return '/creative-quota-assets/';
+  }
+  return '../';
+}
+
+async function safeFetch(src) {
+  try {
+    const r = await fetch(src, { cache: 'no-cache' });
+    if (!r.ok) return null;
+    return await r.json();
+  } catch { return null; }
+}
+
 async function loadData() {
-  const sources = [
-    '../gallery/assets.json',
-    '/creative-quota-assets/gallery/assets.json',
+  const BASE = getBase();
+
+  // Load main assets list
+  const assetSources = [
+    BASE + 'gallery/assets.json',
     'https://raw.githubusercontent.com/conanxin/creative-quota-assets/main/gallery/assets.json',
   ];
-  for (const src of sources) {
-    try {
-      const r = await fetch(src, { cache: 'no-cache' });
-      if (!r.ok) continue;
-      const d = await r.json();
-      return d.assets || [];
-    } catch {}
+  for (const src of assetSources) {
+    const d = await safeFetch(src);
+    if (d && (d.assets || Array.isArray(d))) return { assets: d.assets || d, BASE };
   }
-  // Fallback: try inline
-  if (typeof ASSET_DATA !== 'undefined' && ASSET_DATA.length > 0) return ASSET_DATA;
+
+  // Load from content-pack-index as fallback
+  const cpIndex = await safeFetch(BASE + 'metadata/content-pack-index.json');
+  if (cpIndex && cpIndex.content_packs) {
+    return { assets: cpIndex.content_packs.map(p => ({
+      ...p,
+      type: 'unknown',
+      detail_path: p.detail_path || '',
+      summary_path: p.summary_path || '',
+    })), BASE };
+  }
+
   return null;
 }
 
@@ -757,8 +783,8 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 });
 
 // ── Bootstrap ──────────────────────────────────────────
-loadData().then(allAssets => {
-  if (!allAssets || allAssets.length === 0) {
+loadData().then(result => {
+  if (!result || !result.assets || result.assets.length === 0) {
     document.getElementById('grid').innerHTML = `
       <div class="empty">
         <div class="error-box">
@@ -769,37 +795,47 @@ loadData().then(allAssets => {
     return;
   }
 
-  // Separate generated images from content packs
-    const genImages = allAssets.filter(a =>
-      a.type === 'image' && (a.url || a.thumbnail || a.full)
-    );
-    const packs = allAssets.filter(a =>
-      a.type !== 'image' && !a.url && !a.thumbnail
-    );
+  const BASE = result.BASE || '../';
+  const allAssets = result.assets;
 
-    // Load generated image descriptions and merge with image assets
-    try {
-      const descR = await fetch('../metadata/generated-image-descriptions.json', { cache: 'no-cache' });
-      if (descR.ok) {
-        const descriptions: any[] = await descR.json();
-        for (const img of genImages) {
-          const matched = descriptions.find(d =>
-            d.filename === img.filename || d.filename === img.id || d.asset_id === img.id
-          );
-          if (matched) {
-            img.description_zh = matched.description_zh || '';
-            img.prompt_summary_zh = matched.prompt_summary_zh || '';
-            img.recommended_use_zh = matched.recommended_use_zh || '';
-            img.source_content_pack = matched.source_content_pack || '';
-          }
+  // Separate generated images from content packs
+  const genImages = allAssets.filter(a =>
+    a.type === 'image' && (a.url || a.thumbnail || a.full)
+  );
+  const packs = allAssets.filter(a =>
+    a.type !== 'image' && !a.url && !a.thumbnail
+  );
+
+  // Load generated image descriptions
+  try {
+    const descR = await fetch(BASE + 'metadata/generated-image-descriptions.json', { cache: 'no-cache' });
+    if (descR && descR.ok) {
+      const descriptions = await descR.json();
+      for (const img of genImages) {
+        const matched = descriptions.find(d =>
+          d.filename === img.filename || d.filename === img.id || d.asset_id === img.id
+        );
+        if (matched) {
+          img.description_zh = matched.description_zh || '';
+          img.prompt_summary_zh = matched.prompt_summary_zh || '';
+          img.recommended_use_zh = matched.recommended_use_zh || '';
+          img.source_content_pack = matched.source_content_pack || '';
         }
       }
-    } catch {}
+    }
+  } catch {}
 
-    renderGenImages(genImages);
-    updateStats(packs, genImages, []);
-    window._assets = packs;
+  renderGenImages(genImages);
+  updateStats(packs, genImages, []);
+  window._assets = packs;
   renderGrid(packs);
+
+  console.log('[Gallery] loaded:', {
+    total: allAssets.length,
+    packs: packs.length,
+    images: genImages.length,
+    BASE
+  });
 
 }).catch(err => {
   document.getElementById('grid').innerHTML = `

@@ -1,47 +1,992 @@
 {
   "assets": [
     {
-      "id": "cqa-canary-001",
-      "type": "image",
-      "title": "Flaws in the LLM Automation Narrative (Canary)",
-      "description": "First MiniMax image generation — academic paper brief on LLM automation limitations, generated via image-01 model",
-      "thumbnail": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
-      "full": "images/2026/06/cqa-2026-06-11-canary-001_001.jpg",
-      "prompt": "A scholarly yet vibrant illustration of Flaws in the LLM Automation Narrative — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic",
-      "tags": [
-        "academic",
-        "llm",
-        "automation",
-        "neural-networks",
-        "manuscripts"
+      "id": "brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
       ],
-      "createdAt": "2026-06-11T03:04:00+08:00",
-      "packId": "cqa-2026-06-11-canary-001",
-      "sourceUrl": "https://arxiv.org/abs/XXXX",
-      "model": "image-01",
-      "aspect_ratio": "16:9",
-      "watermark": true,
-      "file_size_kb": 325,
-      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative"
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "final_score": 0.7025,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "type": "unknown"
     },
     {
-      "id": "cqh-img-001",
-      "type": "image",
-      "title": "Neural Flow — AI Agent Interface",
-      "description": "Generated from GitHub Open Source Radar signal about AI Agent frameworks (AutoGen)",
-      "thumbnail": "images/cqh-2026-06-10-001-img-001.jpg",
-      "full": "images/cqh-2026-06-10-001-img-001.jpg",
-      "prompt": "A futuristic neural network visualization with autonomous AI agents in a state of flow, floating holographic interfaces, deep blue and cyan color palette, cinematic lighting, 8K detail",
-      "tags": [
-        "ai-agent",
-        "neural",
-        "blue",
-        "autonomous",
-        "holographic"
+      "id": "brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
       ],
-      "createdAt": "2026-06-10T15:52:00Z",
-      "packId": "cqh-2026-06-10-001",
-      "sourceUrl": "https://github.com/microsoft/autogen"
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "final_score": 0.7025,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "final_score": 0.6,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "final_score": 0.6,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8swsla-m-river-ai",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8tbqf4-q-river-ai",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-11T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c663q-e-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "final_score": 0.7025,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "final_score": 0.7025,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "source_types": [
+        "code"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "code",
+        "agent-tools",
+        "ai-agents",
+        "ai-art",
+        "ai-music",
+        "ai-video",
+        "claude-code",
+        "flux",
+        "generative-ai",
+        "image-generation",
+        "kling",
+        "mcp",
+        "midjourney",
+        "muapi",
+        "multimodal-ai"
+      ],
+      "final_score": 0.7025,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative",
+      "title": "Flaws in the LLM Automation Narrative",
+      "source_types": [
+        "academic"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "academic",
+        "arxiv:cs.AI",
+        "ai",
+        "paper",
+        "[\"arxivcsai\"",
+        "\"academic\"",
+        "\"paper\"",
+        "\"academic\"]"
+      ],
+      "final_score": 0.6619877011020773,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "final_score": 0.6,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "final_score": 0.6,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c663r-2-the-penitence-of-saint-jerome",
+      "title": "The Penitence of Saint Jerome",
+      "source_types": [
+        "culture-art"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "tags": [
+        "culture-art",
+        "met",
+        "art",
+        "museum",
+        "cultural",
+        "european paintings",
+        "landscape",
+        "[\"met\"",
+        "\"art\"",
+        "\"museum\"",
+        "\"cultural\"",
+        "\"european paintings\"",
+        "\"landscape\"",
+        "\"culture-art\"]"
+      ],
+      "final_score": 0.6,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "video",
+        "music"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c663q-v-river-ai",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6kp5-1-river-ai",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6xyg-o-river-ai",
+      "title": "River AI",
+      "source_types": [
+        "dev-community"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image"
+      ],
+      "tags": [
+        "dev-community",
+        "hackernews",
+        "river.ai",
+        "[\"hackernews\"",
+        "\"dev-community\"",
+        "\"riverai\"",
+        "\"dev-community\"]"
+      ],
+      "final_score": 0.5253579016762474,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_types": [
+        "ai-ecosystem"
+      ],
+      "recommended_assets": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "tags": [
+        "ai-ecosystem",
+        "huggingface",
+        "image-to-video",
+        "model",
+        "[\"huggingface\"",
+        "\"ai-ecosystem\"",
+        "\"image-to-video\"",
+        "\"model\"",
+        "\"ai-ecosystem\"]"
+      ],
+      "final_score": 0.47624999999999995,
+      "created_at": "2026-06-10T00:00:00Z",
+      "content_pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
+      "one_sentence_summary": "",
+      "why_it_matters": "",
+      "recommended_uses": [
+        "x-post",
+        "image",
+        "webpage"
+      ],
+      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
+      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "type": "unknown"
+    },
+    {
+      "id": "cqa-2026-06-11-canary-001_001.jpg",
+      "filename": "cqa-2026-06-11-canary-001_001.jpg",
+      "title": "cqa-2026-06-11-canary-001_001.jpg",
+      "type": "image",
+      "url": "",
+      "thumbnail": "",
+      "full": "",
+      "model": "image-01",
+      "generated_at": "2026-06-11T03:04:00+08:00",
+      "content_pack_dir": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+      "description_zh": "基于学术论文 'mq8c6kp5 u flaws in the llm automation narrative' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。",
+      "prompt_summary_zh": "A scholarly yet vibrant illustration of \"Flaws in the LLM Automation Narrative\" — neural networks intertwined with classical manuscripts, warm lighting, academic aesthetic",
+      "recommended_use_zh": "适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。",
+      "source_content_pack": "brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative"
+    },
+    {
+      "id": "cqa-2026-06-11-gen-002_001.jpg",
+      "filename": "cqa-2026-06-11-gen-002_001.jpg",
+      "title": "cqa-2026-06-11-gen-002_001.jpg",
+      "type": "image",
+      "url": "",
+      "thumbnail": "",
+      "full": "",
+      "model": "image-01",
+      "generated_at": "2026-06-11T08:19:00+08:00",
+      "content_pack_dir": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+      "description_zh": "基于学术论文 'mq8c6kp4 7 samuraigpt generative media skills' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。",
+      "prompt_summary_zh": "Abstract representation of open source AI tools — interconnected nodes glowing in blue and purple, dark background, tech art style",
+      "recommended_use_zh": "适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。",
+      "source_content_pack": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills"
+    },
+    {
+      "id": "cqa-2026-06-11-gen-003_001.jpg",
+      "filename": "cqa-2026-06-11-gen-003_001.jpg",
+      "title": "cqa-2026-06-11-gen-003_001.jpg",
+      "type": "image",
+      "url": "",
+      "thumbnail": "",
+      "full": "",
+      "model": "image-01",
+      "generated_at": "2026-06-11T08:19:00+08:00",
+      "content_pack_dir": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+      "description_zh": "基于学术论文 'mq8c6kp5 r the penitence of saint jerome' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。",
+      "prompt_summary_zh": "Museum-quality illustration inspired by \"The Penitence of Saint Jerome\" — classical techniques meet digital art, rich textures, museum lighting",
+      "recommended_use_zh": "适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。",
+      "source_content_pack": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome"
     },
     {
       "id": "cqh-prompt-001",
@@ -75,235 +1020,7 @@
       "createdAt": "2026-06-10T15:52:00Z",
       "packId": "cqh-2026-06-10-001",
       "sourceUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/123456"
-    },
-    {
-      "id": "brief-mq8c6kp4-7z62f",
-      "title": "SamurAIGPT/Generative-Media-Skills",
-      "source_types": [
-        "code"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.7025,
-      "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
-      "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...",
-      "why_it_matters": " 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, claude-code",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "webpage"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6xyg-bqh3n",
-      "title": "SamurAIGPT/Generative-Media-Skills",
-      "source_types": [
-        "code"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.7025,
-      "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
-      "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...",
-      "why_it_matters": " 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 适合哪些场景使用？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, claude-code",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "webpage"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6kp5-ucw76",
-      "title": "Flaws in the LLM Automation Narrative",
-      "source_types": [
-        "academic"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.6619877011020773,
-      "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
-      "one_sentence_summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...",
-      "why_it_matters": " 学术研究领域动态：Flaws in the LLM Automation Narrative。 这篇论文揭示了AI领域的哪个前沿问题？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [\"arxivcsai\", \"acad",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "webpage"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6xyg-voua2",
-      "title": "Flaws in the LLM Automation Narrative",
-      "source_types": [
-        "academic"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.6619877011020773,
-      "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
-      "one_sentence_summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...",
-      "why_it_matters": " 学术研究领域动态：Flaws in the LLM Automation Narrative。 对从业者有什么实际启发？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [\"arxivcsai\", \"academic\", ",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "webpage"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6kp5-ral6w",
-      "title": "The Penitence of Saint Jerome",
-      "source_types": [
-        "culture-art"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.6,
-      "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
-      "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作...",
-      "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landsca",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "music"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6xyg-5wjlw",
-      "title": "The Penitence of Saint Jerome",
-      "source_types": [
-        "culture-art"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.6,
-      "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
-      "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作...",
-      "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 创作手法或主题有什么特别之处？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landsca",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "music"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6kp5-1c6x6",
-      "title": "River AI",
-      "source_types": [
-        "dev-community"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.5253579016762474,
-      "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
-      "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 对AI辅助开发有什么启示？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hac...",
-      "why_it_matters": " 开发者社区领域动态：River AI。 对AI辅助开发有什么启示？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角",
-      "recommended_uses": [
-        "x-post",
-        "image"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6xyg-op6l2",
-      "title": "River AI",
-      "source_types": [
-        "dev-community"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.5253579016762474,
-      "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
-      "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hack...",
-      "why_it_matters": " 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角度",
-      "recommended_uses": [
-        "x-post",
-        "image"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6kp5-5u8ow",
-      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
-      "source_types": [
-        "ai-ecosystem"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.47624999999999995,
-      "created_at": "2026-06-10T17:22:22.413Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
-      "one_sentence_summary": "Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...",
-      "why_it_matters": " AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, image-to-vid",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "webpage"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md"
-    },
-    {
-      "id": "brief-mq8c6xyg-jhln2",
-      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
-      "source_types": [
-        "ai-ecosystem"
-      ],
-      "recommended_assets": [],
-      "tags": [],
-      "final_score": 0.47624999999999995,
-      "created_at": "2026-06-10T17:22:39.596Z",
-      "content_pack_dir": "/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
-      "one_sentence_summary": "Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...",
-      "why_it_matters": " AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 对AI应用开发有什么影响？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, image-to-vid",
-      "recommended_uses": [
-        "x-post",
-        "image",
-        "webpage"
-      ],
-      "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
-      "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md"
-    },
-    {
-      "id": "cqa-2026-06-11-gen-002",
-      "filename": "cqa-2026-06-11-gen-002_001.jpg",
-      "url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-002_001.jpg",
-      "type": "image",
-      "aspect_ratio": "16:9",
-      "prompt": "Abstract representation of open source AI tools -- interconnected nodes glowing in blue and purple, dark background, tech art style",
-      "source": "SamurAIGPT/Generative-Media-Skills",
-      "generated": "2026-06-11"
-    },
-    {
-      "id": "cqa-2026-06-11-gen-003",
-      "filename": "cqa-2026-06-11-gen-003_001.jpg",
-      "url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-003_001.jpg",
-      "type": "image",
-      "aspect_ratio": "16:9",
-      "prompt": "Museum-quality illustration inspired by The Penitence of Saint Jerome -- classical techniques meet digital art, rich textures, museum lighting",
-      "source": "The Penitence of Saint Jerome",
-      "generated": "2026-06-11"
     }
   ],
-  "last_updated": ""
+  "last_updated": "2026-06-11"
 }
