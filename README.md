@@ -109,3 +109,15 @@ Gallery 页面可直接查看每个 Pack 的**一句话介绍**和**推荐用途
 | cqa-2026-06-11-gen-002_001.jpg | 基于 SamurAIGPT/Generative-Media-Skills 项目主题生成 |
 | cqa-2026-06-11-gen-003_001.jpg | 基于 The Penitence of Saint Jerome 艺术作品主题生成 |
 
+
+---
+
+## 📅 每日归档
+
+按日期浏览每日采集的信号、Content Packs 和已生成内容：
+
+- **日历首页:** https://conanxin.github.io/creative-quota-assets/daily/
+- 按日期查看每天的 Content Packs、来源类型和已生成图片
+
+当前归档日期：2 天（2026-06-10、2026-06-11）
+

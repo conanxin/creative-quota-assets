@@ -1,0 +1,60 @@
+{
+  "generated_at": "2026-06-11T03:23:43.562Z",
+  "total_days": 2,
+  "days": [
+    {
+      "date": "2026-06-11",
+      "content_pack_count": 10,
+      "generated_image_count": 0,
+      "source_types": [
+        "code",
+        "academic",
+        "culture-art",
+        "dev-community",
+        "ai-ecosystem"
+      ],
+      "source_labels_zh": [
+        "开源",
+        "学术",
+        "艺术",
+        "社区",
+        "AI生态"
+      ],
+      "top_titles": [
+        "SamurAIGPT/Generative-Media-Skills",
+        "SamurAIGPT/Generative-Media-Skills",
+        "Flaws in the LLM Automation Narrative",
+        "Flaws in the LLM Automation Narrative",
+        "The Penitence of Saint Jerome"
+      ],
+      "detail_url": "daily/2026/06/2026-06-11/"
+    },
+    {
+      "date": "2026-06-10",
+      "content_pack_count": 15,
+      "generated_image_count": 3,
+      "source_types": [
+        "code",
+        "academic",
+        "culture-art",
+        "dev-community",
+        "ai-ecosystem"
+      ],
+      "source_labels_zh": [
+        "开源",
+        "学术",
+        "艺术",
+        "社区",
+        "AI生态"
+      ],
+      "top_titles": [
+        "SamurAIGPT/Generative-Media-Skills",
+        "SamurAIGPT/Generative-Media-Skills",
+        "SamurAIGPT/Generative-Media-Skills",
+        "Flaws in the LLM Automation Narrative",
+        "Flaws in the LLM Automation Narrative"
+      ],
+      "detail_url": "daily/2026/06/2026-06-10/"
+    }
+  ]
+}

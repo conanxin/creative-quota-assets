@@ -1,0 +1,109 @@
+{
+  "date": "2026-06-10",
+  "content_pack_count": 15,
+  "generated_image_count": 3,
+  "source_types": [
+    "code",
+    "academic",
+    "culture-art",
+    "dev-community",
+    "ai-ecosystem"
+  ],
+  "source_labels_zh": [
+    "开源项目",
+    "学术研究",
+    "文化艺术",
+    "开发者社区",
+    "AI 模型生态"
+  ],
+  "top_packs": [
+    {
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "score": 0.7025,
+      "source_types": [
+        "code"
+      ]
+    },
+    {
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "score": 0.7025,
+      "source_types": [
+        "code"
+      ]
+    },
+    {
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "score": 0.7025,
+      "source_types": [
+        "code"
+      ]
+    },
+    {
+      "title": "Flaws in the LLM Automation Narrative",
+      "score": 0.6619877011020773,
+      "source_types": [
+        "academic"
+      ]
+    },
+    {
+      "title": "Flaws in the LLM Automation Narrative",
+      "score": 0.6619877011020773,
+      "source_types": [
+        "academic"
+      ]
+    },
+    {
+      "title": "Flaws in the LLM Automation Narrative",
+      "score": 0.6619877011020773,
+      "source_types": [
+        "academic"
+      ]
+    },
+    {
+      "title": "The Penitence of Saint Jerome",
+      "score": 0.6,
+      "source_types": [
+        "culture-art"
+      ]
+    },
+    {
+      "title": "The Penitence of Saint Jerome",
+      "score": 0.6,
+      "source_types": [
+        "culture-art"
+      ]
+    },
+    {
+      "title": "The Penitence of Saint Jerome",
+      "score": 0.6,
+      "source_types": [
+        "culture-art"
+      ]
+    },
+    {
+      "title": "River AI",
+      "score": 0.5253579016762474,
+      "source_types": [
+        "dev-community"
+      ]
+    }
+  ],
+  "images": [
+    {
+      "filename": "cqa-2026-06-11-gen-002_001.jpg",
+      "title": "cqa-2026-06-11-gen-002_001.jpg",
+      "model": "image-01"
+    },
+    {
+      "filename": "cqa-2026-06-11-canary-001_001.jpg",
+      "title": "cqa-2026-06-11-canary-001_001.jpg",
+      "model": "image-01"
+    },
+    {
+      "filename": "cqa-2026-06-11-gen-003_001.jpg",
+      "title": "cqa-2026-06-11-gen-003_001.jpg",
+      "model": "image-01"
+    }
+  ],
+  "generated_at": "2026-06-11T03:23:43.570Z"
+}
