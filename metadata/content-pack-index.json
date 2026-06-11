@@ -32,7 +32,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills",
@@ -66,7 +69,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
@@ -93,7 +99,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative",
@@ -120,7 +129,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
@@ -154,7 +166,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
@@ -188,7 +203,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai",
@@ -213,7 +231,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai",
@@ -238,7 +259,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
@@ -266,7 +290,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt",
@@ -294,7 +321,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills",
@@ -328,7 +358,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
@@ -362,7 +395,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md",
-      "has_generated_image": true
+      "has_generated_image": true,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
@@ -396,7 +432,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
@@ -423,7 +462,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
-      "has_generated_image": true
+      "has_generated_image": true,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative",
@@ -450,7 +492,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative",
@@ -477,7 +522,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
@@ -511,7 +559,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md",
-      "has_generated_image": true
+      "has_generated_image": true,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome",
@@ -545,7 +596,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome",
@@ -579,7 +633,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai",
@@ -604,7 +661,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai",
@@ -629,7 +689,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
@@ -654,7 +717,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
@@ -682,7 +748,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt",
@@ -710,7 +779,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json"
     },
     {
       "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt",
@@ -738,7 +810,10 @@
       ],
       "detail_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json",
       "summary_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
-      "has_generated_image": false
+      "has_generated_image": false,
+      "detail_page_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/index.html",
+      "summary_md_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md",
+      "detail_json_path": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json"
     }
   ],
   "total": 25,
