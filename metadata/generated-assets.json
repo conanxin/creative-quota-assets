@@ -11,5 +11,31 @@
     "generated_at": "2026-06-11T03:04:00+08:00",
     "watermark": true,
     "file_size_kb": 325
+  },
+  {
+    "asset_id": "cqa-2026-06-11-gen-002",
+    "filename": "cqa-2026-06-11-gen-002_001.jpg",
+    "path": "images/2026/06/cqa-2026-06-11-gen-002_001.jpg",
+    "model": "image-01",
+    "prompt": "Abstract representation of open source AI tools -- interconnected nodes glowing in blue and purple, dark background, tech art style",
+    "aspect_ratio": "16:9",
+    "content_pack": "brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+    "source_type": "code",
+    "generated_at": "2026-06-11T08:19:00+08:00",
+    "watermark": false,
+    "file_size_kb": 184
+  },
+  {
+    "asset_id": "cqa-2026-06-11-gen-003",
+    "filename": "cqa-2026-06-11-gen-003_001.jpg",
+    "path": "images/2026/06/cqa-2026-06-11-gen-003_001.jpg",
+    "model": "image-01",
+    "prompt": "Museum-quality illustration inspired by The Penitence of Saint Jerome -- classical techniques meet digital art, rich textures, museum lighting",
+    "aspect_ratio": "16:9",
+    "content_pack": "brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome",
+    "source_type": "culture-art",
+    "generated_at": "2026-06-11T08:19:00+08:00",
+    "watermark": false,
+    "file_size_kb": 353
   }
 ]
