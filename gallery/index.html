@@ -16,9 +16,6 @@
       --tag-bg: rgba(91,91,214,0.08);
       --tag-text: #5b5bd6;
       --green: #22c55e;
-      --score-high: #22c55e;
-      --score-mid: #f59e0b;
-      --score-low: #ef4444;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -31,1267 +28,538 @@
       padding: 2rem 1rem;
     }
 
+    .container { max-width: 1100px; margin: 0 auto; }
+
     /* ── Header ──────────────────────────────────────────── */
-    header {
-      max-width: 1100px;
-      margin: 0 auto 2rem;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 2.2rem;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 0.4rem;
-      letter-spacing: -0.02em;
-    }
-
+    header { text-align: center; margin-bottom: 2rem; }
+    header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.4rem; }
     header h1 span { color: var(--accent); }
-
-    header .subtitle {
-      color: var(--text-muted);
-      font-size: 0.95rem;
-      margin-bottom: 0.5rem;
-    }
-
-    header .en-sub {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      opacity: 0.7;
-    }
-
-    .status-badges {
-      display: flex;
-      gap: 0.5rem;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 0.75rem;
-    }
-
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.3rem;
-      padding: 0.25rem 0.7rem;
-      background: var(--accent-dim);
-      border: 1px solid var(--accent);
-      border-radius: 999px;
-      color: var(--accent);
-      font-size: 0.72rem;
-      font-weight: 600;
-    }
-
-    /* ── Stats ──────────────────────────────────────────── */
-    .stats-bar {
-      max-width: 1100px;
-      margin: 0 auto 2rem;
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-      gap: 0.75rem;
-    }
-
-    .stat-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 10px;
-      padding: 0.85rem 1rem;
-      text-align: center;
-    }
-
-    .stat-val {
-      font-size: 1.6rem;
-      font-weight: 700;
-      color: var(--accent);
-      line-height: 1;
-    }
-
-    .stat-lbl {
-      font-size: 0.72rem;
-      color: var(--text-muted);
-      margin-top: 0.25rem;
-    }
-
-    /* ── Generated Images ───────────────────────────────── */
-    .gen-images {
-      max-width: 1100px;
-      margin: 0 auto 2.5rem;
-    }
-
-    .gen-images h2 {
-      font-size: 1rem;
-      font-weight: 600;
-      color: var(--text-muted);
-      margin-bottom: 0.75rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-    }
-
-    .gen-img-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-      gap: 1rem;
-    }
-
-    .gen-img-card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 10px;
-      overflow: hidden;
-    }
-
-    .gen-img-card img {
-      width: 100%;
-      height: 140px;
-      object-fit: cover;
-      display: block;
-    }
-
-    .gen-img-info {
-      padding: 0.6rem 0.8rem;
-    }
-
-    .gen-img-name {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--text);
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
-
-    .gen-img-meta {
-      font-size: 0.7rem;
-      color: var(--text-muted);
-      margin-top: 0.2rem;
-    }
-
-    .gen-img-tags {
-      display: flex;
-      gap: 0.3rem;
-      flex-wrap: wrap;
-      margin-top: 0.3rem;
-    }
-
-    .gen-img-desc {
-      font-size: 0.72rem;
-      color: var(--text);
-      line-height: 1.4;
-      margin-top: 0.3rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .gen-img-use {
-      font-size: 0.68rem;
-      color: var(--text-muted);
-      margin-top: 0.25rem;
-    }
-
-    .gen-img-link {
-      display: inline-block;
-      font-size: 0.68rem;
-      color: var(--accent);
-      text-decoration: none;
-      margin-top: 0.3rem;
-    }
-
-    .gen-img-link:hover { text-decoration: underline; }
-
-    /* ── Filters ────────────────────────────────────────── */
-    .filters {
-      max-width: 1100px;
-      margin: 0 auto 1.5rem;
-      display: flex;
-      gap: 0.6rem;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .filter-btn {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      color: var(--text-muted);
-      padding: 0.35rem 0.9rem;
-      border-radius: 999px;
-      cursor: pointer;
-      font-size: 0.8rem;
-      transition: all 0.15s;
-      font-family: inherit;
-    }
-
-    .filter-btn:hover, .filter-btn.active {
-      background: var(--accent-dim);
-      border-color: var(--accent);
-      color: var(--accent);
-    }
-
-    /* ── Grid ────────────────────────────────────────────── */
-    .grid {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
-      gap: 1.1rem;
-    }
-
-    /* ── Card ───────────────────────────────────────────── */
-    .card {
-      background: var(--card-bg);
-      border: 1px solid var(--card-border);
-      border-radius: 12px;
-      overflow: hidden;
-      transition: transform 0.15s, box-shadow 0.15s;
-    }
-
-    .card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 6px 20px rgba(0,0,0,0.07);
-    }
-
-    .card-header {
-      padding: 1rem 1.1rem 0.7rem;
-      border-bottom: 1px solid var(--card-border);
-    }
-
-    .card-type {
-      display: inline-block;
-      font-size: 0.68rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--accent);
-      background: var(--accent-dim);
-      padding: 0.1rem 0.45rem;
-      border-radius: 4px;
-      margin-bottom: 0.45rem;
-    }
-
-    .card-title {
-      font-size: 0.9rem;
-      font-weight: 600;
-      line-height: 1.4;
-      color: var(--text);
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .card-score {
-      display: flex;
-      align-items: center;
-      gap: 0.5rem;
-      margin-top: 0.5rem;
-    }
-
-    .score-bar {
-      flex: 1;
-      height: 4px;
-      background: #eee;
-      border-radius: 2px;
-      overflow: hidden;
-    }
-
-    .score-fill {
-      height: 100%;
-      border-radius: 2px;
-    }
-
-    .score-val {
-      font-size: 0.72rem;
-      font-weight: 700;
-      min-width: 34px;
-      text-align: right;
-    }
-
-    .card-tags {
-      padding: 0.5rem 1.1rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.3rem;
-    }
-
-    .tag {
-      background: var(--tag-bg);
-      color: var(--tag-text);
-      font-size: 0.68rem;
-      padding: 0.1rem 0.4rem;
-      border-radius: 4px;
-    }
-
-    .card-assets {
-      padding: 0.5rem 1.1rem;
-      display: flex;
-      gap: 0.4rem;
-      flex-wrap: wrap;
-    }
-
-    .asset-chip {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.2rem;
-      font-size: 0.68rem;
-      color: var(--text-muted);
-      background: var(--bg);
-      border: 1px solid var(--card-border);
-      padding: 0.15rem 0.45rem;
-      border-radius: 4px;
-    }
-
-    .asset-chip.active {
-      color: var(--green);
-      border-color: var(--green);
-      background: rgba(34,197,94,0.06);
-    }
-
-    .card-files {
-      padding: 0.6rem 1.1rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 0.15rem;
-    }
-
-    .file-link {
-      font-size: 0.7rem;
-      color: var(--text-muted);
-      text-decoration: none;
-      padding: 0.15rem 0;
-      display: flex;
-      align-items: center;
-      gap: 0.25rem;
-      transition: color 0.1s;
-    }
-
-    .file-link:hover { color: var(--accent); }
-
-    .file-link::before {
-      content: '📄';
-      font-size: 0.6rem;
-    }
-
-    .file-link.prompt::before { content: '🎨'; }
-    .file-link.xpost::before { content: '🐦'; }
-    .file-link.video::before { content: '🎬'; }
-    .file-link.music::before { content: '🎵'; }
-    .file-link.web::before { content: '🌐'; }
-    .file-link.brief::before { content: '📋'; }
-
-    .card-footer {
-      padding: 0.5rem 1.1rem;
-      border-top: 1px solid var(--card-border);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .card-date { font-size: 0.68rem; color: var(--text-muted); }
-    .card-sources { font-size: 0.68rem; color: var(--text-muted); }
-
-    /* ── Card Summary (enriched content) ─────────────────── */
-    .card-summary {
-      padding: 0.6rem 1.1rem;
-      border-top: 1px solid var(--card-border);
-      background: var(--bg);
-    }
-
-    .card-summary-label {
-      font-size: 0.65rem;
-      font-weight: 700;
-      color: var(--text-muted);
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      margin-bottom: 0.3rem;
-    }
-
-    .card-one-sentence {
-      font-size: 0.78rem;
-      color: var(--text);
-      line-height: 1.5;
-      margin-bottom: 0.5rem;
-      display: -webkit-box;
-      -webkit-line-clamp: 2;
-      -webkit-box-orient: vertical;
-      overflow: hidden;
-    }
-
-    .card-uses {
-      display: flex;
-      gap: 0.3rem;
-      flex-wrap: wrap;
-      margin-bottom: 0.4rem;
-    }
-
-    .use-chip {
-      font-size: 0.65rem;
-      color: var(--accent);
-      background: var(--accent-dim);
-      border: 1px solid var(--accent);
-      padding: 0.1rem 0.4rem;
-      border-radius: 4px;
-    }
-
-    .card-detail-link {
-      font-size: 0.68rem;
-      color: var(--text-muted);
-      text-decoration: none;
-      display: inline-flex;
-      align-items: center;
-      gap: 0.2rem;
-    }
-
-    .card-detail-link:hover { color: var(--accent); }
-
-    /* ── States ──────────────────────────────────────────── */
-    .empty, .loading, .error {
-      grid-column: 1 / -1;
-      text-align: center;
-      padding: 4rem 2rem;
-      color: var(--text-muted);
-    }
-
-    .error-box {
-      background: #fef2f2;
-      border: 1px solid #fecaca;
-      border-radius: 10px;
-      padding: 1.5rem;
-      max-width: 400px;
-      margin: 0 auto;
-      color: #991b1b;
-      text-align: center;
-    }
-
-    .error-box p { margin-bottom: 0.75rem; font-size: 0.9rem; }
-    .error-box a { color: var(--accent); }
-
-    /* ── Footer ──────────────────────────────────────────── */
-    footer {
-      max-width: 1100px;
-      margin: 3rem auto 0;
-      text-align: center;
-      color: var(--text-muted);
-      font-size: 0.78rem;
-      border-top: 1px solid var(--card-border);
-      padding-top: 1.5rem;
-    }
-
-    footer a { color: var(--accent); text-decoration: none; }
-    footer a:hover { text-decoration: underline; }
-    footer p { margin-top: 0.4rem; opacity: 0.7; }
-  
-    /* Accent button for primary CTA */
-    .accent-btn {
-      background: var(--accent);
-      color: #fff;
-      border: none;
-      font-weight: 600;
-    }
+    header .subtitle { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 0.5rem; }
+    .status-badges { display: flex; gap: 0.5rem; justify-content: center; flex-wrap: wrap; margin-top: 0.75rem; }
+    .badge { display: inline-flex; align-items: center; gap: 0.3rem; padding: 0.25rem 0.7rem; background: var(--accent-dim); border: 1px solid var(--accent); border-radius: 999px; color: var(--accent); font-size: 0.72rem; font-weight: 600; }
+    .accent-btn { background: var(--accent); color: #fff; border: none; font-weight: 600; text-decoration: none; }
     .accent-btn:hover { background: #4a4ac0; }
 
+    /* ── Stats ──────────────────────────────────────────── */
+    .stats-bar { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 0.75rem; margin-bottom: 2rem; }
+    .stat-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 10px; padding: 0.85rem 1rem; text-align: center; }
+    .stat-val { font-size: 1.6rem; font-weight: 700; color: var(--accent); line-height: 1; }
+    .stat-lbl { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.25rem; }
 
-/* ── Mobile Responsive (max-width: 720px) ───────────────────── */
-@media (max-width: 720px) {
-  body { padding: 0.75rem 0.75rem; }
+    /* ── Filters ────────────────────────────────────────── */
+    .filters { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-bottom: 1.5rem; }
+    .filter-btn { background: var(--card-bg); border: 1px solid var(--card-border); color: var(--text-muted); padding: 0.35rem 0.9rem; border-radius: 999px; cursor: pointer; font-size: 0.8rem; transition: all 0.15s; font-family: inherit; }
+    .filter-btn:hover, .filter-btn.active { background: var(--accent-dim); border-color: var(--accent); color: var(--accent); }
+    .empty-state { text-align: center; padding: 3rem; color: var(--text-muted); display: none; }
+    .empty-state.visible { display: block; }
 
-  /* Hero compact */
-  header { margin-bottom: 1rem; }
-  header h1 { font-size: 1.4rem; margin-bottom: 0.2rem; }
-  header .subtitle { font-size: 0.78rem; margin-bottom: 0.3rem; }
-  header .en-sub { display: none; }
-  .status-badges { gap: 0.3rem; margin-top: 0.4rem; }
-  .badge { font-size: 0.65rem; padding: 0.2rem 0.5rem; }
+    /* ── Grids ────────────────────────────────────────────── */
+    .section { margin-bottom: 2.5rem; }
+    .section-title { font-size: 1rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0.75rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    .asset-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1rem; }
+    .image-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
 
-  /* Stats: 2-col */
-  .stats-bar { grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 1.5rem; }
-  .stat-card { padding: 0.6rem 0.5rem; }
-  .stat-val { font-size: 1.3rem; }
-  .stat-lbl { font-size: 0.65rem; }
+    /* ── Cards ───────────────────────────────────────────── */
+    .asset-card { background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; overflow: hidden; transition: transform 0.15s, box-shadow 0.15s; display: flex; flex-direction: column; }
+    .asset-card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.07); }
+    .asset-card.hidden { display: none; }
+    .asset-card .card-header { padding: 1rem 1.1rem 0.7rem; border-bottom: 1px solid var(--card-border); }
+    .asset-card .card-type { display: inline-block; font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--accent); background: var(--accent-dim); padding: 0.1rem 0.45rem; border-radius: 4px; margin-bottom: 0.45rem; }
+    .asset-card .card-title { font-size: 0.9rem; font-weight: 600; line-height: 1.4; color: var(--text); display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .asset-card .card-score { font-size: 0.72rem; color: var(--text-muted); margin-top: 0.3rem; }
+    .asset-card .card-summary { padding: 0.6rem 1.1rem; font-size: 0.78rem; color: var(--text); line-height: 1.5; border-top: 1px solid var(--card-border); background: var(--bg); }
+    .asset-card .card-tags { padding: 0.5rem 1.1rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .asset-card .tag { background: var(--tag-bg); color: var(--tag-text); font-size: 0.68rem; padding: 0.1rem 0.4rem; border-radius: 4px; }
+    .asset-card .card-uses { padding: 0.5rem 1.1rem; display: flex; flex-wrap: wrap; gap: 0.3rem; }
+    .asset-card .use-chip { font-size: 0.65rem; color: var(--accent); background: var(--accent-dim); border: 1px solid var(--accent); padding: 0.1rem 0.4rem; border-radius: 4px; }
+    .asset-card .card-actions { padding: 0.6rem 1.1rem; border-top: 1px solid var(--card-border); display: flex; gap: 0.5rem; margin-top: auto; }
+    .asset-card .btn-primary { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.75rem; color: #fff; background: var(--accent); text-decoration: none; padding: 0.3rem 0.7rem; border-radius: 6px; font-weight: 600; }
+    .asset-card .btn-primary:hover { background: #4a4ac0; }
+    .asset-card .btn-secondary { display: inline-flex; align-items: center; gap: 0.2rem; font-size: 0.75rem; color: var(--accent); background: var(--accent-dim); text-decoration: none; padding: 0.3rem 0.7rem; border-radius: 6px; font-weight: 600; }
+    .asset-card .btn-secondary:hover { background: rgba(91,91,214,0.15); }
 
-  /* Gen images: horizontal scroll */
-  .gen-images { margin-bottom: 1.5rem; }
-  .gen-images h2 { font-size: 0.9rem; margin-bottom: 0.5rem; }
-  .gen-img-grid { display: flex; overflow-x: auto; gap: 0.75rem; padding-bottom: 0.5rem; scroll-snap-type: x mandatory; -webkit-overflow-scrolling: touch; }
-  .gen-img-grid > * { flex: 0 0 75vw; max-width: 280px; scroll-snap-align: start; }
-  .gen-img-card img { height: 180px; }
+    /* Image card specific */
+    .image-card .image-frame { height: 160px; overflow: hidden; background: var(--bg); display: flex; align-items: center; justify-content: center; }
+    .image-card .image-frame img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    .image-card .image-placeholder { font-size: 2rem; }
+    .image-card .card-body { padding: 0.8rem 1rem; flex: 1; display: flex; flex-direction: column; }
+    .image-card .card-meta { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.3rem; }
+    .image-card .card-desc { font-size: 0.75rem; color: var(--text); line-height: 1.4; margin-bottom: 0.3rem; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+    .image-card .card-use { font-size: 0.7rem; color: var(--text-muted); margin-bottom: 0.3rem; }
+    .image-card .card-source { font-size: 0.68rem; color: var(--green); margin-bottom: 0.5rem; }
 
-  /* Filters: horizontal scroll, sticky */
-  .filters { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; margin-bottom: 1rem; padding-bottom: 0.25rem; position: sticky; top: 0; background: var(--bg); z-index: 10; }
-  .filters::-webkit-scrollbar { display: none; }
-  .filter-btn { flex: 0 0 auto; font-size: 0.75rem; padding: 0.3rem 0.75rem; }
+    /* ── Footer ──────────────────────────────────────────── */
+    footer { text-align: center; color: var(--text-muted); font-size: 0.78rem; border-top: 1px solid var(--card-border); padding-top: 1.5rem; margin-top: 2rem; }
+    footer a { color: var(--accent); text-decoration: none; }
+    footer a:hover { text-decoration: underline; }
 
-  /* Grid: single column */
-  .grid { grid-template-columns: 1fr; gap: 0.75rem; }
-
-  /* Pack card: clean mobile card */
-  .pack-card {
-    background: #fff;
-    border: 1px solid #e8e4dd;
-    border-radius: 12px;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-  }
-  .pack-header { padding: 0.8rem 0.9rem 0.5rem; border-bottom: none; }
-  .pack-type { font-size: 0.62rem; }
-  .pack-title { font-size: 0.88rem; line-height: 1.35; display: block; -webkit-line-clamp: 3; overflow: hidden; }
-  .pack-score { font-size: 0.65rem; color: #7a7570; margin-top: 0.2rem; }
-  .pack-summary { padding: 0.4rem 0.9rem; font-size: 0.78rem; line-height: 1.45; color: #2c2c2c; border-top: 1px solid #f0ede8; }
-  .pack-tags { padding: 0.4rem 0.9rem; flex-wrap: wrap; gap: 0.25rem; }
-  .tag { font-size: 0.62rem; }
-  .pack-uses { padding: 0.3rem 0.9rem 0.4rem; flex-wrap: wrap; gap: 0.25rem; }
-  .use-chip { font-size: 0.6rem; padding: 0.1rem 0.35rem; }
-  .pack-links { padding: 0.4rem 0.9rem 0.6rem; display: flex; gap: 0.5rem; }
-  .pack-link { font-size: 0.72rem; }
-
-  /* Footer */
-  footer { margin-top: 2rem; padding-top: 1rem; }
-}
-
-</style>
+    /* ── Mobile Responsive ─────────────────────────────── */
+    @media (max-width: 720px) {
+      body { padding: 0.75rem; }
+      header h1 { font-size: 1.4rem; }
+      header .subtitle { font-size: 0.78rem; }
+      .stats-bar { grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-bottom: 1.5rem; }
+      .stat-card { padding: 0.6rem 0.5rem; }
+      .stat-val { font-size: 1.3rem; }
+      .filters { overflow-x: auto; flex-wrap: nowrap; -webkit-overflow-scrolling: touch; scrollbar-width: none; position: sticky; top: 0; background: var(--bg); z-index: 10; padding-bottom: 0.25rem; }
+      .filters::-webkit-scrollbar { display: none; }
+      .filter-btn { flex: 0 0 auto; font-size: 0.75rem; padding: 0.3rem 0.75rem; }
+      .asset-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+      .image-grid { grid-template-columns: 1fr; gap: 0.75rem; }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
 
-<!-- ── Header ──────────────────────────────────────────── -->
-<header>
-  <h1><span>AI</span> 创意素材库</h1>
-  <p class="subtitle">真实信号生成的内容包 · 25 内容 · 3 图片 · 5 来源</p>
-  <div class="status-badges">
-    <a class="badge accent-btn" href="/creative-quota-assets/daily/" style="text-decoration:none">📅 每日归档</a>
-    <a class="badge" href="https://github.com/conanxin/creative-quota-assets" style="text-decoration:none">📂 GitHub</a>
-  </div>
-</header>
-
-<!-- ── Stats Bar ──────────────────────────────────────── -->
-<div class="stats-bar" id="statsBar">
-  <div class="stat-card">
-    <div class="stat-val" id="statPacks">25</div>
-    <div class="stat-lbl">Content Packs</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-val" id="statImages">3</div>
-    <div class="stat-lbl">已生成图片</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-val" id="statSources">5</div>
-    <div class="stat-lbl">信号来源</div>
-  </div>
-  <div class="stat-card">
-    <div class="stat-val" id="statUpdated">06-11 08:19</div>
-    <div class="stat-lbl">最后更新</div>
-  </div>
-</div>
-
-<!-- ── Generated Images Section ───────────────────────── -->
-<div class="gen-images" id="genImagesSection" style="display:block">
-  <h2>🖼️ 已生成图片</h2>
-  <div class="gen-img-grid" id="genImgGrid"></div>
-</div>
-
-<!-- ── Filters ─────────────────────────────────────── -->
-<div class="filters" id="filters">
-  <button class="filter-btn active" data-filter="all">全部</button>
-  <button class="filter-btn" data-filter="code">开源项目</button>
-  <button class="filter-btn" data-filter="academic">学术研究</button>
-  <button class="filter-btn" data-filter="ai-ecosystem">AI 模型生态</button>
-  <button class="filter-btn" data-filter="dev-community">开发者社区</button>
-  <button class="filter-btn" data-filter="culture-art">文化艺术</button>
-  <button class="filter-btn" data-filter="context">日期与天气</button>
-</div>
-
-<!-- ── Grid ────────────────────────────────────────── -->
-<!-- PRE-RENDERED-CONTENT -->
-<div id="pre-rendered-packs">
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">开源</span>
-      <div class="pack-title">SamurAIGPT/Generative-Media-Skills</div>
-      <div class="pack-score">评分: 0.703</div>
-</div>
-<div class="gen-img-card">
-    
-    <div class="gen-img-info">
-      <div class="gen-img-title">cqa-2026-06-11-gen-002_001.jpg</div>
-      <div class="gen-img-date">2026-06-11</div>
-      <div class="gen-img-desc">基于学术论文 'mq8c6kp4 7 samuraigpt generative media skills' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。</div>
-      <div class="gen-img-use">适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。</div>
-      <div class="gen-img-source">来源: brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills</div>
-    </div>
-  </div>
-<div class="gen-img-card">
-    
-    <div class="gen-img-info">
-      <div class="gen-img-title">cqa-2026-06-11-gen-003_001.jpg</div>
-      <div class="gen-img-date">2026-06-11</div>
-      <div class="gen-img-desc">基于学术论文 'mq8c6kp5 r the penitence of saint jerome' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。</div>
-      <div class="gen-img-use">适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。</div>
-      <div class="gen-img-source">来源: brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome</div>
-    </div>
-  </div>
-</div>
-
-    </div>
-    
-    <div class="pack-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">开源</span>
-      <div class="pack-title">SamurAIGPT/Generative-Media-Skills</div>
-      <div class="pack-score">评分: 0.703</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">开源</span>
-      <div class="pack-title">SamurAIGPT/Generative-Media-Skills</div>
-      <div class="pack-score">评分: 0.703</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">开源</span>
-      <div class="pack-title">SamurAIGPT/Generative-Media-Skills</div>
-      <div class="pack-score">评分: 0.703</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">开源</span>
-      <div class="pack-title">SamurAIGPT/Generative-Media-Skills</div>
-      <div class="pack-score">评分: 0.703</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">学术</span>
-      <div class="pack-title">Flaws in the LLM Automation Narrative</div>
-      <div class="pack-score">评分: 0.662</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">学术</span>
-      <div class="pack-title">Flaws in the LLM Automation Narrative</div>
-      <div class="pack-score">评分: 0.662</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">学术</span>
-      <div class="pack-title">Flaws in the LLM Automation Narrative</div>
-      <div class="pack-score">评分: 0.662</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">学术</span>
-      <div class="pack-title">Flaws in the LLM Automation Narrative</div>
-      <div class="pack-score">评分: 0.662</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">学术</span>
-      <div class="pack-title">Flaws in the LLM Automation Narrative</div>
-      <div class="pack-score">评分: 0.662</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">艺术</span>
-      <div class="pack-title">The Penitence of Saint Jerome</div>
-      <div class="pack-score">评分: 0.600</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">艺术</span>
-      <div class="pack-title">The Penitence of Saint Jerome</div>
-      <div class="pack-score">评分: 0.600</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">艺术</span>
-      <div class="pack-title">The Penitence of Saint Jerome</div>
-      <div class="pack-score">评分: 0.600</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">艺术</span>
-      <div class="pack-title">The Penitence of Saint Jerome</div>
-      <div class="pack-score">评分: 0.600</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">艺术</span>
-      <div class="pack-title">The Penitence of Saint Jerome</div>
-      <div class="pack-score">评分: 0.600</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">社区</span>
-      <div class="pack-title">River AI</div>
-      <div class="pack-score">评分: 0.525</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">社区</span>
-      <div class="pack-title">River AI</div>
-      <div class="pack-score">评分: 0.525</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">社区</span>
-      <div class="pack-title">River AI</div>
-      <div class="pack-score">评分: 0.525</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">社区</span>
-      <div class="pack-title">River AI</div>
-      <div class="pack-score">评分: 0.525</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">社区</span>
-      <div class="pack-title">River AI</div>
-      <div class="pack-score">评分: 0.525</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">AI生态</span>
-      <div class="pack-title">stabilityai/stable-video-diffusion-img2vid-xt</div>
-      <div class="pack-score">评分: 0.476</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">AI生态</span>
-      <div class="pack-title">stabilityai/stable-video-diffusion-img2vid-xt</div>
-      <div class="pack-score">评分: 0.476</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">AI生态</span>
-      <div class="pack-title">stabilityai/stable-video-diffusion-img2vid-xt</div>
-      <div class="pack-score">评分: 0.476</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">AI生态</span>
-      <div class="pack-title">stabilityai/stable-video-diffusion-img2vid-xt</div>
-      <div class="pack-score">评分: 0.476</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-<div class="pack-card">
-    <div class="pack-header">
-      <span class="pack-type">AI生态</span>
-      <div class="pack-title">stabilityai/stable-video-diffusion-img2vid-xt</div>
-      <div class="pack-score">评分: 0.476</div>
-    </div>
-    
-    <div class="pack-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
-    <div class="pack-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
-    <div class="pack-links">
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋详情</a>
-      <a class="pack-link" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝摘要</a>
-    </div>
-  </div>
-</div>
-<div class="grid" id="grid"></div>
-
-<!-- ── Footer ──────────────────────────────────────── -->
-<footer>
-  <p>
-    <a href="https://github.com/conanxin/creative-quota-assets">GitHub 仓库</a> ·
-    <a href="https://github.com/conanxin/creative-quota-harvester">Harvester 项目</a> ·
-    <a href="https://github.com/conanxin/creative-quota-harvester/blob/main/docs/ROADMAP.md">Roadmap</a> ·
-    <a href="/creative-quota-assets/daily/">📅 每日归档</a>
-  </p>
-  <p>提示协议：CC-BY 4.0 · 元数据：MIT · 生成媒体：CC-BY-NC 4.0</p>
-</footer>
-
-<script>
-// ── Data ────────────────────────────────────────────────
-const ASSET_DATA = []; // Will be loaded from JSON
-
-// ── Path resolution ────────────────────────────────
-function getBase() {
-  // Handle both GitHub Pages (/creative-quota-assets/) and local dev
-  const p = location.pathname;
-  if (p.includes('/creative-quota-assets/')) {
-    return '/creative-quota-assets/';
-  }
-  return '../';
-}
-
-async function safeFetch(src) {
-  try {
-    const r = await fetch(src, { cache: 'no-cache' });
-    if (!r.ok) return null;
-    return await r.json();
-  } catch { return null; }
-}
-
-async function loadData() {
-  const BASE = getBase();
-
-  // Load main assets list
-  const assetSources = [
-    BASE + 'gallery/assets.json',
-    'https://raw.githubusercontent.com/conanxin/creative-quota-assets/main/gallery/assets.json',
-  ];
-  for (const src of assetSources) {
-    const d = await safeFetch(src);
-    if (d && (d.assets || Array.isArray(d))) return { assets: d.assets || d, BASE };
-  }
-
-  // Load from content-pack-index as fallback
-  const cpIndex = await safeFetch(BASE + 'metadata/content-pack-index.json');
-  if (cpIndex && cpIndex.content_packs) {
-    return { assets: cpIndex.content_packs.map(p => ({
-      ...p,
-      type: 'unknown',
-      detail_path: p.detail_path || '',
-      summary_path: p.summary_path || '',
-    })), BASE };
-  }
-
-  return null;
-}
-
-// ── Stats ───────────────────────────────────────────────
-function updateStats(packs, images, sources) {
-  const packSet = new Set(packs.map(p => p.content_pack_dir || p.packId));
-  const srcSet = new Set();
-  packs.forEach(p => (p.source_types || []).forEach(s => srcSet.add(s)));
-  const all = packs.concat(images);
-  const dates = all.map(a => a.generated_at || a.created_at || '').filter(Boolean).sort().reverse();
-  const lastDate = dates[0] ? dates[0].slice(0, 10) : '—';
-
-  document.getElementById('statPacks').textContent = packSet.size || '—';
-  document.getElementById('statImages').textContent = images.length || '0';
-  document.getElementById('statSources').textContent = srcSet.size || '—';
-  document.getElementById('statUpdated').textContent = lastDate === '—' ? '—' : lastDate.slice(5, 16).replace('T', ' '); // MM-DD HH:MM
-}
-
-// ── Generated images ─────────────────────────────────────
-function renderGenImages(images) {
-  if (!images || images.length === 0) return;
-  const section = document.getElementById('genImagesSection');
-  const grid = document.getElementById('genImgGrid');
-  section.style.display = 'block';
-  grid.innerHTML = images.map(img => {
-    const tags = (img.tags || []).map(t => `<span class="tag">${t}</span>`).join('');
-    const date = (img.generated_at || img.created_at || '').slice(0, 10);
-    const desc = img.description_zh || img.prompt_summary_zh || '';
-    const recommendedUse = img.recommended_use_zh || '';
-    const sourceCp = img.source_content_pack || '';
-    const fullUrl = img.url || img.thumbnail || img.full || '#';
-    const title = img.title || img.filename || '—';
-    return `
-      <div class="gen-img-card">
-        <img src="${fullUrl}"
-             alt="${title}"
-             loading="lazy"
-             onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 400 200%22><rect fill=%22%23e5e7eb%22 width=%22400%22 height=%22200%22/><text x=%22200%22 y=%22100%22 text-anchor=%22middle%22 dy=%22.3em%22 fill=%22%239ca3af%22 font-size=%2214%22>Image unavailable</text></svg>'">
-        <div class="gen-img-info">
-          <div class="gen-img-name">${title}</div>
-          <div class="gen-img-meta">${img.model || 'image-01'} · ${date}${sourceCp ? ' · 来源: ' + sourceCp.replace(/_/g,' ').replace('brief-brief-','') : ''}</div>
-          ${desc ? `<div class="gen-img-desc">${desc.slice(0, 80)}${desc.length > 80 ? '...' : ''}</div>` : ''}
-          ${recommendedUse ? `<div class="gen-img-use">${recommendedUse}</div>` : ''}
-          <div class="gen-img-tags">${tags}</div>
-          ${fullUrl.startsWith('http') ? `<a class="gen-img-link" href="${fullUrl}" target="_blank">🔗 查看原图</a>` : ''}
-        </div>
+    <!-- Header -->
+    <header>
+      <h1><span>AI</span> 创意素材库</h1>
+      <p class="subtitle">真实信号生成的内容包 · 25 内容 · 3 图片 · 5 来源</p>
+      <div class="status-badges">
+        <a class="badge accent-btn" href="/creative-quota-assets/daily/">📅 每日归档</a>
+        <a class="badge" href="https://github.com/conanxin/creative-quota-assets">📂 GitHub</a>
       </div>
-    `;
-  }).join('');
-}
+    </header>
 
-// ── Score helpers ──────────────────────────────────────
-function scoreColor(s) {
-  if (s >= 0.60) return 'var(--score-high)';
-  if (s >= 0.45) return 'var(--score-mid)';
-  return 'var(--score-low)';
-}
+    <!-- Stats -->
+    <div class="stats-bar">
+      <div class="stat-card"><div class="stat-val">25</div><div class="stat-lbl">Content Packs</div></div>
+      <div class="stat-card"><div class="stat-val">3</div><div class="stat-lbl">已生成图片</div></div>
+      <div class="stat-card"><div class="stat-val">5</div><div class="stat-lbl">信号来源</div></div>
+      <div class="stat-card"><div class="stat-val">06-11</div><div class="stat-lbl">最后更新</div></div>
+    </div>
 
-// ── Type labels ─────────────────────────────────────────
-const TYPE_LABELS = {
-  'code': '开源项目',
-  'academic': '学术研究',
-  'ai-ecosystem': 'AI 模型生态',
-  'dev-community': '开发者社区',
-  'culture-art': '文化艺术',
-  'context': '日期与天气',
-  'news': '新闻',
-};
+    <!-- Filters -->
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">全部</button>
+      <button class="filter-btn" data-filter="code">开源项目</button>
+      <button class="filter-btn" data-filter="academic">学术研究</button>
+      <button class="filter-btn" data-filter="ai-ecosystem">AI模型生态</button>
+      <button class="filter-btn" data-filter="dev-community">开发者社区</button>
+      <button class="filter-btn" data-filter="culture-art">文化艺术</button>
+      <button class="filter-btn" data-filter="context">日期与天气</button>
+    </div>
+    <div class="empty-state" id="emptyState">暂无匹配素材，请切换筛选条件。</div>
 
-function typeLabel(t) { return TYPE_LABELS[t] || t || '其他'; }
-
-// ── File map ───────────────────────────────────────────
-const FILE_MAP = [
-  { key: 'brief',         label: 'brief.md',              cls: 'brief'  },
-  { key: 'x-post',         label: 'x-post.zh.md',          cls: 'xpost'  },
-  { key: 'image',         label: 'image-prompt.md',        cls: 'prompt' },
-  { key: 'video',         label: 'video-prompt.md',        cls: 'video'  },
-  { key: 'music',         label: 'music-prompt.md',        cls: 'music'  },
-  { key: 'webpage',       label: 'webpage-outline.md',     cls: 'web'    },
-];
-
-// ── Build card ──────────────────────────────────────────
-function buildCard(asset) {
-  const score = asset.final_score || 0;
-  const primaryType = (asset.source_types || [])[0] || 'unknown';
-  const tags = (asset.tags || []).slice(0, 6).map(t => `<span class="tag">${t}</span>`).join('');
-  const recAssets = asset.recommended_assets || [];
-  const scoreFillPct = Math.round(score * 100);
-  const scoreFillColor = scoreColor(score);
-  const date = (asset.created_at || '').slice(0, 10);
-  const packDir = asset.content_pack_dir || asset.packId || '';
-
-  // Derive relative path to content pack directory
-  let hrefPrefix = '';
-  if (packDir.startsWith('/home/ubuntu/.openclaw/workspace/projects/creative-quota-assets/')) {
-    hrefPrefix = '../' + packDir.slice(62) + '/';
-  } else if (packDir.startsWith('/')) {
-    hrefPrefix = '../' + packDir.slice(1) + '/';
-  } else {
-    hrefPrefix = '../' + packDir + '/';
-  }
-
-  const assetChips = Object.entries({
-    '🐦 X帖草稿': recAssets.includes('x-post'),
-    '🎨 图片Prompt': recAssets.includes('image'),
-    '🎬 视频Prompt': recAssets.includes('video'),
-    '🎵 音乐Prompt': recAssets.includes('music'),
-    '🌐 网页大纲': recAssets.includes('webpage'),
-  }).filter(([, active]) => active).map(([label]) =>
-    `<span class="asset-chip active">${label}</span>`
-  ).join('');
-
-  const fileLinks = FILE_MAP.map(f =>
-    `<a class="file-link ${f.cls}" href="${hrefPrefix}${f.label}" target="_blank">${f.label}</a>`
-  ).join('');
-
-  // ── Enriched content (from detail.json) ───────────────
-  const oneSentence = asset.one_sentence_summary || '';
-  const recUses: string[] = asset.recommended_uses || [];
-  const detailPath = asset.detail_path ? hrefPrefix + 'detail.json' : '';
-  const summaryPath = asset.summary_path ? hrefPrefix + 'content-summary.zh.md' : '';
-
-  const useLabels: Record<string, string> = {
-    'x-post': '🐦 X帖', 'image': '🎨 图片',
-    'video-prompt': '🎬 视频', 'music': '🎵 音乐', 'webpage': '🌐 网页',
-  };
-  const useChips = recUses.length > 0 ? recUses.map(u =>
-    `<span class="use-chip">${useLabels[u] || u}</span>`
-  ).join('') : '';
-
-  const summarySection = (oneSentence || useChips || detailPath) ? `
-    <div class="card-summary">
-      ${oneSentence ? `<div class="card-one-sentence">${oneSentence}</div>` : ''}
-      ${useChips ? `<div class="card-uses">${useChips}</div>` : ''}
-      ${detailPath ? `<a class="card-detail-link" href="${detailPath}" target="_blank">📋 详情 · detail.json →</a>` : ''}
-    </div>` : '';
-
-  return \`
-    <div class="card" data-type="\${primaryType}">
-      <div class="card-header">
-        <span class="card-type">\${typeLabel(primaryType)}</span>
-        <div class="card-title">\${asset.title || '—'}</div>
-        \${score > 0 ? \`
-        <div class="card-score">
-          <div class="score-bar">
-            <div class="score-fill" style="width:\${scoreFillPct}%;background:\${scoreFillColor}"></div>
-          </div>
-          <span class="score-val" style="color:\${scoreFillColor}">\${score.toFixed(3)}</span>
-        </div>\` : ''}
-      </div>
-      \${tags ? \`<div class="card-tags">\${tags}</div>\` : ''}
-      \${assetChips ? \`<div class="card-assets">\${assetChips}</div>\` : ''}
-      <div class="card-files">\${fileLinks}</div>
-      \${summarySection}
-      <div class="card-footer">
-        <span class="card-date">\${date}</span>
-        <span class="card-sources">\${(asset.source_types || []).map(t => typeLabel(t)).join(', ')}</span>
+    <!-- Generated Images Section -->
+    <div class="section" id="imageSection">
+      <h2 class="section-title">🖼️ 已生成图片</h2>
+      <div class="image-grid" id="imageGrid">
+        <article class="asset-card image-card" data-source-type="code" data-kind="generated-image">
+  <div class="image-frame">
+    <div class="image-placeholder">🎨 图片</div>
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">cqa-2026-06-11-canary-001_001.jpg</h3>
+    <div class="card-meta">2026-06-11</div>
+    <div class="card-desc">基于学术论文 'mq8c6kp5 u flaws in the llm automation narrative' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。</div>
+    <div class="card-use">适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。</div>
+    <div class="card-source">来源: brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative</div>
+    
+  </div>
+</article><article class="asset-card image-card" data-source-type="code" data-kind="generated-image">
+  <div class="image-frame">
+    <div class="image-placeholder">🎨 图片</div>
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">cqa-2026-06-11-gen-002_001.jpg</h3>
+    <div class="card-meta">2026-06-11</div>
+    <div class="card-desc">基于学术论文 'mq8c6kp4 7 samuraigpt generative media skills' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。</div>
+    <div class="card-use">适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。</div>
+    <div class="card-source">来源: brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills</div>
+    
+  </div>
+</article><article class="asset-card image-card" data-source-type="code" data-kind="generated-image">
+  <div class="image-frame">
+    <div class="image-placeholder">🎨 图片</div>
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">cqa-2026-06-11-gen-003_001.jpg</h3>
+    <div class="card-meta">2026-06-11</div>
+    <div class="card-desc">基于学术论文 'mq8c6kp5 r the penitence of saint jerome' 的主题生成的 AI 画作。主题聚焦于 AI 自动化叙事的缺陷与反思，呈现古典与AI视觉语言的融合。</div>
+    <div class="card-use">适合用于学术讨论配图、AI 话题博客配图、社交媒体信息图等场景。</div>
+    <div class="card-source">来源: brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome</div>
+    
+  </div>
+</article>
       </div>
     </div>
-  \`;
-}
-// ── Render ───────────────────────────────────────────────
-function renderGrid(assets) {
-  const grid = document.getElementById('grid');
-  const activeFilter = (document.querySelector('.filter-btn.active') || {}).dataset.filter || 'all';
-  const filtered = activeFilter === 'all'
-    ? assets
-    : assets.filter(a => (a.source_types || []).includes(activeFilter));
 
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="empty">暂无匹配素材，请切换筛选条件。</div>';
-    return;
-  }
+    <!-- Content Packs Section -->
+    <div class="section" id="packSection">
+      <h2 class="section-title">📦 内容包</h2>
+      <div class="asset-grid" id="assetGrid">
+        <article class="asset-card pack-card" data-source-type="code" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开源项目</span>
+    <h3 class="card-title">SamurAIGPT/Generative-Media-Skills</h3>
+    <div class="card-score">评分: 0.703</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="code" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开源项目</span>
+    <h3 class="card-title">SamurAIGPT/Generative-Media-Skills</h3>
+    <div class="card-score">评分: 0.703</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf3-w-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="code" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开源项目</span>
+    <h3 class="card-title">SamurAIGPT/Generative-Media-Skills</h3>
+    <div class="card-score">评分: 0.703</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-e-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="code" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开源项目</span>
+    <h3 class="card-title">SamurAIGPT/Generative-Media-Skills</h3>
+    <div class="card-score">评分: 0.703</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="code" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开源项目</span>
+    <h3 class="card-title">SamurAIGPT/Generative-Media-Skills</h3>
+    <div class="card-score">评分: 0.703</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">学术研究</span>
+    <h3 class="card-title">Flaws in the LLM Automation Narrative</h3>
+    <div class="card-score">评分: 0.662</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">学术研究</span>
+    <h3 class="card-title">Flaws in the LLM Automation Narrative</h3>
+    <div class="card-score">评分: 0.662</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-y-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">学术研究</span>
+    <h3 class="card-title">Flaws in the LLM Automation Narrative</h3>
+    <div class="card-score">评分: 0.662</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">学术研究</span>
+    <h3 class="card-title">Flaws in the LLM Automation Narrative</h3>
+    <div class="card-score">评分: 0.662</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-v-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">学术研究</span>
+    <h3 class="card-title">Flaws in the LLM Automation Narrative</h3>
+    <div class="card-score">评分: 0.662</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">文化艺术</span>
+    <h3 class="card-title">The Penitence of Saint Jerome</h3>
+    <div class="card-score">评分: 0.600</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">文化艺术</span>
+    <h3 class="card-title">The Penitence of Saint Jerome</h3>
+    <div class="card-score">评分: 0.600</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">文化艺术</span>
+    <h3 class="card-title">The Penitence of Saint Jerome</h3>
+    <div class="card-score">评分: 0.600</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-r-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">文化艺术</span>
+    <h3 class="card-title">The Penitence of Saint Jerome</h3>
+    <div class="card-score">评分: 0.600</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-5-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">文化艺术</span>
+    <h3 class="card-title">The Penitence of Saint Jerome</h3>
+    <div class="card-score">评分: 0.600</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">video</span><span class="use-chip">music</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开发者社区</span>
+    <h3 class="card-title">River AI</h3>
+    <div class="card-score">评分: 0.525</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开发者社区</span>
+    <h3 class="card-title">River AI</h3>
+    <div class="card-score">评分: 0.525</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开发者社区</span>
+    <h3 class="card-title">River AI</h3>
+    <div class="card-score">评分: 0.525</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-v-river-ai/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开发者社区</span>
+    <h3 class="card-title">River AI</h3>
+    <div class="card-score">评分: 0.525</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-1-river-ai/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">开发者社区</span>
+    <h3 class="card-title">River AI</h3>
+    <div class="card-score">评分: 0.525</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">AI模型生态</span>
+    <h3 class="card-title">stabilityai/stable-video-diffusion-img2vid-xt</h3>
+    <div class="card-score">评分: 0.476</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">AI模型生态</span>
+    <h3 class="card-title">stabilityai/stable-video-diffusion-img2vid-xt</h3>
+    <div class="card-score">评分: 0.476</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-d-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">AI模型生态</span>
+    <h3 class="card-title">stabilityai/stable-video-diffusion-img2vid-xt</h3>
+    <div class="card-score">评分: 0.476</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">AI模型生态</span>
+    <h3 class="card-title">stabilityai/stable-video-diffusion-img2vid-xt</h3>
+    <div class="card-score">评分: 0.476</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-j-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article><article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
+  <div class="card-header">
+    <span class="card-type">AI模型生态</span>
+    <h3 class="card-title">stabilityai/stable-video-diffusion-img2vid-xt</h3>
+    <div class="card-score">评分: 0.476</div>
+  </div>
+  
+  <div class="card-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span></div>
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">image</span><span class="use-chip">webpage</span></div>
+  <div class="card-actions">
+    <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/detail.json" target="_blank">📋 详情</a>
+    <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-5-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝 摘要</a>
+  </div>
+</article>
+      </div>
+    </div>
 
-  grid.innerHTML = filtered.map(buildCard).join('');
-}
+    <!-- Footer -->
+    <footer>
+      <p>
+        <a href="https://github.com/conanxin/creative-quota-assets">GitHub 仓库</a> ·
+        <a href="https://github.com/conanxin/creative-quota-harvester">Harvester 项目</a> ·
+        <a href="/creative-quota-assets/daily/">📅 每日归档</a>
+      </p>
+      <p>提示协议：CC-BY 4.0 · 元数据：MIT · 生成媒体：CC-BY-NC 4.0</p>
+    </footer>
 
-// ── Filters ────────────────────────────────────────────
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
-    if (window._assets) renderGrid(window._assets);
-  });
-});
+  </div>
 
-// ── Bootstrap ──────────────────────────────────────────
-loadData().then(result => {
-  if (!result || !result.assets || result.assets.length === 0) {
-    document.getElementById('grid').innerHTML = `
-      <div class="empty">
-        <div class="error-box">
-          <p>无法加载素材数据。</p>
-          <p>请访问 <a href="https://github.com/conanxin/creative-quota-assets">GitHub 仓库</a> 查看最新内容。</p>
-        </div>
-      </div>`;
-    return;
-  }
-
-  const BASE = result.BASE || '../';
-  const allAssets = result.assets;
-
-  // Separate generated images from content packs
-  const genImages = allAssets.filter(a =>
-    a.type === 'image' && (a.url || a.thumbnail || a.full)
-  );
-  const packs = allAssets.filter(a =>
-    a.type !== 'image' && !a.url && !a.thumbnail
-  );
-
-  // Load generated image descriptions
-  try {
-    const descR = await fetch(BASE + 'metadata/generated-image-descriptions.json', { cache: 'no-cache' });
-    if (descR && descR.ok) {
-      const descriptions = await descR.json();
-      for (const img of genImages) {
-        const matched = descriptions.find(d =>
-          d.filename === img.filename || d.filename === img.id || d.asset_id === img.id
-        );
-        if (matched) {
-          img.description_zh = matched.description_zh || '';
-          img.prompt_summary_zh = matched.prompt_summary_zh || '';
-          img.recommended_use_zh = matched.recommended_use_zh || '';
-          img.source_content_pack = matched.source_content_pack || '';
-        }
-      }
-    }
-  } catch {}
-
-   // Hide pre-rendered content since we have dynamic data
-  const prePacks = document.getElementById('pre-rendered-packs');
-  const preGen = document.getElementById('pre-rendered-gen-images');
-  if (prePacks) prePacks.style.display = 'none';
-  if (preGen) preGen.style.display = 'none';
-
-  renderGenImages(genImages);
-  updateStats(packs, genImages, []);
-  window._assets = packs;
-  renderGrid(packs);
-
-  // Hide loading indicator
-  const loadingEl = document.getElementById('loading-indicator');
-  if (loadingEl) loadingEl.style.display = 'none';
-
-  console.log('[Gallery] loaded:', {
-    total: allAssets.length,
-    packs: packs.length,
-    images: genImages.length,
-    BASE
-  });
-
-}).catch(err => {
-  const loadingEl = document.getElementById('loading-indicator');
-  if (loadingEl) loadingEl.style.display = 'none';
-  console.warn('[Gallery] fetch failed, pre-rendered content shown:', err.message);
-});
-</script>
+  <script>
+    // Filter logic
+    document.querySelectorAll('.filter-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+        this.classList.add('active');
+        
+        const filter = this.dataset.filter;
+        let visibleCount = 0;
+        
+        document.querySelectorAll('.asset-card').forEach(card => {
+          if (filter === 'all' || card.dataset.sourceType === filter) {
+            card.classList.remove('hidden');
+            visibleCount++;
+          } else {
+            card.classList.add('hidden');
+          }
+        });
+        
+        document.getElementById('emptyState').classList.toggle('visible', visibleCount === 0);
+        
+        const imageGrid = document.getElementById('imageGrid');
+        const packGrid = document.getElementById('assetGrid');
+        const hasImages = imageGrid.querySelector('.asset-card:not(.hidden)');
+        const hasPacks = packGrid.querySelector('.asset-card:not(.hidden)');
+        document.getElementById('imageSection').style.display = hasImages ? '' : 'none';
+        document.getElementById('packSection').style.display = hasPacks ? '' : 'none';
+      });
+    });
+  </script>
 </body>
 </html>
