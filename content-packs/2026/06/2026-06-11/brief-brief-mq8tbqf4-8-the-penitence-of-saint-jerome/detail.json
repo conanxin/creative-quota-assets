@@ -2,9 +2,9 @@
   "title": "The Penitence of Saint Jerome",
   "source_type": "culture-art",
   "source_label_zh": "文化艺术",
-  "one_sentence_summary": "Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 艺术品背后有什么文化故事？ — The Penitence of Saint Jerome 创作者、...",
+  "one_sentence_summary": "The Penitence of Saint Jerome by Joachim Patinir — ca. 1515",
   "background": "来自 The Met Collection / Smithsonian 等文化艺术机构 API，反映经典艺术与文物。",
-  "why_it_matters": " 文化艺术领域动态：The Penitence of Saint Jerome。 艺术品背后有什么文化故事？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landscape",
+  "why_it_matters": "该艺术品来自大都会艺术博物馆馆藏，具有 文化和艺术价值，是生成视觉创意内容的重要参考。",
   "recommended_uses": [
     "x-post",
     "image",
@@ -38,5 +38,13 @@
   ],
   "score": 0.6,
   "date": "2026-06-11",
-  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。",
+  "source_confidence": "high",
+  "enriched_facts": [
+    "作品名称: The Penitence of Saint Jerome",
+    "艺术家: Joachim Patinir",
+    "艺术家简介: Netherlandish, Dinant or Bouvignes, active by 1515–died 1524 Antwerp",
+    "创作年代: ca. 1515",
+    "媒介/材质: Oil on wood"
+  ]
 }

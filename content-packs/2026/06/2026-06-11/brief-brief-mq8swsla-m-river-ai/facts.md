@@ -1,9 +1,11 @@
-# Factual Basis: River AI
+# Factual Basis: brief-brief-mq8swsla-m-river-ai
 
 **Source Confidence:** high
 
 ## Key Facts
-1. HN Discussion: River AI
+1. 标题: Introducing River AI
+2. 简介: A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI.
+3. 来源: https://river.ai/introducing-river-ai.html
 
 ## Source References
-- [River AI](https://river.ai/introducing-river-ai.html)
+- brief-brief-mq8swsla-m-river-ai/source.json

@@ -2,9 +2,9 @@
   "title": "Flaws in the LLM Automation Narrative",
   "source_type": "academic",
   "source_label_zh": "学术研究",
-  "one_sentence_summary": "George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...",
+  "one_sentence_summary": "Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tas",
   "background": "来自 arXiv学术论文平台，反映 AI / NLP 领域的最新研究动态。",
-  "why_it_matters": " 学术研究领域动态：Flaws in the LLM Automation Narrative。 对从业者有什么实际启发？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [\"arxivcsai\", \"academic\", ",
+  "why_it_matters": "该 arXiv 论文探讨了 论文标题: arXiv Query: search_query=&amp;id_list=2606.11166v1&amp;start=0&amp;max_results=10 的前沿问题，对理解当前 AI 技术边界和局限性具有重要参考价值。",
   "recommended_uses": [
     "x-post",
     "image",
@@ -32,5 +32,13 @@
   ],
   "score": 0.6619877011020773,
   "date": "2026-06-10",
-  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。",
+  "source_confidence": "high",
+  "enriched_facts": [
+    "论文标题: arXiv Query: search_query=&amp;id_list=2606.11166v1&amp;start=0&amp;max_results=10",
+    "作者: George Perrett, Javae Elliott, Jennifer Hill, Marc Scott",
+    "发表于: 2026/6/10 (arXiv)",
+    "主要分类: stat.OT",
+    "摘要: Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tas…"
+  ]
 }

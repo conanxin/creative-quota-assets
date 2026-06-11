@@ -2,9 +2,9 @@
   "title": "SamurAIGPT/Generative-Media-Skills",
   "source_type": "code",
   "source_label_zh": "开源项目",
-  "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...",
+  "one_sentence_summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai. — 3,497 ⭐ · 397 forks · Shell",
   "background": "来自 GitHub Open Source Radar 检测到的热门开源项目，反映当前开发者社区的技术热点。",
-  "why_it_matters": " 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 这个开源项目解决了什么开发痛点？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, clau",
+  "why_it_matters": "该开源项目在 GitHub 上获得了较高关注度（有社区活跃度），反映了当前 AI Agent 工具链领域的技术热点，值得开发者关注和参考。",
   "recommended_uses": [
     "x-post",
     "image",
@@ -39,5 +39,13 @@
   ],
   "score": 0.7025,
   "date": "2026-06-11",
-  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。",
+  "source_confidence": "high",
+  "enriched_facts": [
+    "项目描述: Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+    "GitHub 星标数: 3,497 (截至 2026/6/11)",
+    " forks: 397",
+    "主要语言: Shell",
+    "主题标签: agent-tools, ai-agents, ai-art, ai-music, ai-video, claude-code, flux, generative-ai, image-generation, kling"
+  ]
 }

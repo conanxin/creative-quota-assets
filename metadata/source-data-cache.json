@@ -1,0 +1,578 @@
+{
+  "hf:https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt": {
+    "url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+    "fetchedAt": 1781189368542,
+    "data": {
+      "summary": "image-to-video — 200,356 downloads · 3,315 likes · diffusers",
+      "facts": [
+        "模型 ID: stabilityai/stable-video-diffusion-img2vid-xt",
+        "任务类型: image-to-video",
+        "下载量: 200,356",
+        "点赞数: 3,315",
+        "库: diffusers",
+        "标签: diffusers, safetensors, image-to-video, region:us",
+        "许可证: stable-video-diffusion-community",
+        "模型页面: https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt"
+      ],
+      "raw": {
+        "_id": "655befb36d02c2b1a9284bf0",
+        "id": "stabilityai/stable-video-diffusion-img2vid-xt",
+        "private": false,
+        "pipeline_tag": "image-to-video",
+        "library_name": "diffusers",
+        "tags": [
+          "diffusers",
+          "safetensors",
+          "image-to-video",
+          "license:other",
+          "diffusers:StableVideoDiffusionPipeline",
+          "region:us"
+        ],
+        "downloads": 200356,
+        "likes": 3315,
+        "modelId": "stabilityai/stable-video-diffusion-img2vid-xt",
+        "author": "stabilityai",
+        "sha": "9e43909513c6714f1bc78bcb44d96e733cd242aa",
+        "lastModified": "2024-07-10T11:43:18.000Z",
+        "gated": false,
+        "disabled": false,
+        "model-index": null,
+        "config": {
+          "diffusers": {
+            "_class_name": "StableVideoDiffusionPipeline"
+          }
+        },
+        "cardData": {
+          "pipeline_tag": "image-to-video",
+          "license": "other",
+          "license_name": "stable-video-diffusion-community",
+          "license_link": "LICENSE.md"
+        },
+        "siblings": [
+          {
+            "rfilename": ".gitattributes"
+          },
+          {
+            "rfilename": "LICENSE.md"
+          },
+          {
+            "rfilename": "README.md"
+          },
+          {
+            "rfilename": "comparison.png"
+          },
+          {
+            "rfilename": "feature_extractor/preprocessor_config.json"
+          },
+          {
+            "rfilename": "image_encoder/config.json"
+          },
+          {
+            "rfilename": "image_encoder/model.fp16.safetensors"
+          },
+          {
+            "rfilename": "image_encoder/model.safetensors"
+          },
+          {
+            "rfilename": "model_index.json"
+          },
+          {
+            "rfilename": "output_tile.gif"
+          },
+          {
+            "rfilename": "scheduler/scheduler_config.json"
+          },
+          {
+            "rfilename": "svd_xt.safetensors"
+          },
+          {
+            "rfilename": "svd_xt_image_decoder.safetensors"
+          },
+          {
+            "rfilename": "unet/config.json"
+          },
+          {
+            "rfilename": "unet/diffusion_pytorch_model.fp16.safetensors"
+          },
+          {
+            "rfilename": "unet/diffusion_pytorch_model.safetensors"
+          },
+          {
+            "rfilename": "vae/config.json"
+          },
+          {
+            "rfilename": "vae/diffusion_pytorch_model.fp16.safetensors"
+          },
+          {
+            "rfilename": "vae/diffusion_pytorch_model.safetensors"
+          }
+        ],
+        "spaces": [
+          "multimodalart/stable-video-diffusion",
+          "fffiloni/SVFR-demo",
+          "wwen1997/Framer",
+          "wangfuyun/AnimateLCM-SVD",
+          "tencent/DepthCrafter",
+          "PAIR/StreamingT2V",
+          "TencentARC/GeometryCrafter",
+          "fffiloni/AniDoc",
+          "fffiloni/MimicMotion",
+          "fffiloni/svd_keyframe_interpolation",
+          "jhshao/ChronoDepth",
+          "VIDraft/Portrait-Animation",
+          "Doubiiu/TrajectoryCrafter",
+          "heheyas/V3D",
+          "mrcuddle/SDXT-Image-To-Video",
+          "vilarin/Diffutoon-ExVideo",
+          "asahi417/stable-video-diffusion-upscale",
+          "haodongli/DVD",
+          "hehao13/CameraCtrl-svd",
+          "alexnasa/ReCamMaster-ZEROGPU",
+          "awacke1/stable-video-diffusion",
+          "jbilcke-hf/OmniAvatar",
+          "fffiloni/Stand-In",
+          "Kvikontent/AI-Movie-Factory",
+          "waloneai/SDXT-Image-To-Video",
+          "emmadrex/stable-video-diffusion",
+          "Yanrui95/NormalCrafter",
+          "pablovela5620/mini-nvs-solver",
+          "modelscope/DiffSynth-Painter",
+          "AiGuaratuba/Stable-Video-Diffusion-Img2Vid-10seconds",
+          "HikariDawn/This-and-That",
+          "guardiancc/dance-monkey",
+          "yslan/ObjCtrl-2.5D",
+          "rahul7star/PusaV1",
+          "jbilcke-hf/ReCamMaster",
+          "Boka73/deepsite-project-lohn3",
+          "raymerjacque/Image-To-Video",
+          "Kunbyte/Lumen",
+          "nroggendorff/svd",
+          "CrazyEric/AnimateLCM-SVD",
+          "kevinwang676/Diffutoon",
+          "xinxiaoxin/MimicMotion",
+          "123LETSPLAY/imagetovideo-try1",
+          "DDUF/dduf-my-diffusers-repo",
+          "kevalfst/visionary-ai",
+          "abonline/stable-video-diffusion-img2vid-xt",
+          "Speedofmastery/orynxml-backend",
+          "Aarong81/ai-adult-content-creator-prototype",
+          "cloudycloyster/deabsexy-i2v-nsfw-v2zu",
+          "Taf2023/stable-video-diffusion",
+          "quantumcontrol/stable-video-diffusion",
+          "sejamenath2023/stable-video-diffusionv2",
+          "awacke1/StableDiffusionVideoTo3D",
+          "SamarthPersonal/LumiereIQ",
+          "Dragunflie-420/MimicMotion",
+          "salomonsky/video",
+          "thecosmicdoctor/unboxai_publicVideo",
+          "svjack/AniDoc",
+          "jack1969/SVFR-demo",
+          "waloneai/SDX-Image-To-Video",
+          "humvee1249/stable-video-diffusion",
+          "doodle-med/Audio2KineticVid",
+          "LawrenceFriday/Makelele-AI-Video-Studio",
+          "BoobyBoobs/gen-m3mxs2yu",
+          "Utsav0987/Apex-ai",
+          "nadish1210/image-video",
+          "DAVIGABRIELA/SDXT-Image-To-Video",
+          "Deabsexy/deabsexy-i2v-nsfw-v2zu",
+          "ajay-k-2026/fast-ai-video-phots",
+          "vloikas/stable-video-diffusion",
+          "TheVilfer/stable-video-diffusion",
+          "piaoyu2011/stable-video-diffusion",
+          "zparadox/stable-video-diffusion",
+          "AlekseyCalvin/SVDxt_to_Neurealize_History",
+          "tiagojardins/stable-video-diffusion",
+          "waledrashed/stable-video-diffusion",
+          "MgMetaverso/stable-video-diffusion",
+          "sejamenath2023/stable-video-diffusionv3",
+          "pallab7685/stable-video-diffusion",
+          "besarismaili/sd-video",
+          "dclxviclan/Stabblediffusiontest",
+          "Bernaj/stable-video-diffusion",
+          "fantos/vidiani",
+          "Moldwebs/sd-video",
+          "Tonic/stable-video-diffusion-xt-1",
+          "Moldwebs/stable-video-diffusion",
+          "panyanyany/stable-video-diffusion",
+          "dadstt/stable-video-diffusion",
+          "ajajjajajaja/StreamingT2V",
+          "conzikool/Video-Diffusion",
+          "Divergent007/stable-video-diffusion",
+          "womprat/stable-video-diffusion",
+          "dereckd/stable-video-diffusion4",
+          "sy555/stable-video-diffusion",
+          "jjqsdq/stable-video-diffusion",
+          "adilraufkahara/video-model",
+          "Me5/StreamingT2V",
+          "weijiang2024/Suanfamama_AIGC_alg5",
+          "eslemkurt/mySpace",
+          "dsdad/MimicMotion"
+        ],
+        "createdAt": "2023-11-20T23:45:55.000Z",
+        "usedStorage": 32634599639
+      }
+    },
+    "enriched": true
+  },
+  "gh:https://github.com/SamurAIGPT/Generative-Media-Skills": {
+    "url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+    "fetchedAt": 1781189370388,
+    "data": {
+      "summary": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai. — 3,497 ⭐ · 397 forks · Shell",
+      "facts": [
+        "项目描述: Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+        "GitHub 星标数: 3,497 (截至 2026/6/11)",
+        " forks: 397",
+        "主要语言: Shell",
+        "主题标签: agent-tools, ai-agents, ai-art, ai-music, ai-video, claude-code, flux, generative-ai, image-generation, kling",
+        "开源协议: MIT License",
+        "open issues: 2",
+        "创建时间: 2023/5/25 · 默认分支: main"
+      ],
+      "raw": {
+        "id": 645381450,
+        "node_id": "R_kgDOJne9Sg",
+        "name": "Generative-Media-Skills",
+        "full_name": "SamurAIGPT/Generative-Media-Skills",
+        "private": false,
+        "owner": {
+          "login": "SamurAIGPT",
+          "id": 131431084,
+          "node_id": "O_kgDOB9V6rA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131431084?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/SamurAIGPT",
+          "html_url": "https://github.com/SamurAIGPT",
+          "followers_url": "https://api.github.com/users/SamurAIGPT/followers",
+          "following_url": "https://api.github.com/users/SamurAIGPT/following{/other_user}",
+          "gists_url": "https://api.github.com/users/SamurAIGPT/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/SamurAIGPT/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/SamurAIGPT/subscriptions",
+          "organizations_url": "https://api.github.com/users/SamurAIGPT/orgs",
+          "repos_url": "https://api.github.com/users/SamurAIGPT/repos",
+          "events_url": "https://api.github.com/users/SamurAIGPT/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/SamurAIGPT/received_events",
+          "type": "Organization",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "html_url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+        "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+        "fork": false,
+        "url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills",
+        "forks_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/forks",
+        "keys_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/keys{/key_id}",
+        "collaborators_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/collaborators{/collaborator}",
+        "teams_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/teams",
+        "hooks_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/hooks",
+        "issue_events_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/issues/events{/number}",
+        "events_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/events",
+        "assignees_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/assignees{/user}",
+        "branches_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/branches{/branch}",
+        "tags_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/tags",
+        "blobs_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/git/blobs{/sha}",
+        "git_tags_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/git/tags{/sha}",
+        "git_refs_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/git/refs{/sha}",
+        "trees_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/git/trees{/sha}",
+        "statuses_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/statuses/{sha}",
+        "languages_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/languages",
+        "stargazers_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/stargazers",
+        "contributors_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/contributors",
+        "subscribers_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/subscribers",
+        "subscription_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/subscription",
+        "commits_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/commits{/sha}",
+        "git_commits_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/git/commits{/sha}",
+        "comments_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/comments{/number}",
+        "issue_comment_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/issues/comments{/number}",
+        "contents_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/contents/{+path}",
+        "compare_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/compare/{base}...{head}",
+        "merges_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/merges",
+        "archive_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/{archive_format}{/ref}",
+        "downloads_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/downloads",
+        "issues_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/issues{/number}",
+        "pulls_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/pulls{/number}",
+        "milestones_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/milestones{/number}",
+        "notifications_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/notifications{?since,all,participating}",
+        "labels_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/labels{/name}",
+        "releases_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/releases{/id}",
+        "deployments_url": "https://api.github.com/repos/SamurAIGPT/Generative-Media-Skills/deployments",
+        "created_at": "2023-05-25T14:21:12Z",
+        "updated_at": "2026-06-11T09:05:33Z",
+        "pushed_at": "2026-06-02T18:55:48Z",
+        "git_url": "git://github.com/SamurAIGPT/Generative-Media-Skills.git",
+        "ssh_url": "git@github.com:SamurAIGPT/Generative-Media-Skills.git",
+        "clone_url": "https://github.com/SamurAIGPT/Generative-Media-Skills.git",
+        "svn_url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+        "homepage": "",
+        "size": 1966,
+        "stargazers_count": 3497,
+        "watchers_count": 3497,
+        "language": "Shell",
+        "has_issues": true,
+        "has_projects": true,
+        "has_downloads": true,
+        "has_wiki": true,
+        "has_pages": false,
+        "has_discussions": false,
+        "forks_count": 397,
+        "mirror_url": null,
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 2,
+        "license": {
+          "key": "mit",
+          "name": "MIT License",
+          "spdx_id": "MIT",
+          "url": "https://api.github.com/licenses/mit",
+          "node_id": "MDc6TGljZW5zZTEz"
+        },
+        "allow_forking": true,
+        "is_template": false,
+        "web_commit_signoff_required": false,
+        "has_pull_requests": true,
+        "pull_request_creation_policy": "all",
+        "topics": [
+          "agent-tools",
+          "ai-agents",
+          "ai-art",
+          "ai-music",
+          "ai-video",
+          "claude-code",
+          "flux",
+          "generative-ai",
+          "image-generation",
+          "kling",
+          "mcp",
+          "midjourney",
+          "muapi",
+          "multimodal-ai",
+          "skills",
+          "suno",
+          "text-to-audio",
+          "text-to-image",
+          "text-to-video",
+          "video-generation"
+        ],
+        "visibility": "public",
+        "forks": 397,
+        "open_issues": 2,
+        "watchers": 3497,
+        "default_branch": "main",
+        "temp_clone_token": null,
+        "custom_properties": {},
+        "organization": {
+          "login": "SamurAIGPT",
+          "id": 131431084,
+          "node_id": "O_kgDOB9V6rA",
+          "avatar_url": "https://avatars.githubusercontent.com/u/131431084?v=4",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/SamurAIGPT",
+          "html_url": "https://github.com/SamurAIGPT",
+          "followers_url": "https://api.github.com/users/SamurAIGPT/followers",
+          "following_url": "https://api.github.com/users/SamurAIGPT/following{/other_user}",
+          "gists_url": "https://api.github.com/users/SamurAIGPT/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/SamurAIGPT/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/SamurAIGPT/subscriptions",
+          "organizations_url": "https://api.github.com/users/SamurAIGPT/orgs",
+          "repos_url": "https://api.github.com/users/SamurAIGPT/repos",
+          "events_url": "https://api.github.com/users/SamurAIGPT/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/SamurAIGPT/received_events",
+          "type": "Organization",
+          "user_view_type": "public",
+          "site_admin": false
+        },
+        "network_count": 397,
+        "subscribers_count": 37
+      }
+    },
+    "enriched": true
+  },
+  "arxiv:https://arxiv.org/abs/2606.11166v1": {
+    "url": "https://arxiv.org/abs/2606.11166v1",
+    "fetchedAt": 1781189371186,
+    "data": {
+      "title": "arXiv Query: search_query=&amp;id_list=2606.11166v1&amp;start=0&amp;max_results=10",
+      "summary": "Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tasks that measure average performance across standardized datasets. Primary limitations of many benchm",
+      "facts": [
+        "论文标题: arXiv Query: search_query=&amp;id_list=2606.11166v1&amp;start=0&amp;max_results=10",
+        "作者: George Perrett, Javae Elliott, Jennifer Hill, Marc Scott",
+        "发表于: 2026/6/10 (arXiv)",
+        "主要分类: stat.OT",
+        "摘要: Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy tasks. These claims are primarily based on how LLMs perform on benchmarking tas…",
+        "arXiv ID: 2606.11166v1",
+        "arXiv URL: https://arxiv.org/abs/2606.11166v1"
+      ],
+      "authors": [
+        "George Perrett",
+        "Javae Elliott",
+        "Jennifer Hill",
+        "Marc Scott"
+      ],
+      "categories": [],
+      "published": "2026-06-09T17:46:10Z"
+    },
+    "enriched": true
+  },
+  "dev:https://river.ai/introducing-river-ai.html": {
+    "url": "https://river.ai/introducing-river-ai.html",
+    "fetchedAt": 1781189371863,
+    "data": {
+      "summary": "A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI.",
+      "facts": [
+        "标题: Introducing River AI",
+        "简介: A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI.",
+        "来源: https://river.ai/introducing-river-ai.html"
+      ],
+      "raw": {
+        "title": "Introducing River AI",
+        "description": "A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI."
+      }
+    },
+    "enriched": true
+  },
+  "met:https://www.metmuseum.org/art/collection/search/437261": {
+    "url": "https://www.metmuseum.org/art/collection/search/437261",
+    "fetchedAt": 1781189373455,
+    "data": {
+      "summary": "The Penitence of Saint Jerome by Joachim Patinir — ca. 1515",
+      "facts": [
+        "作品名称: The Penitence of Saint Jerome",
+        "艺术家: Joachim Patinir",
+        "艺术家简介: Netherlandish, Dinant or Bouvignes, active by 1515–died 1524 Antwerp",
+        "创作年代: ca. 1515",
+        "媒介/材质: Oil on wood",
+        "尺寸: Shaped top: central panel, overall, with engaged frame, 46 1/4 x 32 in. (117.5 x 81.3 cm); each wing, overall, with engaged frame, 47 1/2 x 14 in. (120.7 x 35.6 cm)",
+        "分类: Paintings",
+        "部门: European Paintings",
+        "展厅: Gallery 613",
+        "公版状态: 公版",
+        "高清图片: https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
+        "主题标签: Landscapes, Saint Jerome, Saint John the Baptist, Jesus, Baptism of Christ"
+      ],
+      "raw": {
+        "objectID": 437261,
+        "isHighlight": true,
+        "accessionNumber": "36.14a–c",
+        "accessionYear": "1936",
+        "isPublicDomain": true,
+        "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
+        "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg",
+        "additionalImages": [
+          "https://images.metmuseum.org/CRDImages/ep/original/DT5550.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-2.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-3.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-4.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-5.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-6.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-7a.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-8a.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-9.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-10.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-11.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-12.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-13.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-14.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-15.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-16.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-17.jpg",
+          "https://images.metmuseum.org/CRDImages/ep/original/LC-36_14a-c-19.jpg"
+        ],
+        "constituents": [
+          {
+            "constituentID": 108141,
+            "role": "Artist",
+            "name": "Joachim Patinir",
+            "constituentULAN_URL": "http://vocab.getty.edu/page/ulan/500019854",
+            "constituentWikidata_URL": "https://www.wikidata.org/wiki/Q442491",
+            "gender": ""
+          }
+        ],
+        "department": "European Paintings",
+        "objectName": "Painting, triptych",
+        "title": "The Penitence of Saint Jerome",
+        "culture": "",
+        "period": "",
+        "dynasty": "",
+        "reign": "",
+        "portfolio": "",
+        "artistRole": "Artist",
+        "artistPrefix": "",
+        "artistDisplayName": "Joachim Patinir",
+        "artistDisplayBio": "Netherlandish, Dinant or Bouvignes, active by 1515–died 1524 Antwerp",
+        "artistSuffix": "",
+        "artistAlphaSort": "Patinir, Joachim",
+        "artistNationality": "Netherlandish",
+        "artistBeginDate": "1515",
+        "artistEndDate": "1524",
+        "artistGender": "",
+        "artistWikidata_URL": "https://www.wikidata.org/wiki/Q442491",
+        "artistULAN_URL": "http://vocab.getty.edu/page/ulan/500019854",
+        "objectDate": "ca. 1515",
+        "objectBeginDate": 1510,
+        "objectEndDate": 1520,
+        "medium": "Oil on wood",
+        "dimensions": "Shaped top: central panel, overall, with engaged frame, 46 1/4 x 32 in. (117.5 x 81.3 cm); each wing, overall, with engaged frame, 47 1/2 x 14 in. (120.7 x 35.6 cm)",
+        "measurements": [
+          {
+            "elementName": "Overall",
+            "elementDescription": null,
+            "elementMeasurements": {
+              "Height": 117.5,
+              "Width": 81.3
+            }
+          }
+        ],
+        "creditLine": "Fletcher Fund, 1936",
+        "geographyType": "",
+        "city": "",
+        "state": "",
+        "county": "",
+        "country": "",
+        "region": "",
+        "subregion": "",
+        "locale": "",
+        "locus": "",
+        "excavation": "",
+        "river": "",
+        "classification": "Paintings",
+        "rightsAndReproduction": "",
+        "linkResource": "",
+        "metadataDate": "2025-12-24T04:54:53.227Z",
+        "repository": "Metropolitan Museum of Art, New York, NY",
+        "objectURL": "https://www.metmuseum.org/art/collection/search/437261",
+        "tags": [
+          {
+            "term": "Landscapes",
+            "AAT_URL": "http://vocab.getty.edu/page/aat/300132294",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q191163"
+          },
+          {
+            "term": "Saint Jerome",
+            "AAT_URL": "http://vocab.getty.edu/page/ulan/500060933",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q44248"
+          },
+          {
+            "term": "Saint John the Baptist",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901001056",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q40662"
+          },
+          {
+            "term": "Jesus",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901000087",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q302"
+          },
+          {
+            "term": "Baptism of Christ",
+            "AAT_URL": "http://vocab.getty.edu/page/ia/901001066",
+            "Wikidata_URL": "https://www.wikidata.org/wiki/Q217048"
+          }
+        ],
+        "objectWikidata_URL": "https://www.wikidata.org/wiki/Q19911827",
+        "isTimelineWork": true,
+        "GalleryNumber": "613"
+      }
+    },
+    "enriched": true
+  }
+}

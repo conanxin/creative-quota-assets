@@ -1,0 +1,18 @@
+{
+  "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+  "source_type": "ai-ecosystem",
+  "source_url": "https://huggingface.co/stabilityai/stable-video-diffusion-img2vid-xt",
+  "fetched_at": "2026-06-11T14:43:46.465Z",
+  "facts": {},
+  "source_metadata": {
+    "signal_id": "brief-mq8tbqf4-sjj60",
+    "source_signal_ids": [
+      "hf-mq8bouo8-womw2"
+    ]
+  },
+  "enrichment_status": "failed",
+  "uncertainty_notes": [
+    "Enrichment failed: HF API failed",
+    "Description missing from source"
+  ]
+}

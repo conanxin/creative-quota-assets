@@ -1,0 +1,19 @@
+{
+  "title": "River AI",
+  "source_type": "dev-community",
+  "source_url": "https://river.ai/introducing-river-ai.html",
+  "fetched_at": "2026-06-11T14:43:46.210Z",
+  "facts": {
+    "url": "https://river.ai/introducing-river-ai.html"
+  },
+  "source_metadata": {
+    "signal_id": "brief-mq8swsla-mj24r",
+    "source_signal_ids": [
+      "hn-mq8bnort-zcqa3"
+    ]
+  },
+  "enrichment_status": "partial",
+  "uncertainty_notes": [
+    "Description missing from source"
+  ]
+}

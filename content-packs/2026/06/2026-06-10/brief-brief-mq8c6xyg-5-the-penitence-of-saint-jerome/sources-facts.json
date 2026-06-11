@@ -1,0 +1,29 @@
+{
+  "title": "The Penitence of Saint Jerome",
+  "source_type": "culture-art",
+  "source_url": "https://www.metmuseum.org/art/collection/search/437261",
+  "fetched_at": "2026-06-11T14:44:01.695Z",
+  "facts": {
+    "title": "The Penitence of Saint Jerome",
+    "artist": "Joachim Patinir",
+    "date": "ca. 1515",
+    "medium": "Oil on wood",
+    "department": "European Paintings",
+    "culture": "",
+    "dimensions": "Shaped top: central panel, overall, with engaged frame, 46 1/4 x 32 in. (117.5 x 81.3 cm); each wing, overall, with engaged frame, 47 1/2 x 14 in. (120.7 x 35.6 cm)",
+    "classification": "Paintings",
+    "objectUrl": "https://www.metmuseum.org/art/collection/search/437261",
+    "primaryImage": "https://images.metmuseum.org/CRDImages/ep/original/DT5549.jpg",
+    "primaryImageSmall": "https://images.metmuseum.org/CRDImages/ep/web-large/DT5549.jpg"
+  },
+  "source_metadata": {
+    "signal_id": "brief-mq8c6xyg-5wjlw",
+    "source_signal_ids": [
+      "met-mq8bqm4f-5uipo"
+    ]
+  },
+  "enrichment_status": "success",
+  "uncertainty_notes": [
+    "Description missing from source"
+  ]
+}

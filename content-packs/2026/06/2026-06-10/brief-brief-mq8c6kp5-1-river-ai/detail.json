@@ -2,9 +2,9 @@
   "title": "River AI",
   "source_type": "dev-community",
   "source_label_zh": "开发者社区",
-  "one_sentence_summary": "HN Discussion: River AI 开发者社区领域动态：River AI。 对AI辅助开发有什么启示？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hac...",
+  "one_sentence_summary": "A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI.",
   "background": "来自 Hacker News，反映科技行业从业者关注的热点话题。",
-  "why_it_matters": " 开发者社区领域动态：River AI。 对AI辅助开发有什么启示？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [\"hackernews\", \"dev-community\", \"riverai\", \"dev-community\"] - 信号来源单一，建议引入更多元化的信源以丰富内容角",
+  "why_it_matters": "该社区讨论涉及 标题: Introducing River AI，反映了行业一线从业者的真实关切和实践经验。",
   "recommended_uses": [
     "x-post",
     "image"
@@ -30,5 +30,11 @@
   ],
   "score": 0.5253579016762474,
   "date": "2026-06-10",
-  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。",
+  "source_confidence": "high",
+  "enriched_facts": [
+    "标题: Introducing River AI",
+    "简介: A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal AI.",
+    "来源: https://river.ai/introducing-river-ai.html"
+  ]
 }

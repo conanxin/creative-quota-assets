@@ -1,0 +1,50 @@
+{
+  "title": "SamurAIGPT/Generative-Media-Skills",
+  "source_type": "code",
+  "source_url": "https://github.com/SamurAIGPT/Generative-Media-Skills",
+  "fetched_at": "2026-06-11T14:43:56.794Z",
+  "facts": {
+    "title": "Generative-Media-Skills",
+    "description": "Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audio generation powered by muapi.ai.",
+    "stars": 3497,
+    "forks": 397,
+    "language": "Shell",
+    "topics": [
+      "agent-tools",
+      "ai-agents",
+      "ai-art",
+      "ai-music",
+      "ai-video",
+      "claude-code",
+      "flux",
+      "generative-ai",
+      "image-generation",
+      "kling",
+      "mcp",
+      "midjourney",
+      "muapi",
+      "multimodal-ai",
+      "skills",
+      "suno",
+      "text-to-audio",
+      "text-to-image",
+      "text-to-video",
+      "video-generation"
+    ],
+    "homepage": "",
+    "license": "MIT License",
+    "updated_at": "2026-06-11T09:05:33Z",
+    "created_at": "2023-05-25T14:21:12Z",
+    "open_issues": 2,
+    "readme_content": "# 🎭 Generative Media Skills for AI Agents\n\n**The Ultimate Multimodal Toolset for Claude Code, Cursor, and Gemini CLI.**\nA high-performance, schema-driven architecture for AI agents to generate, edit, and display professional-grade images, videos, and audio — powered by the [muapi-cli](https://github.com/SamurAIGPT/muapi-cli).\n\n\n[🚀 Get Started](#-quick-start) | [🎬 Recipe Pack](#-recipe-pack) | [🎨 Expert Library](#-expert-library) | [⚙️ Core Primitives](#-core-primitives) | [🤖 MCP Server](#-mcp-server) | [📖 Reference](#-schema-reference)\n\n---\n\n## Related Projects\n\n- [Open-Generative-AI](https://github.com/Anil-matcha/Open-Generative-AI) — Free self-hosted AI media studio — GUI alternative to these skills for the same model set\n- [Awesome-GPT-Image-2-API-Prompts](https://github.com/Anil-matcha/Awesome-GPT-Image-2-API-Prompts) — Curated GPT-Image-2 prompts to use with these skills\n- [Awesome-Gemini-Omni-API-Prompts](https://github.com/Anil-matcha/Awesome-Gemini-Omni-API-Prompts) — Curated Gemini Omni prompts for video generation\n\n## ✨ Key Features\n\n- **🤖 Agent-Native Design** — CLI-powered scripts with structured JSON outputs, semantic exit codes, and `--jq` filtering for seamless agentic pipelines.\n- **🧠 Expert Knowledge Layer** — Domain-specific skills that bake in professional cinematography, atomic design, and branding logic.\n- **⚡ CLI-Powered Core** — All primitives delegate to [`muapi-cli`](https://www.npmjs.com/package/muapi-cli) — no curl, no JSON parsing, no boilerplate.\n- **🖼️ Direct Media Display** — Use the `--view` flag to automatically download and open generated media in your system viewer.\n- **📁 Local File Support** — Auto-upload images, videos, faces, and audio from your local machine to the CDN for processing.\n- **🌈 100+ AI Models** — One-click access to **Midjourney v7, Flux Kontext, Seedance 2.0, Kling 3.0, Veo3**, and more.\n- **🔌 MCP Server** — Run `muapi mcp serve` to expose all 19 tools directly to Claude Desktop, Cursor, or any MCP-co",
+    "readme_truncated": true
+  },
+  "source_metadata": {
+    "signal_id": "brief-mq8c6kp4-7z62f",
+    "source_signal_ids": [
+      "gh-mq8bkxih-kbegm"
+    ]
+  },
+  "enrichment_status": "success",
+  "uncertainty_notes": []
+}

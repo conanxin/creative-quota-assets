@@ -2,9 +2,9 @@
   "title": "stabilityai/stable-video-diffusion-img2vid-xt",
   "source_type": "ai-ecosystem",
   "source_label_zh": "AI 模型生态",
-  "one_sentence_summary": "Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...",
+  "one_sentence_summary": "image-to-video — 200,356 downloads · 3,315 likes · diffusers",
   "background": "来自 Hugging Face Hub，反映 AI 模型生态中的热门模型和数据集。",
-  "why_it_matters": " AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 开源生态中处于什么位置？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, image-to-vide",
+  "why_it_matters": "该模型在 HuggingFace 上有 下载量: 200,356，是 AI 内容生成生态中的重要工具，可作为生成能力参考或素材来源。",
   "recommended_uses": [
     "x-post",
     "image",
@@ -33,5 +33,13 @@
   ],
   "score": 0.47624999999999995,
   "date": "2026-06-11",
-  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。"
+  "uncertainty_notes": "✅ 内容基于现有素材生成，信息基本完整。",
+  "source_confidence": "high",
+  "enriched_facts": [
+    "模型 ID: stabilityai/stable-video-diffusion-img2vid-xt",
+    "任务类型: image-to-video",
+    "下载量: 200,356",
+    "点赞数: 3,315",
+    "库: diffusers"
+  ]
 }

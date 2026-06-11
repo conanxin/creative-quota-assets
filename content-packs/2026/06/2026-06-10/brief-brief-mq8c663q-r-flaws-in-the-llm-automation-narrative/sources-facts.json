@@ -1,0 +1,18 @@
+{
+  "title": "Flaws in the LLM Automation Narrative",
+  "source_type": "academic",
+  "source_url": "https://arxiv.org/abs/2606.11166v1",
+  "fetched_at": "2026-06-11T14:44:00.376Z",
+  "facts": {},
+  "source_metadata": {
+    "signal_id": "brief-mq8c663q-rr91q",
+    "source_signal_ids": [
+      "arxiv-mq8bi92l-ohjvh"
+    ]
+  },
+  "enrichment_status": "failed",
+  "uncertainty_notes": [
+    "Enrichment failed: arXiv API failed",
+    "Description missing from source"
+  ]
+}
