@@ -37,5 +37,31 @@
     "generated_at": "2026-06-11T08:19:00+08:00",
     "watermark": false,
     "file_size_kb": 353
+  },
+  {
+    "asset_id": "cqa-2026-06-11-gen-004",
+    "filename": "cqa-2026-06-11-gen-004_001.jpg",
+    "path": "images/2026/06/11/cqa-2026-06-11-gen-004_001.jpg",
+    "model": "image-01",
+    "prompt": "A developer community discussion poster. topic \"River AI\" as a short hook at the top in rounded sans-serif. central visual: a stylized developer workspace with three monitors showing code, terminal, and chat. bottom one-liner summarizing the pain point in italics. style: editorial flat illustration, pastel pink and slate, soft shadows, minimal. no faces, no company logos",
+    "aspect_ratio": ": 1:1",
+    "content_pack": "brief-brief-mq8c663q-v-river-ai",
+    "source_type": "dev-community",
+    "generated_at": "2026-06-11T15:24:20.754Z",
+    "watermark": true,
+    "file_size_kb": 112
+  },
+  {
+    "asset_id": "cqa-2026-06-11-gen-005",
+    "filename": "cqa-2026-06-11-gen-005_001.jpg",
+    "path": "images/2026/06/11/cqa-2026-06-11-gen-005_001.jpg",
+    "model": "image-01",
+    "prompt": "A polished AI model card visual. model name \"stabilityai/stable-video-diffusion-img2vid-xt\" shown as a large hero badge. central pipeline flow: input (icon) → model block with subtle inner layers → output (icon). task label \"image-to-video\" near the input. two or three monospaced metric tiles on the right: downloads, likes, library. style: Hugging Face inspired, dark slate background, amber-to-magenta gradient, soft glow. no human faces, no company logos",
+    "aspect_ratio": ": 16:9",
+    "content_pack": "brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+    "source_type": "ai-ecosystem",
+    "generated_at": "2026-06-11T15:24:37.466Z",
+    "watermark": true,
+    "file_size_kb": 102
   }
 ]
