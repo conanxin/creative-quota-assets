@@ -78,6 +78,18 @@ _Creative Quota Assets — AI 创意素材库_
 
 ---
 
+## 📊 Gallery 去重展示
+
+Gallery 现在按**主题去重展示**，将重复来源的 Content Pack 合并为一个主题卡片：
+
+- 25 个原始 Content Packs → 5 个去重主题
+- 每个主题显示最高评分版本
+- 重复版本保留在详情页"历史版本"中
+
+去重索引：`metadata/gallery-dedup-index.json`
+
+---
+
 ## 📦 Content Pack 详情
 
 每个 Content Pack 现在包含：
