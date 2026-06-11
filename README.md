@@ -1,150 +1,77 @@
-# Creative Quota Assets
+# AI 创意素材库 / Creative Quota Assets
 
-**Open source AI generation asset library — prompts, briefs, and metadata for creative AI workflows.**
+**公开素材库** — 从真实世界信号自动生成的 Creative Brief、Prompt 与内容包。
 
-> Powered by [creative-quota-harvester](https://github.com/conanxin/creative-quota-harvester). Assets are sourced from real-world signals (academic papers, open source projects, cultural collections) and transformed into reusable generation prompts.
-
-[![CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-blue.svg)](https://creativecommons.org/licenses/by/4.0/)
-[![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/conanxin/creative-quota-assets/blob/main/LICENSE)
-
-## Live Gallery
-
-**Browse the asset gallery:**
-```
-https://conanxin.github.io/creative-quota-assets/gallery/
-```
-
-Or open `gallery/index.html` directly — no build required.
+[查看在线 Gallery](https://conanxin.github.io/creative-quota-assets/gallery/)
 
 ---
 
-## Project Status
+## 📁 内容结构
 
-| Phase | Status | Description |
-|-------|--------|-------------|
-| Phase 0A–2B | ✅ Complete | Signal collection through asset gallery |
-| **Phase 2C** | **✅ Complete** | **GitHub open source publish + GitHub Pages** |
-| **Phase 3A** | **✅ Complete** | **First MiniMax image canary — 1 real image generated** |
-| Phase 3B | ⬜ Planned | Telegram daily report |
-| Phase 4 | ⬜ Planned | Scheduled automation |
-
-**Note:** Phase 3A canary complete — 1 real MiniMax image generated (`cqa-2026-06-11-canary-001_001.jpg`). Music/video generation is Phase 3A full batch.
+| 目录 | 说明 |
+|------|------|
+| `content-packs/` | Creative Brief 内容包（含 metadata + prompts） |
+| `gallery/` | 公开浏览页面（纯静态 HTML/CSS/JS） |
+| `images/` | 已生成的图片素材 |
+| `metadata/` | 索引数据（asset-index.json, generated-assets.json） |
 
 ---
 
-## Project Structure
+## 🖼️ 已生成图片
 
-```
-creative-quota-assets/
-├── content-packs/           ← Self-contained brief + prompt bundles
-│   └── YYYY/MM/YYYY-MM-DD/  ← Date-organized content packs
-│       └── brief-*/         ← One pack per creative brief
-│           ├── manifest.json       # Pack metadata
-│           ├── source.json         # Source signal references
-│           ├── signal.json         # Original signal data
-│           ├── brief.md            # Creative brief (human readable)
-│           ├── facts.md            # Factual basis + source links
-│           ├── x-post.zh.md        # Chinese X (Twitter) post draft
-│           ├── image-prompt.md     # Image generation prompt
-│           ├── video-prompt.md     # (conditional) video prompt
-│           ├── music-prompt.md     # (conditional) music prompt
-│           ├── webpage-outline.md # Webpage structure
-│           └── asset-plan.json     # Full asset plan
-├── gallery/
-│   ├── index.html          ← Web gallery (static HTML/JS, no build)
-│   └── assets.json         ← Gallery asset index
-├── metadata/
-│   ├── asset-index.json     # All assets master index
-│   ├── source-index.json   # Assets grouped by source type
-│   └── daily-index.json    # Assets grouped by date
-├── images/                 # Generated images (Phase 3A: 1 canary image so far)
-├── music/                   # Generated music (Phase 3A+)
-├── videos/                  # Generated video (Phase 3A+)
-└── prompts/                 # Standalone prompt files
-```
+目前已通过 MiniMax Token Plan 生成 **3 张**图片：
+
+| 文件 | 来源 | 模型 | 日期 |
+|------|------|------|------|
+| `cqa-2026-06-11-canary-001_001.jpg` | Flaws in the LLM Automation Narrative | image-01 | 2026-06-11 |
+| `cqa-2026-06-11-gen-002_001.jpg` | SamurAIGPT/Generative-Media-Skills | image-01 | 2026-06-11 |
+| `cqa-2026-06-11-gen-003_001.jpg` | The Penitence of Saint Jerome | image-01 | 2026-06-11 |
+
+音乐 / 视频尚未启用（Phase 3C quota guard 已就位）。
 
 ---
 
-## Content Pack Format
+## 🎯 信号来源
 
-Each `content-pack/` is a **self-contained directory** — no build step, no database. Open `brief.md` for the full creative brief, or use individual prompt files directly.
-
-```bash
-# Read a brief
-cat content-packs/2026/06/2026-06-10/brief-*/brief.md
-
-# Use an image prompt
-cat content-packs/2026/06/2026-06-10/brief-*/image-prompt.md
-
-# Read the Chinese X post draft
-cat content-packs/2026/06/2026-06-10/brief-*/x-post.zh.md
-```
-
-### Content Pack Fields
-
-| File | Purpose |
-|------|---------|
-| `manifest.json` | Pack metadata (id, score, tags, recommended assets) |
-| `source.json` | Source signal references (types, titles, URLs) |
-| `signal.json` | Original signal data |
-| `brief.md` | Full creative brief — why_it_matters, content_angle, audience |
-| `facts.md` | Factual basis with linked sources |
-| `x-post.zh.md` | Chinese social post draft, ready to post |
-| `image-prompt.md` | Text prompt for image generation |
-| `video-prompt.md` | Text prompt for video generation (conditional) |
-| `music-prompt.md` | Text prompt for music generation (conditional) |
-| `webpage-outline.md` | Webpage structure based on the brief |
-| `asset-plan.json` | Full asset plan with priorities and outputs |
+| 来源 | 类型 | 数量 |
+|------|------|------|
+| GitHub Open Source Radar | 开源项目 | 持续更新 |
+| arXiv AI | 学术研究 | 持续更新 |
+| Hugging Face Hub | AI 模型生态 | 持续更新 |
+| Hacker News | 开发者社区 | 持续更新 |
+| The Met Collection | 文化艺术 | 持续更新 |
+| 其他 | 日期与天气等 | 持续更新 |
 
 ---
 
-## How to Reuse Prompts
+## 🔗 链接
 
-Prompts in `content-packs/*/image-prompt.md` are **prompt-engineering artifacts** — they encode the creative angle, target audience, and factual basis from real signals. Use them directly as input to:
-
-- **Image:** Midjourney, DALL-E, Stable Diffusion, Flux
-- **Video:** Kling, Runway, Sora
-- **Music:** Suno, Udio
-- **Text:** Claude, GPT, MiniMax
-
-No attribution required for using prompts alone (see License below).
+| 资源 | URL |
+|------|-----|
+| **Gallery 在线浏览** | https://conanxin.github.io/creative-quota-assets/gallery/ |
+| GitHub 仓库 | https://github.com/conanxin/creative-quota-assets |
+| Harvester 项目 | https://github.com/conanxin/creative-quota-harvester |
+| Harvester Roadmap | https://github.com/conanxin/creative-quota-harvester/blob/main/docs/ROADMAP.md |
 
 ---
 
-## Metadata Indexes
+## ⚖️ 协议
 
-| File | What it contains |
-|------|-----------------|
-| `metadata/asset-index.json` | All content packs, sorted by score |
-| `metadata/source-index.json` | Content packs grouped by source type |
-| `metadata/daily-index.json` | Content packs grouped by export date |
-| `gallery/assets.json` | Gallery-specific subset (used by `gallery/index.html`) |
-
----
-
-## License
-
-| Content | License | Commercial use |
-|---------|---------|----------------|
-| Source code / metadata JSON | **MIT** | ✅ Yes |
-| Prompts + briefs (text content) | **CC-BY 4.0** | ✅ Yes, with attribution |
-| Generated media (images/music/video) | **CC-BY-NC 4.0** | ❌ Non-commercial only |
-| Assets metadata | **CC01.0** | ✅ Yes, public domain |
-
-See [LICENSE](./LICENSE) and [LICENSE-ASSETS](./LICENSE-ASSETS) for details.
+| 内容 | 协议 |
+|------|------|
+| Creative Brief 与 Prompt 文本 | [CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+| 元数据（JSON、YAML） | [MIT](https://opensource.org/licenses/MIT) |
+| 生成的图片 / 音乐 / 视频 | [CC-BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/) |
 
 ---
 
-## What This Repo Is NOT
+## 🛠️ 技术说明
 
-- **Not a build artifact** — independently useful without the harvester
-- **Not dependent on the harvester** — content packs can be consumed standalone
-- **No real generated media yet** — Phase 2B contains prompts only; media generation is Phase 3A
+- **纯静态页面** — 无后端，可通过 GitHub Pages 免费托管
+- **零依赖** — 不需要 npm / Node.js / 数据库即可浏览
+- **信号采集** — Creative Quota Harvester 自动从多个公开 API 采集信号
+- **Quota Guard** — 所有真实 MiniMax 生成需要显式确认（Phase 3C）
 
 ---
 
-## Related
-
-- [creative-quota-harvester](https://github.com/conanxin/creative-quota-harvester) — Program that produces these assets
-- [Harvester Roadmap](https://github.com/conanxin/creative-quota-harvester/blob/main/ROADMAP.md) — Full project roadmap
-- [Assets Gallery](https://conanxin.github.io/creative-quota-assets/gallery/) — Live gallery (GitHub Pages)
+_Creative Quota Assets — AI 创意素材库_
