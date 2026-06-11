@@ -26,7 +26,6 @@
       padding: 2rem 1rem;
     }
     .container { max-width: 1100px; margin: 0 auto; }
-    
     .header {
       text-align: center;
       margin-bottom: 2rem;
@@ -51,7 +50,6 @@
       padding: 0.2rem 0.5rem;
       border-radius: 4px;
     }
-    
     .stats {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -68,7 +66,6 @@
     .stat-number { font-size: 1.5rem; font-weight: 700; color: var(--accent); }
     .stat-label { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
     .stat-dedup { font-size: 0.65rem; color: var(--green); margin-top: 0.2rem; }
-    
     .filters {
       display: flex;
       gap: 0.5rem;
@@ -90,7 +87,6 @@
       color: #fff;
       border-color: var(--accent);
     }
-    
     .section-title {
       font-size: 1.1rem;
       font-weight: 600;
@@ -104,7 +100,6 @@
       color: var(--text-muted);
       font-weight: 400;
     }
-    
     .asset-grid {
       display: grid;
       grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -143,7 +138,6 @@
     }
     .asset-card:hover { box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
     .asset-card.hidden { display: none; }
-    
     .card-header { margin-bottom: 0.75rem; }
     .card-type {
       font-size: 0.7rem;
@@ -159,6 +153,15 @@
       font-size: 0.65rem;
       background: var(--green);
       color: #fff;
+      padding: 0.15rem 0.4rem;
+      border-radius: 4px;
+      margin-left: 0.5rem;
+      display: inline-block;
+    }
+    .gen-badge {
+      font-size: 0.65rem;
+      background: var(--accent-dim);
+      color: var(--accent);
       padding: 0.15rem 0.4rem;
       border-radius: 4px;
       margin-left: 0.5rem;
@@ -242,7 +245,6 @@
       border: 1px solid var(--accent);
     }
     .btn-secondary:hover { background: rgba(91,91,214,0.15); }
-    
     .footer {
       text-align: center;
       color: var(--text-muted);
@@ -252,7 +254,6 @@
       margin-top: 2rem;
     }
     .footer a { color: var(--accent); text-decoration: none; }
-    
     .empty-state {
       text-align: center;
       padding: 2rem;
@@ -260,7 +261,6 @@
       display: none;
     }
     .empty-state.visible { display: block; }
-    
     @media (max-width: 720px) {
       body { padding: 0.75rem; }
       .header h1 { font-size: 1.4rem; }
@@ -272,7 +272,6 @@
 </head>
 <body>
   <div class="container">
-    
     <div class="header">
       <h1>AI 创意素材库</h1>
       <div class="subtitle">从真实信号生成的 Creative Brief 与素材</div>
@@ -282,7 +281,6 @@
         <span>✅ 已包含 MiniMax 图片素材</span>
       </div>
     </div>
-    
     <div class="stats">
       <div class="stat">
         <div class="stat-number">5</div>
@@ -302,7 +300,6 @@
         <div class="stat-label">最后更新</div>
       </div>
     </div>
-    
     <div class="filters">
       <button class="filter-btn active" data-filter="all">全部</button>
       <button class="filter-btn" data-filter="code">开源项目</button>
@@ -312,112 +309,95 @@
       <button class="filter-btn" data-filter="culture-art">文化艺术</button>
       <button class="filter-btn" data-filter="context">日期与天气</button>
     </div>
-    
     <div class="section-title">
       📦 Content Packs
       <span class="count">5 个主题（25 个原始包）</span>
     </div>
-    
     <div class="asset-grid" id="pack-grid">
       <article class="asset-card pack-card" data-source-type="code" data-kind="content-pack">
   <div class="card-header">
     <span class="card-type" style="color:#5b5bd6;background:#5b5bd615">开源项目</span>
     <span class="version-badge">5 个版本</span>
+    
     <h3 class="card-title">SamurAIGPT/Generative-Media-Skills</h3>
     <div class="card-score">评分: 0.703</div>
   </div>
-  
   <div class="card-one-sentence">Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and aud...</div>
   
-  <div class="card-why"> 开源项目领域动态：SamurAIGPT/Generative-Media-Skills。 这个开源项目解决了什么开发痛点？ — SamurAIGPT/Generative-Media-Skills 开发者、技术创业者、开源爱好者 x-post, image, webpage code, agent-tools, ai-agents, ai-art, ai-music, ai-video, cla…</div>
-  
   <div class="card-tags"><span class="tag">code</span><span class="tag">agent-tools</span><span class="tag">ai-agents</span><span class="tag">ai-art</span><span class="tag">ai-music</span></div>
-  <div class="card-uses"><span class="use-chip">X帖</span><span class="use-chip">图片</span><span class="use-chip">网页</span></div>
-  
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">图片</span><span class="use-chip">网页</span></div>
   <div class="card-actions">
     <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/index.html" target="_blank">📋 详情</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/content-summary.zh.md" target="_blank">📝 摘要原文</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills/detail.json" target="_blank">🔧 原始数据</a>
   </div>
 </article>
-<article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
+      <article class="asset-card pack-card" data-source-type="academic" data-kind="content-pack">
   <div class="card-header">
     <span class="card-type" style="color:#22c55e;background:#22c55e15">学术研究</span>
     <span class="version-badge">5 个版本</span>
+    
     <h3 class="card-title">Flaws in the LLM Automation Narrative</h3>
     <div class="card-score">评分: 0.662</div>
   </div>
-  
   <div class="card-one-sentence">George Perrett, Javae Elliott, Jennifer Hill, Marc Scott. Large Language Models (LLMs) are increasingly described as pe...</div>
   
-  <div class="card-why"> 学术研究领域动态：Flaws in the LLM Automation Narrative。 研究方法有什么独特之处？ — Flaws in the LLM Automation Narrative AI研究者、工程师、技术管理者 x-post, image, webpage academic, arxiv:cs.AI, ai, paper, [&quot;arxivcsai&quot;, &quot;academic&quot;,…</div>
-  
   <div class="card-tags"><span class="tag">academic</span><span class="tag">arxiv:cs.AI</span><span class="tag">ai</span><span class="tag">paper</span><span class="tag">[&quot;arxivcsai&quot;</span></div>
-  <div class="card-uses"><span class="use-chip">X帖</span><span class="use-chip">图片</span><span class="use-chip">网页</span></div>
-  
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">图片</span><span class="use-chip">网页</span></div>
   <div class="card-actions">
     <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/index.html" target="_blank">📋 详情</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/content-summary.zh.md" target="_blank">📝 摘要原文</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative/detail.json" target="_blank">🔧 原始数据</a>
   </div>
 </article>
-<article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
+      <article class="asset-card pack-card" data-source-type="culture-art" data-kind="content-pack">
   <div class="card-header">
     <span class="card-type" style="color:#f97316;background:#f9731615">文化艺术</span>
     <span class="version-badge">5 个版本</span>
+    
     <h3 class="card-title">The Penitence of Saint Jerome</h3>
     <div class="card-score">评分: 0.600</div>
   </div>
-  
   <div class="card-one-sentence">Joachim Patinir. Oil on wood 文化艺术领域动态：The Penitence of Saint Jerome。 艺术品背后有什么文化故事？ — The Penitence of Saint Jerome 创作者、...</div>
   
-  <div class="card-why"> 文化艺术领域动态：The Penitence of Saint Jerome。 艺术品背后有什么文化故事？ — The Penitence of Saint Jerome 创作者、艺术爱好者、文化研究者 x-post, image, video, music culture-art, met, art, museum, cultural, european paintings, landscap…</div>
-  
   <div class="card-tags"><span class="tag">culture-art</span><span class="tag">met</span><span class="tag">art</span><span class="tag">museum</span><span class="tag">cultural</span></div>
-  <div class="card-uses"><span class="use-chip">X帖</span><span class="use-chip">图片</span><span class="use-chip">音乐</span></div>
-  
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">图片</span><span class="use-chip">音乐</span></div>
   <div class="card-actions">
     <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/index.html" target="_blank">📋 详情</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/content-summary.zh.md" target="_blank">📝 摘要原文</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome/detail.json" target="_blank">🔧 原始数据</a>
   </div>
 </article>
-<article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
+      <article class="asset-card pack-card" data-source-type="dev-community" data-kind="content-pack">
   <div class="card-header">
     <span class="card-type" style="color:#ec4899;background:#ec489915">开发者社区</span>
     <span class="version-badge">5 个版本</span>
+    
     <h3 class="card-title">River AI</h3>
     <div class="card-score">评分: 0.525</div>
   </div>
-  
   <div class="card-one-sentence">HN Discussion: River AI 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hack...</div>
   
-  <div class="card-why"> 开发者社区领域动态：River AI。 有哪些实操经验值得分享？ — River AI 独立开发者、AI工具用户、技术社区 x-post, image dev-community, hackernews, river.ai, [&quot;hackernews&quot;, &quot;dev-community&quot;, &quot;riverai&quot;, &quot;dev-community&quot;] - 信号来源单一，建议引入更多元化的信源以丰富内容角…</div>
-  
   <div class="card-tags"><span class="tag">dev-community</span><span class="tag">hackernews</span><span class="tag">river.ai</span><span class="tag">[&quot;hackernews&quot;</span><span class="tag">&quot;dev-community&quot;</span></div>
-  <div class="card-uses"><span class="use-chip">X帖</span><span class="use-chip">图片</span></div>
-  
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">图片</span></div>
   <div class="card-actions">
     <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/index.html" target="_blank">📋 详情</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/content-summary.zh.md" target="_blank">📝 摘要原文</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-m-river-ai/detail.json" target="_blank">🔧 原始数据</a>
   </div>
 </article>
-<article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
+      <article class="asset-card pack-card" data-source-type="ai-ecosystem" data-kind="content-pack">
   <div class="card-header">
-    <span class="card-type" style="color:#f59e0b;background:#f59e0b15">AI模型生态</span>
+    <span class="card-type" style="color:#f59e0b;background:#f59e0b15">AI 模型生态</span>
     <span class="version-badge">5 个版本</span>
+    
     <h3 class="card-title">stabilityai/stable-video-diffusion-img2vid-xt</h3>
     <div class="card-score">评分: 0.476</div>
   </div>
-  
   <div class="card-one-sentence">Model: stabilityai/stable-video-diffusion-img2vid-xt (image-to-video). Likes: 3315, Downloads: 200356 AI生态系统领域动态：stabil...</div>
   
-  <div class="card-why"> AI生态系统领域动态：stabilityai/stable-video-diffusion-img2vid-xt。 这个模型/数据集代表了哪类AI能力的新高度？ — stabilityai/stable-video-diffusion-img2vid-xt AI应用开发者、研究者、技术爱好者 x-post, image, webpage ai-ecosystem, huggingface, im…</div>
-  
   <div class="card-tags"><span class="tag">ai-ecosystem</span><span class="tag">huggingface</span><span class="tag">image-to-video</span><span class="tag">model</span><span class="tag">[&quot;huggingface&quot;</span></div>
-  <div class="card-uses"><span class="use-chip">X帖</span><span class="use-chip">图片</span><span class="use-chip">网页</span></div>
-  
+  <div class="card-uses"><span class="use-chip">x-post</span><span class="use-chip">图片</span><span class="use-chip">网页</span></div>
   <div class="card-actions">
     <a class="btn-primary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/index.html" target="_blank">📋 详情</a>
     <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt/content-summary.zh.md" target="_blank">📝 摘要原文</a>
@@ -425,49 +405,45 @@
   </div>
 </article>
     </div>
-    
     <div class="empty-state" id="empty-state">
       暂无匹配素材，请切换筛选条件。
     </div>
-    
     <div class="section-title">
       🖼️ 已生成图片
       <span class="count">3 张</span>
     </div>
-    
     <div class="image-grid" id="image-grid">
       <article class="asset-card image-card" data-source-type="code" data-kind="generated-image">
         <div class="image-frame">
-          <img src="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-canary-001_001.jpg" alt="基于学术论文主题生成" loading="lazy">
+          <img src="" alt="cqa-2026-06-11-canary-001_001.jpg" loading="lazy">
         </div>
         <div class="image-body">
-          <div class="image-desc">基于学术论文主题生成</div>
+          <div class="image-desc">cqa-2026-06-11-canary-001_001.jpg</div>
           <div class="image-meta">image-01 · 2026-06-11</div>
-          <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-canary-001_001.jpg" target="_blank">查看原图</a>
+          <a class="btn-secondary" href="" target="_blank">查看原图</a>
         </div>
       </article>
       <article class="asset-card image-card" data-source-type="code" data-kind="generated-image">
         <div class="image-frame">
-          <img src="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-002_001.jpg" alt="基于开源项目主题生成" loading="lazy">
+          <img src="" alt="cqa-2026-06-11-gen-002_001.jpg" loading="lazy">
         </div>
         <div class="image-body">
-          <div class="image-desc">基于开源项目主题生成</div>
+          <div class="image-desc">cqa-2026-06-11-gen-002_001.jpg</div>
           <div class="image-meta">image-01 · 2026-06-11</div>
-          <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-002_001.jpg" target="_blank">查看原图</a>
+          <a class="btn-secondary" href="" target="_blank">查看原图</a>
         </div>
       </article>
       <article class="asset-card image-card" data-source-type="code" data-kind="generated-image">
         <div class="image-frame">
-          <img src="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-003_001.jpg" alt="基于艺术作品主题生成" loading="lazy">
+          <img src="" alt="cqa-2026-06-11-gen-003_001.jpg" loading="lazy">
         </div>
         <div class="image-body">
-          <div class="image-desc">基于艺术作品主题生成</div>
+          <div class="image-desc">cqa-2026-06-11-gen-003_001.jpg</div>
           <div class="image-meta">image-01 · 2026-06-11</div>
-          <a class="btn-secondary" href="https://conanxin.github.io/creative-quota-assets/images/2026/06/cqa-2026-06-11-gen-003_001.jpg" target="_blank">查看原图</a>
+          <a class="btn-secondary" href="" target="_blank">查看原图</a>
         </div>
       </article>
     </div>
-    
     <div class="footer">
       <p>Creative Quota Assets · AI 创意素材库</p>
       <p>
@@ -476,9 +452,7 @@
         提示协议 CC-BY 4.0 · 元数据 MIT
       </p>
     </div>
-    
   </div>
-  
   <script>
     document.querySelectorAll('[data-filter]').forEach(btn => {
       btn.addEventListener('click', () => {
