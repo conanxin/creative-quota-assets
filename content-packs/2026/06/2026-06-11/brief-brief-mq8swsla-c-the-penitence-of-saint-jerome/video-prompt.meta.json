@@ -1,11 +1,18 @@
 {
-  "pack_id": "brief-mq8swsla-cw74l",
-  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
   "title": "The Penitence of Saint Jerome",
   "source_type": "culture-art",
   "source_label_zh": "文化艺术",
-  "strategy": "culture-art → 博物馆灯光 / 古典重绎 / 慢推，强调「原作气质的电影感」",
-  "direction": "视频方向：contemplative figure slow pan",
+  "prompt_strategy": "culture-art → 博物馆灯光 / 古典重绎 / 慢推，强调「原作气质的电影感」",
+  "model_family": "hailuo",
+  "duration": "8s",
+  "aspect_ratio": "16:9",
+  "priority": "medium",
+  "recommended_use": [
+    "short-video",
+    "museum-clip",
+    "cinematic-pan",
+    "motion-graphic"
+  ],
   "facts_used": [
     "title: The Penitence of Saint Jerome",
     "artist: Joachim Patinir",
@@ -13,6 +20,14 @@
     "medium: Oil on wood",
     "department: European Paintings"
   ],
+  "original_prompt_path": "video-prompt.md",
+  "enriched_prompt_path": "video-prompt.enriched.md",
+  "zh_prompt_path": "video-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8swsla-cw74l",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-c-the-penitence-of-saint-jerome",
+  "direction": "视频方向：contemplative figure slow pan",
   "shots": [
     {
       "id": 1,
@@ -47,8 +62,7 @@
     "priority": "medium",
     "generationMode": "prompt-only"
   },
-  "uncertainty_notes": [],
-  "generated_at": "2026-06-13T04:12:20.513Z",
+  "generated_at": "2026-06-13T04:20:56.070Z",
   "generator": "enhance-video-prompts.ts@phase4h",
   "llm_used": false,
   "video_model_called": false,

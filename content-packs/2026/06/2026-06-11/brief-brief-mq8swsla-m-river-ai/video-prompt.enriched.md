@@ -3,7 +3,7 @@
 > 来源类型：**开发者社区** (dev-community)
 > 策略：dev-community → 痛点短视频 / 讨论地图，强调「开发者场景 + 上下文压力」
 > 视频方向：视频方向：discussion map / forum energy visual
-> 生成时间：2026-06-13T04:12:20.513Z
+> 生成时间：2026-06-13T04:20:56.071Z
 
 ## 中文创作意图 (Chinese Intent)
 

@@ -1,15 +1,29 @@
 {
-  "pack_id": "brief-mq8c6xyg-op6l2",
-  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
   "title": "River AI",
   "source_type": "dev-community",
   "source_label_zh": "开发者社区",
-  "strategy": "dev-community → 痛点短视频 / 讨论地图，强调「开发者场景 + 上下文压力」",
-  "direction": "视频方向：discussion map / forum energy visual",
+  "prompt_strategy": "dev-community → 痛点短视频 / 讨论地图，强调「开发者场景 + 上下文压力」",
+  "model_family": "hailuo",
+  "duration": "8s",
+  "aspect_ratio": "16:9",
+  "priority": "medium",
+  "recommended_use": [
+    "short-video",
+    "x-post",
+    "discussion-clip"
+  ],
   "facts_used": [
     "title: River AI",
     "description: A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal"
   ],
+  "original_prompt_path": "video-prompt.md",
+  "enriched_prompt_path": "video-prompt.enriched.md",
+  "zh_prompt_path": "video-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8c6xyg-op6l2",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
+  "direction": "视频方向：discussion map / forum energy visual",
   "shots": [
     {
       "id": 1,
@@ -44,8 +58,7 @@
     "priority": "medium",
     "generationMode": "prompt-only"
   },
-  "uncertainty_notes": [],
-  "generated_at": "2026-06-13T04:12:20.520Z",
+  "generated_at": "2026-06-13T04:20:56.086Z",
   "generator": "enhance-video-prompts.ts@phase4h",
   "llm_used": false,
   "video_model_called": false,

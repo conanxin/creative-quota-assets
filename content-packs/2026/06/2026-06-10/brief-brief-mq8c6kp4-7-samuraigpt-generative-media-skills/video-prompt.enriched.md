@@ -3,7 +3,7 @@
 > 来源类型：**开源项目** (code)
 > 策略：code → Agent 节点动画 / launch clip / data flow，强调「节点、连线、指标瓦片」镜头语言
 > 视频方向：视频方向：Agent pipeline 节点动画
-> 生成时间：2026-06-13T04:12:20.516Z
+> 生成时间：2026-06-13T04:20:56.082Z
 
 ## 中文创作意图 (Chinese Intent)
 

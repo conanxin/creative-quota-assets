@@ -1,11 +1,18 @@
 {
-  "pack_id": "brief-mq8c663q-4ra4a",
-  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
   "title": "stabilityai/stable-video-diffusion-img2vid-xt",
   "source_type": "ai-ecosystem",
   "source_label_zh": "AI 模型生态",
-  "strategy": "ai-ecosystem → pipeline flow / model card cinematic，强调「输入 → 模型 → 输出」镜头叙事",
-  "direction": "视频方向：model pipeline flow (input image → motion → video)",
+  "prompt_strategy": "ai-ecosystem → pipeline flow / model card cinematic，强调「输入 → 模型 → 输出」镜头叙事",
+  "model_family": "hailuo",
+  "duration": "8s",
+  "aspect_ratio": "16:9",
+  "priority": "high",
+  "recommended_use": [
+    "short-video",
+    "model-demo",
+    "pipeline-flow",
+    "capability-card"
+  ],
   "facts_used": [
     "model: stabilityai/stable-video-diffusion-img2vid-xt",
     "task: 任务类型: image-to-video",
@@ -13,6 +20,14 @@
     "下载量: 200,356",
     "点赞数: 3,315"
   ],
+  "original_prompt_path": "video-prompt.md",
+  "enriched_prompt_path": "video-prompt.enriched.md",
+  "zh_prompt_path": "video-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8c663q-4ra4a",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-4-stabilityai-stable-video-diffusion-img2vid-xt",
+  "direction": "视频方向：model pipeline flow (input image → motion → video)",
   "shots": [
     {
       "id": 1,
@@ -47,8 +62,7 @@
     "priority": "high",
     "generationMode": "prompt-only"
   },
-  "uncertainty_notes": [],
-  "generated_at": "2026-06-13T04:12:20.520Z",
+  "generated_at": "2026-06-13T04:20:56.087Z",
   "generator": "enhance-video-prompts.ts@phase4h",
   "llm_used": false,
   "video_model_called": false,

@@ -1,11 +1,18 @@
 {
-  "pack_id": "brief-mq8swsla-fa2i7",
-  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
   "title": "SamurAIGPT/Generative-Media-Skills",
   "source_type": "code",
   "source_label_zh": "开源项目",
-  "strategy": "code → Agent 节点动画 / launch clip / data flow，强调「节点、连线、指标瓦片」镜头语言",
-  "direction": "视频方向：Agent pipeline 节点动画",
+  "prompt_strategy": "code → Agent 节点动画 / launch clip / data flow，强调「节点、连线、指标瓦片」镜头语言",
+  "model_family": "hailuo",
+  "duration": "8s",
+  "aspect_ratio": "16:9",
+  "priority": "high",
+  "recommended_use": [
+    "short-video",
+    "x-post",
+    "project-demo",
+    "launch-clip"
+  ],
   "facts_used": [
     "3,497 stars (GitHub)",
     "397 forks",
@@ -14,6 +21,14 @@
     "description: Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality im",
     "license: MIT License"
   ],
+  "original_prompt_path": "video-prompt.md",
+  "enriched_prompt_path": "video-prompt.enriched.md",
+  "zh_prompt_path": "video-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8swsla-fa2i7",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8swsla-f-samuraigpt-generative-media-skills",
+  "direction": "视频方向：Agent pipeline 节点动画",
   "shots": [
     {
       "id": 1,
@@ -48,8 +63,7 @@
     "priority": "high",
     "generationMode": "prompt-only"
   },
-  "uncertainty_notes": [],
-  "generated_at": "2026-06-13T04:12:20.510Z",
+  "generated_at": "2026-06-13T04:20:56.056Z",
   "generator": "enhance-video-prompts.ts@phase4h",
   "llm_used": false,
   "video_model_called": false,

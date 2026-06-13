@@ -1,15 +1,32 @@
 {
-  "pack_id": "brief-mq8c6kp5-ucw76",
-  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
   "title": "Flaws in the LLM Automation Narrative",
   "source_type": "academic",
   "source_label_zh": "学术研究",
-  "strategy": "academic → 论文概念动画 / 视觉隐喻 / 概念网络，强调「研究方法 + 关键数据 + 论文气质」",
-  "direction": "视频方向：论文概念动画 / 基准曲线",
+  "prompt_strategy": "academic → 论文概念动画 / 视觉隐喻 / 概念网络，强调「研究方法 + 关键数据 + 论文气质」",
+  "model_family": "hailuo",
+  "duration": "8s",
+  "aspect_ratio": "16:9",
+  "priority": "medium",
+  "recommended_use": [
+    "short-video",
+    "paper-summary",
+    "concept-animation"
+  ],
   "facts_used": [
     "title: Flaws in the LLM Automation Narrative",
     "summary: Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy"
   ],
+  "original_prompt_path": "video-prompt.md",
+  "enriched_prompt_path": "video-prompt.enriched.md",
+  "zh_prompt_path": "video-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [
+    "authors missing",
+    "date missing"
+  ],
+  "pack_id": "brief-mq8c6kp5-ucw76",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp5-u-flaws-in-the-llm-automation-narrative",
+  "direction": "视频方向：论文概念动画 / 基准曲线",
   "shots": [
     {
       "id": 1,
@@ -44,11 +61,7 @@
     "priority": "medium",
     "generationMode": "prompt-only"
   },
-  "uncertainty_notes": [
-    "authors missing",
-    "date missing"
-  ],
-  "generated_at": "2026-06-13T04:12:20.516Z",
+  "generated_at": "2026-06-13T04:20:56.083Z",
   "generator": "enhance-video-prompts.ts@phase4h",
   "llm_used": false,
   "video_model_called": false,

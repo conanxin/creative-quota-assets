@@ -3,7 +3,7 @@
 > 来源类型：**AI 模型生态** (ai-ecosystem)
 > 策略：ai-ecosystem → pipeline flow / model card cinematic，强调「输入 → 模型 → 输出」镜头叙事
 > 视频方向：视频方向：model pipeline flow (input image → motion → video)
-> 生成时间：2026-06-13T04:12:20.520Z
+> 生成时间：2026-06-13T04:20:56.087Z
 
 ## 中文创作意图 (Chinese Intent)
 
