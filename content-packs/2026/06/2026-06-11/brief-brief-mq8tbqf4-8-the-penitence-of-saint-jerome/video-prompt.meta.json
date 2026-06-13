@@ -1,0 +1,62 @@
+{
+  "pack_id": "brief-mq8tbqf4-8cz35",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-8-the-penitence-of-saint-jerome",
+  "title": "The Penitence of Saint Jerome",
+  "source_type": "culture-art",
+  "source_label_zh": "文化艺术",
+  "strategy": "culture-art → 博物馆灯光 / 古典重绎 / 慢推，强调「原作气质的电影感」",
+  "direction": "视频方向：contemplative figure slow pan",
+  "facts_used": [
+    "title: The Penitence of Saint Jerome",
+    "artist: Joachim Patinir",
+    "date: ca. 1515",
+    "medium: Oil on wood",
+    "department: European Paintings"
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "duration_s": 3,
+      "description": "a single contemplative figure in a wilderness scene, soft warm key light from the upper-left",
+      "camera": "static medium",
+      "motion": "figure barely moves, atmospheric dust drift"
+    },
+    {
+      "id": 2,
+      "duration_s": 3,
+      "description": "slow push-in on the figure, background darkens slightly, the figure remains still",
+      "camera": "slow push-in",
+      "motion": "background darkens, figure centered"
+    },
+    {
+      "id": 3,
+      "duration_s": 2,
+      "description": "final close composition with strong chiaroscuro, calm end",
+      "camera": "static",
+      "motion": "calm end frame"
+    }
+  ],
+  "style_description": "博物馆聚光；暖色调；油画笔触质感；缓慢推进；末端稳定收束。",
+  "english_prompt": "Shot 1 (3s): a single contemplative figure in a wilderness scene, soft warm key light from the upper-left Camera: static medium. Motion: figure barely moves, atmospheric dust drift. Shot 2 (3s): slow push-in on the figure, background darkens slightly, the figure remains still Camera: slow push-in. Motion: background darkens, figure centered. Shot 3 (2s): final close composition with strong chiaroscuro, calm end Camera: static. Motion: calm end frame.",
+  "negative_prompt": "fake company logos, real product branding, tiny on-screen text, unreadable UI overlays, copyrighted characters, real person likeness, distorted hands, extra fingers, rapid shaky camera, rapid cuts, low resolution, motion blur on text, jittery frame interpolation, watermark, signature, anime, pop art, neon, fake museum text, modern logos",
+  "intent_zh": "视频方向：contemplative figure slow pan。作品：The Penitence of Saint Jerome。艺术家：Joachim Patinir。年代：ca. 1515。媒介：Oil on wood。部门：European Paintings。核心思路：8 秒 3 镜头 — 博物馆聚光 → 慢推到细节 → 收尾；保留油画质感，不出现人物面孔特写",
+  "parameters": {
+    "modelFamily": "hailuo",
+    "duration": 8,
+    "aspectRatio": "16:9",
+    "priority": "medium",
+    "generationMode": "prompt-only"
+  },
+  "uncertainty_notes": [],
+  "generated_at": "2026-06-13T04:12:20.512Z",
+  "generator": "enhance-video-prompts.ts@phase4h",
+  "llm_used": false,
+  "video_model_called": false,
+  "image_model_called": false,
+  "music_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "video-prompt.enriched.md",
+    "zh_md": "video-prompt.zh.md"
+  }
+}

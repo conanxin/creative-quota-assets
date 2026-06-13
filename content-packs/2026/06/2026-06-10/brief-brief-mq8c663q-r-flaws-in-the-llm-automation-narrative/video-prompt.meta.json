@@ -1,0 +1,62 @@
+{
+  "pack_id": "brief-mq8c663q-rr91q",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663q-r-flaws-in-the-llm-automation-narrative",
+  "title": "Flaws in the LLM Automation Narrative",
+  "source_type": "academic",
+  "source_label_zh": "学术研究",
+  "strategy": "academic → 论文概念动画 / 视觉隐喻 / 概念网络，强调「研究方法 + 关键数据 + 论文气质」",
+  "direction": "视频方向：论文概念动画 / 基准曲线",
+  "facts_used": [
+    "title: Flaws in the LLM Automation Narrative",
+    "summary: Large Language Models (LLMs) are increasingly described as performing at the level of human experts on knowledge economy"
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "duration_s": 3,
+      "description": "a curve climbs on a dark grid, with two reference lines (human baseline, prior SOTA) marked in muted blue",
+      "camera": "static medium",
+      "motion": "curve draws smoothly from left to right"
+    },
+    {
+      "id": 2,
+      "duration_s": 3,
+      "description": "a small bar chart of category scores appears below the curve, with the leading bar in warm gold",
+      "camera": "slow push-in",
+      "motion": "bars rise in sequence"
+    },
+    {
+      "id": 3,
+      "duration_s": 2,
+      "description": "a small elegant serif title appears at the top, with a tiny arXiv-style id badge",
+      "camera": "static",
+      "motion": "title fades in, badge slides in"
+    }
+  ],
+  "style_description": "深蓝 + 米白 + 金色点缀；衬线标题 + 无衬线小字；arXiv 学术海报气质；节奏舒缓；末端稳定收束。",
+  "english_prompt": "Shot 1 (3s): a curve climbs on a dark grid, with two reference lines (human baseline, prior SOTA) marked in muted blue Camera: static medium. Motion: curve draws smoothly from left to right. Shot 2 (3s): a small bar chart of category scores appears below the curve, with the leading bar in warm gold Camera: slow push-in. Motion: bars rise in sequence. Shot 3 (2s): a small elegant serif title appears at the top, with a tiny arXiv-style id badge Camera: static. Motion: title fades in, badge slides in.",
+  "negative_prompt": "fake company logos, real product branding, tiny on-screen text, unreadable UI overlays, copyrighted characters, real person likeness, distorted hands, extra fingers, rapid shaky camera, rapid cuts, low resolution, motion blur on text, jittery frame interpolation, watermark, signature, fake equations, fake arXiv watermark, fake author photo",
+  "intent_zh": "视频方向：论文概念动画 / 基准曲线。论文：Flaws in the LLM Automation Narrative。核心思路：8 秒 3 镜头 — 概念图/数据曲线 → 推导/连线 → 论文气质收尾，不画人脸，不出现虚假论文页截图",
+  "parameters": {
+    "modelFamily": "hailuo",
+    "duration": 8,
+    "aspectRatio": "16:9",
+    "priority": "medium",
+    "generationMode": "prompt-only"
+  },
+  "uncertainty_notes": [
+    "authors missing",
+    "date missing"
+  ],
+  "generated_at": "2026-06-13T04:12:20.517Z",
+  "generator": "enhance-video-prompts.ts@phase4h",
+  "llm_used": false,
+  "video_model_called": false,
+  "image_model_called": false,
+  "music_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "video-prompt.enriched.md",
+    "zh_md": "video-prompt.zh.md"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "pack_id": "brief-mq8c6xyg-bqh3n",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-b-samuraigpt-generative-media-skills",
+  "title": "SamurAIGPT/Generative-Media-Skills",
+  "source_type": "code",
+  "source_label_zh": "开源项目",
+  "strategy": "code → Agent 节点动画 / launch clip / data flow，强调「节点、连线、指标瓦片」镜头语言",
+  "direction": "视频方向：Agent pipeline 节点动画",
+  "facts_used": [
+    "3,497 stars (GitHub)",
+    "397 forks",
+    "primary language: Shell",
+    "topics: agent-tools, ai-agents, ai-art, ai-music",
+    "description: Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality im",
+    "license: MIT License"
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "duration_s": 3,
+      "description": "a clean dark navy workspace, a single node labeled with the project name lights up in the center",
+      "camera": "static medium",
+      "motion": "subtle glow on the node, no camera movement"
+    },
+    {
+      "id": 2,
+      "duration_s": 3,
+      "description": "thin lines connect the central node to 4-5 smaller capability icons orbiting around it (chat, image, video, audio, code)",
+      "camera": "slow push-in",
+      "motion": "connection lines draw in sequence, icons float gently"
+    },
+    {
+      "id": 3,
+      "duration_s": 2,
+      "description": "a final cluster of stars and forks counter tiles in monospaced font appears, all icons settle into a calm orbit",
+      "camera": "slow pull-back to wide",
+      "motion": "soft particle drift, tiles fade in"
+    }
+  ],
+  "style_description": "深色靛蓝 / 板岩灰背景；琥珀色或青蓝色高光；细线条、低对比度；镜头推进与拉远节奏舒缓；末端稳定收束，无快速剪辑。",
+  "english_prompt": "Shot 1 (3s): a clean dark navy workspace, a single node labeled with the project name lights up in the center Camera: static medium. Motion: subtle glow on the node, no camera movement. Shot 2 (3s): thin lines connect the central node to 4-5 smaller capability icons orbiting around it (chat, image, video, audio, code) Camera: slow push-in. Motion: connection lines draw in sequence, icons float gently. Shot 3 (2s): a final cluster of stars and forks counter tiles in monospaced font appears, all icons settle into a calm orbit Camera: slow pull-back to wide. Motion: soft particle drift, tiles fade in.",
+  "negative_prompt": "fake company logos, real product branding, tiny on-screen text, unreadable UI overlays, copyrighted characters, real person likeness, distorted hands, extra fingers, rapid shaky camera, rapid cuts, low resolution, motion blur on text, jittery frame interpolation, watermark, signature, photorealistic human, fake CLI names, fake project splash screen",
+  "intent_zh": "视频方向：Agent pipeline 节点动画。项目：SamurAIGPT/Generative-Media-Skills。项目定位：Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality image, video, and audi。核心思路：8 秒 3 镜头 — 节点出现 → 连线/流式动画 → 指标瓦片收尾，全程使用镜头语言（不画人物、不出现 logo）",
+  "parameters": {
+    "modelFamily": "hailuo",
+    "duration": 8,
+    "aspectRatio": "16:9",
+    "priority": "high",
+    "generationMode": "prompt-only"
+  },
+  "uncertainty_notes": [],
+  "generated_at": "2026-06-13T04:12:20.516Z",
+  "generator": "enhance-video-prompts.ts@phase4h",
+  "llm_used": false,
+  "video_model_called": false,
+  "image_model_called": false,
+  "music_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "video-prompt.enriched.md",
+    "zh_md": "video-prompt.zh.md"
+  }
+}

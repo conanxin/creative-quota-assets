@@ -1,0 +1,62 @@
+{
+  "pack_id": "brief-mq8tbqf4-sjj60",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+  "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+  "source_type": "ai-ecosystem",
+  "source_label_zh": "AI 模型生态",
+  "strategy": "ai-ecosystem → pipeline flow / model card cinematic，强调「输入 → 模型 → 输出」镜头叙事",
+  "direction": "视频方向：model pipeline flow (input image → motion → video)",
+  "facts_used": [
+    "model: stabilityai/stable-video-diffusion-img2vid-xt",
+    "task: 任务类型: image-to-video",
+    "library: 库: diffusers",
+    "下载量: 200,356",
+    "点赞数: 3,315"
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "duration_s": 3,
+      "description": "a single still image card floats in the lower-left, glowing softly, on dark slate background",
+      "camera": "static medium",
+      "motion": "image pulses gently"
+    },
+    {
+      "id": 2,
+      "duration_s": 3,
+      "description": "frame-by-frame strip emerges to the right, each frame 1/4 step further along the motion timeline, subtle blur indicating motion",
+      "camera": "slow pan L→R",
+      "motion": "frames appear in sequence, motion arrows between them"
+    },
+    {
+      "id": 3,
+      "duration_s": 2,
+      "description": "final frame holds, a monospaced metric tile (downloads/likes) fades in below",
+      "camera": "static",
+      "motion": "final frame stabilizes, tile fades in"
+    }
+  ],
+  "style_description": "深色板岩背景；琥珀 → 紫红渐变高光；monospaced 指标瓦片；HF 风格；节奏舒缓，无快速剪辑。",
+  "english_prompt": "Shot 1 (3s): a single still image card floats in the lower-left, glowing softly, on dark slate background Camera: static medium. Motion: image pulses gently. Shot 2 (3s): frame-by-frame strip emerges to the right, each frame 1/4 step further along the motion timeline, subtle blur indicating motion Camera: slow pan L→R. Motion: frames appear in sequence, motion arrows between them. Shot 3 (2s): final frame holds, a monospaced metric tile (downloads/likes) fades in below Camera: static. Motion: final frame stabilizes, tile fades in.",
+  "negative_prompt": "fake company logos, real product branding, tiny on-screen text, unreadable UI overlays, copyrighted characters, real person likeness, distorted hands, extra fingers, rapid shaky camera, rapid cuts, low resolution, motion blur on text, jittery frame interpolation, watermark, signature, anime, 3d plastic render, fake HF card, fake company logo",
+  "intent_zh": "视频方向：model pipeline flow (input image → motion → video)。模型：stabilityai/stable-video-diffusion-img2vid-xt。任务类型：任务类型: image-to-video。底层库：库: diffusers。下载量：下载量: 200,356。点赞数：点赞数: 3,315。核心思路：8 秒 3 镜头 — 输入 → 模型处理 → 输出；末尾显示关键指标瓦片",
+  "parameters": {
+    "modelFamily": "hailuo",
+    "duration": 8,
+    "aspectRatio": "16:9",
+    "priority": "high",
+    "generationMode": "prompt-only"
+  },
+  "uncertainty_notes": [],
+  "generated_at": "2026-06-13T04:12:20.514Z",
+  "generator": "enhance-video-prompts.ts@phase4h",
+  "llm_used": false,
+  "video_model_called": false,
+  "image_model_called": false,
+  "music_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "video-prompt.enriched.md",
+    "zh_md": "video-prompt.zh.md"
+  }
+}

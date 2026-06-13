@@ -1,0 +1,59 @@
+{
+  "pack_id": "brief-mq8tbqf4-qm0of",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-q-river-ai",
+  "title": "River AI",
+  "source_type": "dev-community",
+  "source_label_zh": "开发者社区",
+  "strategy": "dev-community → 痛点短视频 / 讨论地图，强调「开发者场景 + 上下文压力」",
+  "direction": "视频方向：discussion map / forum energy visual",
+  "facts_used": [
+    "title: River AI",
+    "description: A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal"
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "duration_s": 3,
+      "description": "three discussion bubbles float in a soft cluster, edges glowing, on a dark dev-poster background",
+      "camera": "static wide",
+      "motion": "bubbles pulse gently"
+    },
+    {
+      "id": 2,
+      "duration_s": 3,
+      "description": "a connecting line draws between the three bubbles, indicating community thread structure",
+      "camera": "slow push-in",
+      "motion": "line draws in sequence"
+    },
+    {
+      "id": 3,
+      "duration_s": 2,
+      "description": "a small upvote counter chip appears, calm end frame",
+      "camera": "static",
+      "motion": "chip fades in"
+    }
+  ],
+  "style_description": "粉紫 + 板岩灰配色；圆角无衬线小字；柔和阴影；节奏舒缓；末端稳定收束。",
+  "english_prompt": "Shot 1 (3s): three discussion bubbles float in a soft cluster, edges glowing, on a dark dev-poster background Camera: static wide. Motion: bubbles pulse gently. Shot 2 (3s): a connecting line draws between the three bubbles, indicating community thread structure Camera: slow push-in. Motion: line draws in sequence. Shot 3 (2s): a small upvote counter chip appears, calm end frame Camera: static. Motion: chip fades in.",
+  "negative_prompt": "fake company logos, real product branding, tiny on-screen text, unreadable UI overlays, copyrighted characters, real person likeness, distorted hands, extra fingers, rapid shaky camera, rapid cuts, low resolution, motion blur on text, jittery frame interpolation, watermark, signature, photographic portrait, anime, neon, fake upvote animation",
+  "intent_zh": "视频方向：discussion map / forum energy visual。话题：River AI。简介：A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we are building personal。核心思路：8 秒 3 镜头 — 工作场景/讨论场景 → 上下文压力/连接动画 → 收尾",
+  "parameters": {
+    "modelFamily": "hailuo",
+    "duration": 8,
+    "aspectRatio": "16:9",
+    "priority": "medium",
+    "generationMode": "prompt-only"
+  },
+  "uncertainty_notes": [],
+  "generated_at": "2026-06-13T04:12:20.514Z",
+  "generator": "enhance-video-prompts.ts@phase4h",
+  "llm_used": false,
+  "video_model_called": false,
+  "image_model_called": false,
+  "music_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "video-prompt.enriched.md",
+    "zh_md": "video-prompt.zh.md"
+  }
+}
