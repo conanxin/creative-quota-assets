@@ -1,0 +1,62 @@
+{
+  "title": "SamurAIGPT/Generative-Media-Skills",
+  "source_type": "code",
+  "source_label_zh": "开源项目",
+  "prompt_strategy": "code → focus coding lo-fi / agent workflow pulse，强调「可循环 + 不抢人声 + 项目气质」",
+  "model_family": "minimax-music",
+  "duration": "60-90s",
+  "instrumental": true,
+  "lyrics": "none",
+  "priority": "high",
+  "recommended_use": [
+    "background-music",
+    "short-video",
+    "project-intro",
+    "coding-session"
+  ],
+  "facts_used": [
+    "topics: agent-tools, ai-agents, ai-art, ai-music",
+    "description: Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality im",
+    "language: Shell"
+  ],
+  "original_prompt_path": "music-prompt.md",
+  "enriched_prompt_path": "music-prompt.enriched.md",
+  "zh_prompt_path": "music-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8c6kp4-7z62f",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6kp4-7-samuraigpt-generative-media-skills",
+  "direction": "音乐方向：agent workflow pulse",
+  "attributes": {
+    "mood": "focused, calm, lightly energised",
+    "genre": "minimal electronic",
+    "tempo": "70-85 BPM, relaxed but moving",
+    "instrumentation": "soft synth arpeggios, light pulse kick, gentle hi-hats",
+    "texture": "warm, soft attack, mid-range focus, gentle sidechain",
+    "energy": "low-to-medium, never distracting, supports concentration",
+    "loopability": "seamlessly loopable, gentle 4-bar ending tail"
+  },
+  "english_prompt": "An instrumental coding-session background track. minimal electronic, 70-85 BPM, relaxed but moving. mood: focused, calm, lightly energised. instrumentation: soft synth arpeggios, light pulse kick, gentle hi-hats. texture: warm, soft attack, mid-range focus, gentle sidechain. energy: low-to-medium, never distracting, supports concentration. style references: ambient lo-fi, minimal downtempo, no vocals, no lyrics. suitable for a 60-90 second background loop under a developer project explainer. gentle fade-in at 0s, gentle fade-out at the end. no melody that competes with voiceover",
+  "negative_prompt": "no lyrics, no vocals, no imitation of living artists, no copyrighted melodies, no famous song references, no recognizable tune hooks, no harsh noise, no abrupt ending, no sudden tempo change, no clipping, no busy mix, no low quality mp3 artifacts, trap hi-hats at high tempo, dubstep drops, anime opening energy",
+  "intent_zh": "音乐方向：agent workflow pulse。项目：SamurAIGPT/Generative-Media-Skills。项目定位：Multi-modal Generative Media Skills for AI Agents (Claude Code, Cursor, Gemini CLI). High-quality im。核心思路：60-90 秒纯器乐，可循环，节奏舒缓不抢人声；适合项目演示、介绍视频背景",
+  "parameters": {
+    "modelFamily": "minimax-music",
+    "duration": "60-90s",
+    "instrumental": true,
+    "lyrics": "none",
+    "priority": "high",
+    "generationMode": "prompt-only"
+  },
+  "generated_at": "2026-06-13T04:44:57.870Z",
+  "generator": "enhance-music-prompts.ts@phase4i",
+  "llm_used": false,
+  "music_model_called": false,
+  "image_model_called": false,
+  "video_model_called": false,
+  "audio_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "music-prompt.enriched.md",
+    "zh_md": "music-prompt.zh.md"
+  }
+}

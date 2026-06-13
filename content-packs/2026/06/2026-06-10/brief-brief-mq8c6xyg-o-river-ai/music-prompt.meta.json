@@ -1,0 +1,61 @@
+{
+  "title": "River AI",
+  "source_type": "dev-community",
+  "source_label_zh": "开发者社区",
+  "prompt_strategy": "dev-community → 独立电子 / 等待 agent vibe，强调「对话节奏 + 社区感」",
+  "model_family": "minimax-music",
+  "duration": "60-90s",
+  "instrumental": true,
+  "lyrics": "none",
+  "priority": "medium",
+  "recommended_use": [
+    "background-music",
+    "discussion-clip",
+    "x-post",
+    "short-video"
+  ],
+  "facts_used": [
+    "title: River AI",
+    "description: A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we ar"
+  ],
+  "original_prompt_path": "music-prompt.md",
+  "enriched_prompt_path": "music-prompt.enriched.md",
+  "zh_prompt_path": "music-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8c6xyg-op6l2",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c6xyg-o-river-ai",
+  "direction": "音乐方向：waiting-for-agent coding vibe",
+  "attributes": {
+    "mood": "patient, ambient",
+    "genre": "indie electronic / lo-fi",
+    "tempo": "75-90 BPM, conversational pacing",
+    "instrumentation": "soft synth chords, light electric piano, brushed snare hits",
+    "texture": "casual, room-y, mid-range focus",
+    "energy": "low-medium, never urgent",
+    "loopability": "8-bar loop with quiet variation"
+  },
+  "english_prompt": "An instrumental developer-community discussion background track. indie electronic / lo-fi, 75-90 BPM, conversational pacing. mood: patient, ambient. instrumentation: soft synth chords, light electric piano, brushed snare hits. texture: casual, room-y, mid-range focus. energy: low-medium, never urgent. style references: indie electronic, soft chiptune-lite (no lead melody), no vocals. suitable for a 60-90 second loop under a Hacker News / dev discussion clip",
+  "negative_prompt": "no lyrics, no vocals, no imitation of living artists, no copyrighted melodies, no famous song references, no recognizable tune hooks, no harsh noise, no abrupt ending, no sudden tempo change, no clipping, no busy mix, no low quality mp3 artifacts, punk, metal, dubstep, hardstyle",
+  "intent_zh": "音乐方向：waiting-for-agent coding vibe。话题：River AI。简介：A personal note from Igor Babuschkin, co-founder & CEO of River AI, on why we ar。核心思路：60-90 秒独立电子 / 轻 lo-fi，节奏接近对话速度；适合讨论片段背景",
+  "parameters": {
+    "modelFamily": "minimax-music",
+    "duration": "60-90s",
+    "instrumental": true,
+    "lyrics": "none",
+    "priority": "medium",
+    "generationMode": "prompt-only"
+  },
+  "generated_at": "2026-06-13T04:44:57.888Z",
+  "generator": "enhance-music-prompts.ts@phase4i",
+  "llm_used": false,
+  "music_model_called": false,
+  "image_model_called": false,
+  "video_model_called": false,
+  "audio_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "music-prompt.enriched.md",
+    "zh_md": "music-prompt.zh.md"
+  }
+}

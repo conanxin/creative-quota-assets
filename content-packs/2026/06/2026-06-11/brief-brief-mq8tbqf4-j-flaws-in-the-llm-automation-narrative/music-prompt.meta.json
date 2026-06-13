@@ -1,0 +1,63 @@
+{
+  "title": "Flaws in the LLM Automation Narrative",
+  "source_type": "academic",
+  "source_label_zh": "学术研究",
+  "prompt_strategy": "academic → 学术氛围 / 安静分析型 / 极弱节奏，强调「不抢人声 + 留白 + 思考气质」",
+  "model_family": "minimax-music",
+  "duration": "60-90s",
+  "instrumental": true,
+  "lyrics": "none",
+  "priority": "medium",
+  "recommended_use": [
+    "background-music",
+    "paper-explainer",
+    "podcast-intro",
+    "conference-talk"
+  ],
+  "facts_used": [
+    "title: Flaws in the LLM Automation Narrative",
+    "summary: Large Language Models (LLMs) are increasingly described as performing at the lev"
+  ],
+  "original_prompt_path": "music-prompt.md",
+  "enriched_prompt_path": "music-prompt.enriched.md",
+  "zh_prompt_path": "music-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [
+    "authors missing"
+  ],
+  "pack_id": "brief-mq8tbqf4-jpit4",
+  "pack_dir": "content-packs/2026/06/2026-06-11/brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+  "direction": "音乐方向：calm analytical ambient",
+  "attributes": {
+    "mood": "contemplative, scholarly, calm",
+    "genre": "analytical ambient",
+    "tempo": "55-70 BPM, slow and reflective",
+    "instrumentation": "soft synth pads, sparse piano notes, light bell accents",
+    "texture": "spacious, air-filled, high-frequency restraint",
+    "energy": "very low, never rises to interrupt narration",
+    "loopability": "long-form loopable, gentle drift between sections"
+  },
+  "english_prompt": "An instrumental academic background track. analytical ambient, 55-70 BPM, slow and reflective. mood: contemplative, scholarly, calm. instrumentation: soft synth pads, sparse piano notes, light bell accents. texture: spacious, air-filled, high-frequency restraint. energy: very low, never rises to interrupt narration. style references: ambient paper-reading background, museum audio, no vocals. suitable for a 60-90 second loop under a paper explainer video. gentle fade-in and gentle fade-out, no dramatic crescendos",
+  "negative_prompt": "no lyrics, no vocals, no imitation of living artists, no copyrighted melodies, no famous song references, no recognizable tune hooks, no harsh noise, no abrupt ending, no sudden tempo change, no clipping, no busy mix, no low quality mp3 artifacts, rock drums, electric guitar, EDM, dubstep, orchestral hit",
+  "intent_zh": "音乐方向：calm analytical ambient。论文：Flaws in the LLM Automation Narrative。核心思路：60-90 秒学术氛围纯器乐，节奏慢、留白多；适合论文讲解视频背景",
+  "parameters": {
+    "modelFamily": "minimax-music",
+    "duration": "60-90s",
+    "instrumental": true,
+    "lyrics": "none",
+    "priority": "medium",
+    "generationMode": "prompt-only"
+  },
+  "generated_at": "2026-06-13T04:44:57.848Z",
+  "generator": "enhance-music-prompts.ts@phase4i",
+  "llm_used": false,
+  "music_model_called": false,
+  "image_model_called": false,
+  "video_model_called": false,
+  "audio_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "music-prompt.enriched.md",
+    "zh_md": "music-prompt.zh.md"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "title": "The Penitence of Saint Jerome",
+  "source_type": "culture-art",
+  "source_label_zh": "文化艺术",
+  "prompt_strategy": "culture-art → 博物馆氛围 / 室内乐质感，强调「暖色古典 + 不模仿具体作曲家 + 留白」",
+  "model_family": "minimax-music",
+  "duration": "60-90s",
+  "instrumental": true,
+  "lyrics": "none",
+  "priority": "medium",
+  "recommended_use": [
+    "background-music",
+    "museum-clip",
+    "gallery-loop",
+    "short-video"
+  ],
+  "facts_used": [
+    "title: The Penitence of Saint Jerome",
+    "artist: Joachim Patinir",
+    "date: ca. 1515",
+    "medium: Oil on wood",
+    "department: European Paintings"
+  ],
+  "original_prompt_path": "music-prompt.md",
+  "enriched_prompt_path": "music-prompt.enriched.md",
+  "zh_prompt_path": "music-prompt.zh.md",
+  "generation_mode": "prompt-only",
+  "uncertainty_notes": [],
+  "pack_id": "brief-mq8c663r-2uj3m",
+  "pack_dir": "content-packs/2026/06/2026-06-10/brief-brief-mq8c663r-2-the-penitence-of-saint-jerome",
+  "direction": "音乐方向：museum ambience (chamber texture, contemplative)",
+  "attributes": {
+    "mood": "reflective, museum-quiet, intimate",
+    "genre": "chamber ambient / warm classical-inspired instrumental",
+    "tempo": "45-60 BPM, very slow and deliberate",
+    "instrumentation": "felt piano, soft strings, occasional solo cello long tones, breath of flute",
+    "texture": "warm wood-and-resin, soft attack, long sustained tails",
+    "energy": "very low, contemplative",
+    "loopability": "evolving texture, gentle cadence, no abrupt end"
+  },
+  "english_prompt": "An instrumental museum ambience track. chamber ambient / warm classical-inspired instrumental, 45-60 BPM, very slow and deliberate. mood: reflective, museum-quiet, intimate. instrumentation: felt piano, soft strings, occasional solo cello long tones, breath of flute. texture: warm wood-and-resin, soft attack, long sustained tails. energy: very low, contemplative. style references: warm chamber ambient, modern classical without imitation of specific composers, no vocals. suitable for a 60-90 second loop under a slow pan across a classical artwork. gentle fade-in, gentle fade-out, room tone in the background",
+  "negative_prompt": "no lyrics, no vocals, no imitation of living artists, no copyrighted melodies, no famous song references, no recognizable tune hooks, no harsh noise, no abrupt ending, no sudden tempo change, no clipping, no busy mix, no low quality mp3 artifacts, imitation of specific living composers, recognizable classical motifs, hip-hop, EDM, anime OST",
+  "intent_zh": "音乐方向：museum ambience (chamber texture, contemplative)。作品：The Penitence of Saint Jerome。艺术家：Joachim Patinir。年代：ca. 1515。媒介：Oil on wood。核心思路：60-90 秒室内乐氛围 / 暖色古典启发式纯器乐；不模仿具体作曲家；适合博物馆慢推视频背景",
+  "parameters": {
+    "modelFamily": "minimax-music",
+    "duration": "60-90s",
+    "instrumental": true,
+    "lyrics": "none",
+    "priority": "medium",
+    "generationMode": "prompt-only"
+  },
+  "generated_at": "2026-06-13T04:44:57.883Z",
+  "generator": "enhance-music-prompts.ts@phase4i",
+  "llm_used": false,
+  "music_model_called": false,
+  "image_model_called": false,
+  "video_model_called": false,
+  "audio_generated": false,
+  "new_media_generated": false,
+  "files": {
+    "enriched_md": "music-prompt.enriched.md",
+    "zh_md": "music-prompt.zh.md"
+  }
+}
