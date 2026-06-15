@@ -98,3 +98,28 @@ Highest quality score (97). Strong candidate to lead first round.
 ---
 
 _Phase 6D-2 decision card. Awaiting human input. No auto-publish._
+
+## Phase 6D-3 decision
+
+
+
+---
+
+## Phase 6D-3 decision
+
+- **Phase 6D-3 decision:** approved
+- **decision_reason:** Approved by human reviewer in Phase 6D-3.
+- **approved_at:** 2026-06-15T22:10:00+08:00
+- **publish_status:** not_published
+- **posted_manually:** false
+
+## Publication
+
+- **Publication:** not published
+- **Manual publish required via X UI**
+
+## Note: Not Posted Automatically
+
+This decision card has been approved by the human reviewer in Phase 6D-3. It does **NOT** trigger any external publish action. The human must manually post via X UI.
+
+See `../approved/posts/<topic-slug>.md` for the copy-ready approved post.

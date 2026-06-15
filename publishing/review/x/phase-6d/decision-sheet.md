@@ -34,22 +34,23 @@ For each item, the human reviewer can choose one of four decisions:
 
 | # | Title | source_type | risk | current_decision | decision_card |
 |---|-------|-------------|------|-------------------|---------------|
-| 1 | Flaws in the LLM Automation Narrative | academic | low | pending | [card](decision-cards/flaws-in-the-llm-automation-narrative.md) |
-| 2 | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | pending | [card](decision-cards/stabilityai-stable-video-diffusion-img2vid-xt.md) |
-| 3 | SamurAIGPT/Generative-Media-Skills | code | low | pending | [card](decision-cards/samuraigpt-generative-media-skills.md) |
-| 4 | River AI | dev-community | **medium** | pending | [card](decision-cards/river-ai.md) |
-| 5 | The Penitence of Saint Jerome | culture-art | **medium** | pending | [card](decision-cards/the-penitence-of-saint-jerome.md) |
+| 1 | Flaws in the LLM Automation Narrative | academic | low | approved | [card](decision-cards/flaws-in-the-llm-automation-narrative.md) |
+| 2 | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | approved | [card](decision-cards/stabilityai-stable-video-diffusion-img2vid-xt.md) |
+| 3 | SamurAIGPT/Generative-Media-Skills | code | low | approved | [card](decision-cards/samuraigpt-generative-media-skills.md) |
+| 4 | River AI | dev-community | **medium** | approved | [card](decision-cards/river-ai.md) |
+| 5 | The Penitence of Saint Jerome | culture-art | **medium** | approved | [card](decision-cards/the-penitence-of-saint-jerome.md) |
 
 ### Decision Counters (initial state)
 
 | Counter | Value |
 |---------|-------|
 | total_items | 5 |
-| approved | 0 |
+| approved | 5 |
 | needs_edit | 0 |
 | rejected | 0 |
 | hold | 0 |
-| pending | 5 (all) |
+| pending | 0 |
+| **Phase 6D-3 status** | **5/5 approved, awaiting manual post** |
 
 ---
 
@@ -146,3 +147,32 @@ This file is a **decision template**. All `current_decision` fields are `pending
 ---
 
 _辛 🔮 — Phase 6D-2 decision sheet ready. Awaiting human decisions. No auto-publish._
+
+
+---
+
+## Phase 6D-3 Update (Human Decision Recorded)
+
+**Updated:** 2026-06-15T22:10:00+08:00
+
+In Phase 6D-3, the human reviewer filled in `current_decision=approved` for all 5 items. The status of this decision sheet is now:
+
+- 5/5 items approved
+- 0/5 needs_edit
+- 0/5 rejected
+- 0/5 hold
+- 0/5 pending
+- 5/5 publish_status=not_published
+- 0/5 posted_manually (none auto-posted)
+
+**⚠️ Approved does NOT mean posted.** All 5 items still require manual posting via X UI. The approved pack is at `approved/posts/`.
+
+The human must:
+
+1. Open `approved/posts/<topic-slug>.md` for each item.
+2. Copy the X Post Text to X UI manually.
+3. Upload the image from `image_url`.
+4. Click "Post".
+5. After posting, report back. A future log JSON (Phase 6D-4) will record the post URL and timestamp.
+
+**No X API, no baoyu-post-to-x, no model call, no media generation, no timer, no Telegram digest, no auto-publish.** All steps are manual.

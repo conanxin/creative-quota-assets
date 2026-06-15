@@ -1,0 +1,92 @@
+{
+  "phase": "6D-3",
+  "mode": "approved_publishing_pack",
+  "generated_at": "2026-06-15T22:10:00+08:00",
+  "based_on_phase": "6D-2",
+  "based_on_assets_commit": "b5bd188",
+  "based_on_harvester_commit": "a003a71",
+  "no_platform_publish": true,
+  "platform_publish_enabled": false,
+  "no_model_call": true,
+  "no_media_generation": true,
+  "no_x_api": true,
+  "no_baoyu_post_to_x": true,
+  "no_timer": true,
+  "no_telegram_digest": true,
+  "no_auto_publish": true,
+  "no_auto_posted_manually": true,
+  "decision_status": "human_decisions_recorded_awaiting_manual_post",
+  "human_decision_summary": "5/5 items approved by human reviewer in Phase 6D-3.",
+  "total_items": 5,
+  "approved": 5,
+  "needs_edit": 0,
+  "rejected": 0,
+  "hold": 0,
+  "posted_manually": 0,
+  "published_externally": 0,
+  "items": [
+    {
+      "id": "Q-6B-X-brief-brief-mq8c6kp5-u-flaws-i",
+      "title": "Flaws in the LLM Automation Narrative",
+      "topic_slug": "flaws-in-the-llm-automation-narrative",
+      "source_type": "academic",
+      "risk_level": "low",
+      "decision": "approved",
+      "publish_status": "not_published",
+      "approved_at": "2026-06-15T22:10:00+08:00",
+      "post_file": "posts/flaws-in-the-llm-automation-narrative.md"
+    },
+    {
+      "id": "Q-6B-X-brief-brief-mq8c663q-4-stabili",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "topic_slug": "stabilityai-stable-video-diffusion-img2vid-xt",
+      "source_type": "ai-ecosystem",
+      "risk_level": "low",
+      "decision": "approved",
+      "publish_status": "not_published",
+      "approved_at": "2026-06-15T22:10:00+08:00",
+      "post_file": "posts/stabilityai-stable-video-diffusion-img2vid-xt.md"
+    },
+    {
+      "id": "Q-6B-X-brief-brief-mq8c6kp4-7-samurai",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "topic_slug": "samuraigpt-generative-media-skills",
+      "source_type": "code",
+      "risk_level": "low",
+      "decision": "approved",
+      "publish_status": "not_published",
+      "approved_at": "2026-06-15T22:10:00+08:00",
+      "post_file": "posts/samuraigpt-generative-media-skills.md"
+    },
+    {
+      "id": "Q-6B-X-brief-brief-mq8c663q-v-river-a",
+      "title": "River AI",
+      "topic_slug": "river-ai",
+      "source_type": "dev-community",
+      "risk_level": "medium",
+      "decision": "approved",
+      "publish_status": "not_published",
+      "approved_at": "2026-06-15T22:10:00+08:00",
+      "post_file": "posts/river-ai.md",
+      "risk_note": "Founder-attributed. Human accepted medium risk."
+    },
+    {
+      "id": "Q-6B-X-brief-brief-mq8c6kp5-r-the-pen",
+      "title": "The Penitence of Saint Jerome",
+      "topic_slug": "the-penitence-of-saint-jerome",
+      "source_type": "culture-art",
+      "risk_level": "medium",
+      "decision": "approved",
+      "publish_status": "not_published",
+      "approved_at": "2026-06-15T22:10:00+08:00",
+      "post_file": "posts/the-penitence-of-saint-jerome.md",
+      "risk_note": "Public-domain artwork. Human accepted medium risk."
+    }
+  ],
+  "passthrough_disclaimers": {
+    "post_text": "All post_text fields are UNCHANGED from Phase 6D-2 (verbatim from Phase 6D-1). Phase 6D-3 did NOT rewrite any post text.",
+    "image_url": "All image_url fields are UNCHANGED from Phase 6D-2. Phase 6D-3 did NOT generate any image.",
+    "model_call": "Phase 6D-3 did NOT call any model.",
+    "publish_action": "Phase 6D-3 did NOT call X API, baoyu-post-to-x, or any platform publish. All items publish_status=not_published. Manual posting via X UI still required."
+  }
+}

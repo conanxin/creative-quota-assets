@@ -22,23 +22,24 @@ Use this board to:
 
 | # | Title | source_type | risk | review_status | publish_status | human_decision | review_file |
 |---|-------|-------------|------|---------------|----------------|----------------|-------------|
-| 1 | Flaws in the LLM Automation Narrative | academic | low | needs_review | not_published | pending | [flaws](../posts/flaws-in-the-llm-automation-narrative.md) |
-| 2 | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | needs_review | not_published | pending | [stability](../posts/stabilityai-stable-video-diffusion-img2vid-xt.md) |
-| 3 | SamurAIGPT/Generative-Media-Skills | code | low | needs_review | not_published | pending | [samurai](../posts/samuraigpt-generative-media-skills.md) |
-| 4 | River AI | dev-community | **medium** | needs_review | not_published | pending | [river](../posts/river-ai.md) |
-| 5 | The Penitence of Saint Jerome | culture-art | **medium** | needs_review | not_published | pending | [penitence](../posts/the-penitence-of-saint-jerome.md) |
+| 1 | Flaws in the LLM Automation Narrative | academic | low | approved | not_published | approved | [flaws](../posts/flaws-in-the-llm-automation-narrative.md) |
+| 2 | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | approved | not_published | approved | [stability](../posts/stabilityai-stable-video-diffusion-img2vid-xt.md) |
+| 3 | SamurAIGPT/Generative-Media-Skills | code | low | approved | not_published | approved | [samurai](../posts/samuraigpt-generative-media-skills.md) |
+| 4 | River AI | dev-community | **medium** | approved | not_published | approved | [river](../posts/river-ai.md) |
+| 5 | The Penitence of Saint Jerome | culture-art | **medium** | approved | not_published | approved | [penitence](../posts/the-penitence-of-saint-jerome.md) |
 
 ### Status Counters (initial state)
 
 | Counter | Value |
 |---------|-------|
 | total_items | 5 |
-| reviewed | 0 |
-| approved | 0 |
+| reviewed | 5 |
+| approved | 5 |
 | needs_edit | 0 |
 | rejected | 0 |
 | posted_manually | 0 |
-| needs_review | 5 (all) |
+| needs_review | 0 (none) |
+| **Phase 6D-3 status** | **5/5 approved, awaiting manual post** |
 
 ---
 
@@ -149,3 +150,32 @@ All publishing remains manual. All status counters will only change via a future
 ---
 
 _辛 🔮 — Phase 6D-1 review board ready. Read-only. No auto-publish._
+
+
+---
+
+## Phase 6D-3 Update (Human Decision Recorded)
+
+**Updated:** 2026-06-15T22:10:00+08:00
+
+In Phase 6D-3, the human reviewer approved all 5 items. The status of this board is now:
+
+- 5/5 items approved
+- 0/5 needs_edit
+- 0/5 rejected
+- 0/5 hold
+- 0/5 posted_manually
+- 5/5 publish_status=not_published
+- All items have `decision=approved`
+
+**⚠️ Approved does NOT mean posted.** All 5 items still require manual posting via X UI. The approved pack is at `../approved/posts/`.
+
+The human must:
+
+1. Open `../approved/posts/<topic-slug>.md` for each item.
+2. Copy the X Post Text to X UI manually.
+3. Upload the image from `image_url`.
+4. Click "Post".
+5. After posting, report back. A future log JSON (Phase 6D-4) will record the post URL and timestamp.
+
+**No X API, no baoyu-post-to-x, no model call, no media generation, no timer, no Telegram digest, no auto-publish.** All steps are manual.
