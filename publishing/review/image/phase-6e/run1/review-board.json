@@ -1,14 +1,19 @@
 {
-  "phase": "6E-E",
-  "phase_chain": "6E-A → 6E-B → 6E-C → 6E-D → 6E-E",
-  "mode": "run1_human_image_review_board",
+  "phase": "6E-H",
+  "phase_chain": "6E-A → 6E-B → 6E-C → 6E-D → 6E-E → 6E-G → 6E-H",
+  "mode": "run1_regenerated_image_human_review_board",
   "generated_at": "2026-06-16T15:30:00+08:00",
-  "updated_at": "2026-06-16T16:10:00+08:00",
-  "based_on_phase": "6E-D",
-  "based_on_assets_commit": "d69b758",
-  "based_on_harvester_commit": "af2d38b",
-  "human_review_recorded_at": "2026-06-16T16:09:50+08:00",
-  "human_reviewer": "Xin Conan (chat_id 1540208324, message_id 50763)",
+  "updated_at": "2026-06-16T16:55:32+08:00",
+  "based_on_phase": "6E-G (regen executed)",
+  "based_on_assets_commit": "8c25944",
+  "based_on_harvester_commit": "6419180",
+  "parent_review_phase": "6E-E",
+  "parent_review_assets_commit": "68aaa81",
+  "parent_review_harvester_commit": "446b024",
+  "parent_review_recorded_at": "2026-06-16T16:09:50+08:00",
+  "parent_reviewer": "Xin Conan (chat_id 1540208324, message_id 50763)",
+  "regen_human_review_recorded_at": "2026-06-16T16:55:32+08:00",
+  "regen_human_reviewer": "Xin Conan (chat_id 1540208324, message_id 50775)",
   "no_model_call": true,
   "no_media_generation": true,
   "no_image_fabrication": true,
@@ -22,18 +27,25 @@
   "no_run_2_approval": true,
   "no_run_3_approval": true,
   "no_existing_image_overwrite": true,
-  "no_regeneration_executed": true,
-  "regeneration_deferred_to_phase_6eg": true,
+  "no_existing_image_delete": true,
+  "no_new_image_generated": true,
+  "no_regeneration_executed_in_this_phase": true,
   "run_2_status": "pending",
   "run_3_status": "pending",
   "total_items": 2,
   "reviewed": 2,
-  "approved": 1,
-  "needs_regen": 1,
+  "approved": 2,
+  "needs_regen": 0,
   "rejected": 0,
   "pending": 0,
+  "regen_reviewed": 1,
+  "regen_approved": 1,
+  "parent_superseded": 1,
   "human_scoring_complete": true,
-  "run_1_outcome": "partial_pass",
+  "run_1_outcome": "approved_after_regen",
+  "run_1_final_outcome": "approved_after_regen",
+  "usable_run1_images": 2,
+  "usable_run1_total": 2,
   "items": [
     {
       "item_id": "Q-6E-B-001",
@@ -65,7 +77,8 @@
       "decision": "approve",
       "decision_source": "human_reviewer (Xin Conan, message_id 50763)",
       "decided_at": "2026-06-16T16:09:50+08:00",
-      "notes": "Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label."
+      "notes": "Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label.",
+      "decision_unaffected_by_regen": true
     },
     {
       "item_id": "Q-6E-B-002",
@@ -82,9 +95,10 @@
       "watermark": true,
       "aigc_watermark": true,
       "prompt_hash": "6d7391a45431",
-      "output_hash": "6d7391a45431",
+      "output_at": "2026-06-16T15:06:00+08:00",
       "generated_at": "2026-06-16T15:06:00+08:00",
-      "review_status": "needs_regen",
+      "image_status": "superseded_by_regen",
+      "review_status": "superseded_by_regen",
       "human_score": 43.3,
       "scoring_dimensions": {
         "prompt_alignment": 6.0,
@@ -104,24 +118,52 @@
         "data_points": "3-4 clear points",
         "charts": "one simple chart only",
         "no_fake_badges": true
-      }
+      },
+      "regen_executed": true,
+      "regen_phase": "6E-G",
+      "regen_asset_id": "cqa-2026-06-16-run1-002-regen1",
+      "regen_image_path": "images/2026/06/16/cqa-2026-06-16-run1-002-regen1_001.jpg",
+      "regen_prompt_hash": "83a4a9b43c1b",
+      "regen_output_hash": "4b66c35d3c78",
+      "regen_generated_at": "2026-06-16T16:33:00+08:00",
+      "parent_image_still_exists": true,
+      "parent_image_not_overwritten": true,
+      "parent_image_not_deleted": true,
+      "regen_review": {
+        "review_status": "human_reviewed",
+        "decision": "approve",
+        "human_score": 76.6,
+        "scoring_dimensions": {
+          "prompt_alignment": 7.5,
+          "visual_quality": 8.0,
+          "usefulness_as_asset": 7.8,
+          "factual_safety": 8.0,
+          "brand_text_artifact_risk": 3.2,
+          "overall_score": 76.6
+        },
+        "notes": "Clean abstract academic cover. Much improved over parent image. Avoids fake badges and long unreadable text. Minor microtext artifact remains, but the image is usable as an abstract asset and does not need another regeneration.",
+        "decision_source": "human_reviewer (Xin Conan, message_id 50775)",
+        "decided_at": "2026-06-16T16:55:32+08:00"
+      },
+      "selected_image_path": "images/2026/06/16/cqa-2026-06-16-run1-002-regen1_001.jpg",
+      "selected_image_source": "regen"
     }
   ],
   "next_required_human_action": {
-    "action": "phase_6eg_regeneration_decision",
+    "action": "phase_6ef_run2_approval_decision",
     "decision_owner": "爸爸",
     "input_required": [
-      "Decide whether to proceed with Phase 6E-G (Regenerate Q-6E-B-002)",
-      "Regeneration would consume 1 of the original 2-image budget OR require new human approval",
-      "Run 2 / Run 3 still pending — no auto-trigger"
+      "Decide whether to proceed with Phase 6E-F (Approve Run 2 Gate Only)",
+      "Run 2 (Q-6E-B-003 River AI, Q-6E-B-004 stabilityai) still pending",
+      "Run 3 (Q-6E-B-005 Penitence) still pending",
+      "No auto-trigger"
     ],
-    "default_if_no_action": "decision=pending; Run 1 remains partial_pass; Run 2/3 not approved"
+    "default_if_no_action": "decision=pending; Run 1 remains approved_after_regen; Run 2/3 not approved"
   },
-  "blocked_until_human_decision": true,
+  "blocked_until_human_decision": false,
   "next_phase_after_decision": {
-    "if_regen_approved": "Phase 6E-G (Regenerate Q-6E-B-002 within Run 1 budget) — requires separate human command",
-    "if_regen_rejected": "Mark Q-6E-B-002 as terminal_rejected; Q-6E-B-001 remains approved",
-    "if_idle": "Wait for separate decision on Run 2/3 and/or Phase 6E-G",
+    "if_run2_approved": "Phase 6E-I (Run 2 Controlled Image Generation) — requires separate human command",
+    "if_idle": "Wait for separate decision on Run 2/3",
     "auto_trigger": false
   }
 }

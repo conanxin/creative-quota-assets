@@ -1,6 +1,6 @@
 {
-  "phase": "6E-G",
-  "mode": "controlled_image_regeneration_q6eb002",
+  "phase": "6E-H",
+  "mode": "controlled_image_regeneration_q6eb002_human_reviewed",
   "run_id": "regen_1",
   "generated_at": "2026-06-16T16:33:00+08:00",
   "generated_by": "Phase 6E-G Controlled Regeneration for Q-6E-B-002 Only (1 image, human-approved regen)",
@@ -74,7 +74,26 @@
       "dimensions": "1280x720",
       "generated_at": "2026-06-16T16:33:00+08:00",
       "status": "generated",
-      "review_status": "pending_human_review"
+      "review_status": "human_reviewed_approved",
+      "human_review": {
+        "review_status": "human_reviewed",
+        "decision": "approve",
+        "human_score": 76.6,
+        "scoring_dimensions": {
+          "prompt_alignment": 7.5,
+          "visual_quality": 8.0,
+          "usefulness_as_asset": 7.8,
+          "factual_safety": 8.0,
+          "brand_text_artifact_risk": 3.2,
+          "overall_score": 76.6
+        },
+        "notes": "Clean abstract academic cover. Much improved over parent image. Avoids fake badges and long unreadable text. Minor microtext artifact remains, but the image is usable as an abstract asset and does not need another regeneration.",
+        "decision_source": "human_reviewer (Xin Conan, message_id 50775)",
+        "decided_at": "2026-06-16T16:55:32+08:00"
+      },
+      "selected": true,
+      "selected_image_path": "images/2026/06/16/cqa-2026-06-16-run1-002-regen1_001.jpg",
+      "parent_image_status": "superseded_by_regen"
     }
   ],
   "quota_check_at_execution": {
@@ -191,21 +210,20 @@
   "next_required_human_decision": {
     "decision_owner": "爸爸",
     "options": [
-      "option_a_regen_review: Phase 6E-H Regenerated Image Human Review (NOT auto-triggered)",
-      "option_b_run2_approval: Phase 6E-F Approve Run 2 Gate Only (NOT auto-triggered, still pending)",
-      "option_c_idle: Do nothing, leave Phase 6E-G as completed (Run 1 still partial_pass, Run 2/3 still pending)"
+      "option_a_run2_approval: Phase 6E-F Approve Run 2 Gate Only (NOT auto-triggered, still pending)",
+      "option_b_idle: Do nothing, leave Phase 6E-H as completed; Run 1 remains approved_after_regen; Run 2/3 still pending"
     ],
-    "default_if_no_response": "option_c_idle",
+    "default_if_no_response": "option_b_idle",
     "blocked_until_human_decision": false
   },
   "next_phase_proposal": {
-    "next_phase": "Phase 6E-H (Regenerated Image Human Review)",
-    "next_phase_status": "awaiting_human_review",
-    "next_phase_preconditions": [
-      "Human reviews the 1 regenerated image for Q-6E-B-002",
-      "Quality score recorded (target ≥ 70/100 acceptable, ≥ 90/100 ideal)",
+    "next_phase": "Phase 6E-F (Approve Run 2 Gate Only) — if approved, then Phase 6E-I (Run 2 Controlled Image Generation)",
+    "next_phase_status": "awaiting_human_decision",
+    "auto_trigger": false,
+    "preconditions": [
+      "爸爸 explicitly approves Run 2 budget",
       "No auto-trigger — requires separate explicit human command",
-      "Run 2 / Run 3 still pending — must NOT auto-trigger"
+      "Run 3 still pending — must NOT auto-trigger"
     ]
   },
   "audit_trail": {
@@ -233,6 +251,29 @@
     "no_secrets_committed": true,
     "no_env_committed": true,
     "original_image_not_overwritten": true,
-    "original_image_not_deleted": true
-  }
+    "original_image_not_deleted": true,
+    "phase_6eg_regen_unchanged": true,
+    "phase_6eh_human_review_recorded": true,
+    "regen_review_decision": "approve",
+    "regen_review_score": 76.6,
+    "run_1_final_outcome": "approved_after_regen",
+    "usable_run1_images": 2,
+    "no_new_image_generated_in_6eh": true
+  },
+  "updated_at": "2026-06-16T16:55:32+08:00",
+  "parent_phase_for_review": "6E-G",
+  "regen_human_review_recorded_at": "2026-06-16T16:55:32+08:00",
+  "regen_human_reviewer": "Xin Conan (chat_id 1540208324, message_id 50775)",
+  "regen_review_decision_message_id": "50775",
+  "run_1_final_outcome": "approved_after_regen",
+  "run_1_outcome": "approved_after_regen",
+  "usable_run1_images": 2,
+  "usable_run1_total": 2,
+  "parent_image_status": "superseded_by_regen",
+  "selected_image_path": "images/2026/06/16/cqa-2026-06-16-run1-002-regen1_001.jpg",
+  "no_new_image_generated": true,
+  "no_regeneration_executed_in_this_phase": true,
+  "no_model_call": true,
+  "no_media_generation": true,
+  "no_existing_image_delete": true
 }
