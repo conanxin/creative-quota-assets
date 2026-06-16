@@ -1,17 +1,17 @@
-# Pending Manual Posts — Phase 6D-4D
+# Pending Manual Posts — Phase 6D-4E
 
-**Phase:** 6D-4D
+**Phase:** 6D-4E
 **Generated:** 2026-06-15T23:00:00+08:00
-**Updated:** 2026-06-16T08:36:00+08:00
-**Status:** 3/5 manually posted. 2/5 awaiting manual X UI post. No auto-publish.
+**Updated:** 2026-06-16T09:47:00+08:00
+**Status:** 4/5 manually posted. 1/5 awaiting manual X UI post. No auto-publish.
 
 ---
 
 ## Purpose
 
-This file lists the 5 approved X posts. **3 have been manually posted** via X UI (recorded in Phases 6D-4B, 6D-4C, and 6D-4D). **2 remain awaiting** human manual posting.
+This file lists the 5 approved X posts. **4 have been manually posted** via X UI (recorded in Phases 6D-4B, 6D-4C, 6D-4D, and 6D-4E). **1 remains awaiting** human manual posting.
 
-After the human posts each remaining item manually in X UI, the human must provide the `x_post_url`, `posted_at`, and `posted_by` to update this log.
+After the human posts the remaining item manually in X UI, the human must provide the `x_post_url`, `posted_at`, and `posted_by` to update this log.
 
 ---
 
@@ -22,7 +22,7 @@ After the human posts each remaining item manually in X UI, the human must provi
 | 1 | `Q-6B-X-brief-brief-mq8c6kp5-u-flaws-i` | Flaws in the LLM Automation Narrative | academic | low | **✅ manually_posted** | https://x.com/porco7161/status/2066654295135822139 | @Porco7161 |
 | 2 | `Q-6B-X-brief-brief-mq8c663q-4-stabili` | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | **✅ manually_posted** | https://x.com/porco7161/status/2066673108761853983 | @Porco7161 |
 | 3 | `Q-6B-X-brief-brief-mq8c6kp4-7-samurai` | SamurAIGPT/Generative-Media-Skills | code | low | **✅ manually_posted** | https://x.com/porco7161/status/2066681191529668844 | @Porco7161 |
-| 4 | `Q-6B-X-brief-brief-mq8c663q-v-river-a` | River AI | dev-community | **medium** | awaiting_manual_post | null | — |
+| 4 | `Q-6B-X-brief-brief-mq8c663q-v-river-a` | River AI | dev-community | **medium** | **✅ manually_posted** | https://x.com/Porco7161/status/2066699053195550978 | @Porco7161 |
 | 5 | `Q-6B-X-brief-brief-mq8c6kp5-r-the-pen` | The Penitence of Saint Jerome | culture-art | **medium** | awaiting_manual_post | null | — |
 
 ---
@@ -84,22 +84,26 @@ After the human posts each remaining item manually in X UI, the human must provi
 
 ---
 
-## Awaiting Manual Post (2/5)
+## Phase 6D-4E Recorded Post
 
-### Item #4: River AI
+### Item #4: River AI ✅ POSTED
 
 - **ID:** `Q-6B-X-brief-brief-mq8c663q-v-river-a`
 - **source_type:** dev-community
 - **risk_level:** **medium** (founder-attributed)
 - **approved_status:** approved
-- **publish_status:** not_published
-- **manual_post_status:** awaiting_manual_post
-- **posted_manually:** false
-- **x_post_url:** null
-- **posted_at:** null
-- **posted_by:** null
-- **notes:** (empty)
+- **publish_status:** manually_posted
+- **manual_post_status:** manually_posted
+- **posted_manually:** true
+- **x_post_url:** https://x.com/Porco7161/status/2066699053195550978?s=20
+- **posted_at:** 2026-06-16T09:47:00+08:00
+- **posted_by:** @Porco7161
+- **notes:** Fourth manual X UI post recorded.
 - **approved_pack:** [posts/river-ai.md](../approved/posts/river-ai.md)
+
+---
+
+## Awaiting Manual Post (1/5)
 
 ### Item #5: The Penitence of Saint Jerome
 
@@ -141,10 +145,10 @@ This file does **NOT** trigger any external publish action. All posting is **man
 | Counter | Value |
 |---------|-------|
 | approved_total | 5 |
-| awaiting_manual_post_total | 2 |
-| posted_manually_total | 3 |
-| missing_url_total | 2 |
+| awaiting_manual_post_total | 1 |
+| posted_manually_total | 4 |
+| missing_url_total | 1 |
 
 ---
 
-_辛 🔮 — Phase 6D-4D record. 3/5 manually posted. 2/5 awaiting._
+_辛 🔮 — Phase 6D-4E record. 4/5 manually posted. 1/5 awaiting._
