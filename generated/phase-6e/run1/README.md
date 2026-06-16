@@ -1,9 +1,12 @@
-# Phase 6E-D · Run 1 Controlled Image Generation · ✅ COMPLETED
+# Phase 6E-D · Run 1 Controlled Image Generation · ✅ COMPLETED → Phase 6E-I · Run 1 Final Closeout · ✅ CLOSED
 
-> **Status:** ✅ **COMPLETED** within approved budget
-> **Generated:** 2 of 2 approved images
-> **Phase:** 6E-D · **Run:** 1 of 3
+> **Run 1 status:** ✅ **CLOSED** (Phase 6E-I, 2026-06-16T18:01:00+08:00)
+> **Run 1 final outcome:** `approved_after_regen`
+> **Usable Run 1 images:** **2 / 2**
+> **Original execution (Phase 6E-D):** ✅ COMPLETED within approved budget · 2 of 2 approved images generated
+> **Run 1 of 3** (Run 2 / Run 3 still pending separate approval)
 > **Execution completed:** 2026-06-16T15:06:00+08:00
+> **Final closeout:** 2026-06-16T18:01:00+08:00
 
 ---
 
@@ -144,3 +147,18 @@ All 11 validators pass in the **SUCCESS** state:
 ---
 
 _Phase 6E-D Run 1 · ✅ Completed · Generated 2/2 approved images · All boundaries respected · Cumulative: 7 images · Pending: 18 images._
+
+---
+
+## 🏁 Phase 6E-I · Run 1 Final Closeout · ✅ CLOSED
+
+Phase 6E-I **Run 1 final closeout** is **CLOSED** with `run1_final_status=closed`, `run1_final_outcome=approved_after_regen`, `usable_run1_images=2/2`. Selected images:
+
+- `images/2026/06/16/cqa-2026-06-16-run1-001_001.jpg` (Q-6E-B-001 SamurAIGPT, approved 82.5)
+- `images/2026/06/16/cqa-2026-06-16-run1-002-regen1_001.jpg` (Q-6E-B-002 Flaws LLM, regen approved 76.6)
+
+Parent image (Q-6E-B-002 first attempt, `cqa-2026-06-16-run1-002_001.jpg`, 259KB) is retained as historical artefact with `image_status=superseded_by_regen`. NOT overwritten, NOT deleted.
+
+Totals: `total_generated_image_files=8` (unchanged from 6E-G), `pending_images=18` (unchanged). Run 2 / Run 3 still pending separate approval.
+
+Detailed final summary: see `final-summary.json` and `final-summary.md` in this folder.
