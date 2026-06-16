@@ -1,17 +1,17 @@
-# Pending Manual Posts — Phase 6D-4E
+# Pending Manual Posts — Phase 6D-4F
 
-**Phase:** 6D-4E
+**Phase:** 6D-4F
 **Generated:** 2026-06-15T23:00:00+08:00
-**Updated:** 2026-06-16T09:47:00+08:00
-**Status:** 4/5 manually posted. 1/5 awaiting manual X UI post. No auto-publish.
+**Updated:** 2026-06-16T10:04:00+08:00
+**Status:** ✅ 5/5 manually posted. 0/5 awaiting. All complete.
 
 ---
 
 ## Purpose
 
-This file lists the 5 approved X posts. **4 have been manually posted** via X UI (recorded in Phases 6D-4B, 6D-4C, 6D-4D, and 6D-4E). **1 remains awaiting** human manual posting.
+This file lists the 5 approved X posts. **All 5 have been manually posted** via X UI (recorded in Phases 6D-4B, 6D-4C, 6D-4D, 6D-4E, and 6D-4F). **0 remain awaiting** human manual posting.
 
-After the human posts the remaining item manually in X UI, the human must provide the `x_post_url`, `posted_at`, and `posted_by` to update this log.
+The Phase 6D-4 manual post recording series is now complete.
 
 ---
 
@@ -23,7 +23,7 @@ After the human posts the remaining item manually in X UI, the human must provid
 | 2 | `Q-6B-X-brief-brief-mq8c663q-4-stabili` | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | **✅ manually_posted** | https://x.com/porco7161/status/2066673108761853983 | @Porco7161 |
 | 3 | `Q-6B-X-brief-brief-mq8c6kp4-7-samurai` | SamurAIGPT/Generative-Media-Skills | code | low | **✅ manually_posted** | https://x.com/porco7161/status/2066681191529668844 | @Porco7161 |
 | 4 | `Q-6B-X-brief-brief-mq8c663q-v-river-a` | River AI | dev-community | **medium** | **✅ manually_posted** | https://x.com/Porco7161/status/2066699053195550978 | @Porco7161 |
-| 5 | `Q-6B-X-brief-brief-mq8c6kp5-r-the-pen` | The Penitence of Saint Jerome | culture-art | **medium** | awaiting_manual_post | null | — |
+| 5 | `Q-6B-X-brief-brief-mq8c6kp5-r-the-pen` | The Penitence of Saint Jerome | culture-art | **medium** | **✅ manually_posted** | https://x.com/Porco7161/status/2066702239537000945 | @Porco7161 |
 
 ---
 
@@ -103,52 +103,36 @@ After the human posts the remaining item manually in X UI, the human must provid
 
 ---
 
-## Awaiting Manual Post (1/5)
+## Phase 6D-4F Recorded Post
 
-### Item #5: The Penitence of Saint Jerome
+### Item #5: The Penitence of Saint Jerome ✅ POSTED
 
 - **ID:** `Q-6B-X-brief-brief-mq8c6kp5-r-the-pen`
 - **source_type:** culture-art
 - **risk_level:** **medium** (public-domain artwork)
 - **approved_status:** approved
-- **publish_status:** not_published
-- **manual_post_status:** awaiting_manual_post
-- **posted_manually:** false
-- **x_post_url:** null
-- **posted_at:** null
-- **posted_by:** null
-- **notes:** (empty)
+- **publish_status:** manually_posted
+- **manual_post_status:** manually_posted
+- **posted_manually:** true
+- **x_post_url:** https://x.com/Porco7161/status/2066702239537000945?s=20
+- **posted_at:** 2026-06-16T10:04:00+08:00
+- **posted_by:** @Porco7161
+- **notes:** Fifth and final manual X UI post recorded.
 - **approved_pack:** [posts/the-penitence-of-saint-jerome.md](../approved/posts/the-penitence-of-saint-jerome.md)
 
 ---
 
-## ⚠️ No Auto-Publish
+## ✅ Phase 6D-4 Series Complete
 
-This file does **NOT** trigger any external publish action. All posting is **manual** via X UI. The human must:
-
-1. Open the `approved_pack` link for the item.
-2. Copy the X Post Text to X UI.
-3. Upload the image from `image_url`.
-4. Click "Post".
-5. After posting, provide:
-   - `item_id`
-   - `x_post_url` (the resulting post URL)
-   - `posted_at` (timestamp)
-   - `posted_by` (account handle or note)
-   - `notes` (optional)
-6. A future phase will record the manual post log.
-
----
-
-## Status Counters
+All 5 approved items have been manually posted via X UI and recorded in Phase 6D-4 series logs. No further manual post recording is required for this batch.
 
 | Counter | Value |
 |---------|-------|
 | approved_total | 5 |
-| awaiting_manual_post_total | 1 |
-| posted_manually_total | 4 |
-| missing_url_total | 1 |
+| awaiting_manual_post_total | 0 |
+| posted_manually_total | 5 |
+| missing_url_total | 0 |
 
 ---
 
-_辛 🔮 — Phase 6D-4E record. 4/5 manually posted. 1/5 awaiting._
+_辛 🔮 — Phase 6D-4F record. 5/5 manually posted. Phase 6D-4 series complete._
