@@ -1,0 +1,70 @@
+{
+  "phase": "6E-J",
+  "run": "run_2",
+  "generated_at": "2026-06-16T12:59:41.821Z",
+  "model": "image-01",
+  "approved_image_count_limit": 2,
+  "selected_items_count": 2,
+  "selected_items": [
+    {
+      "item_id": "Q-6E-B-003",
+      "asset_id": "cqa-2026-06-16-run2-001",
+      "title": "River AI",
+      "source_type": "dev-community",
+      "risk_level": "low",
+      "aspect_ratio": "1:1",
+      "output_path": "images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg",
+      "output_filename": "cqa-2026-06-16-run2-001_001.jpg",
+      "file_size_bytes": 137300,
+      "prompt_hash": "713fa2351907",
+      "output_hash": "0fa9609b9aff",
+      "generated_at": "2026-06-16T12:59:22.560Z",
+      "generation_elapsed_ms": 19974
+    },
+    {
+      "item_id": "Q-6E-B-004",
+      "asset_id": "cqa-2026-06-16-run2-002",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "source_type": "ai-ecosystem",
+      "risk_level": "low",
+      "aspect_ratio": "16:9",
+      "output_path": "images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg",
+      "output_filename": "cqa-2026-06-16-run2-002_001.jpg",
+      "file_size_bytes": 64917,
+      "prompt_hash": "5b76a00ddcb7",
+      "output_hash": "200ad2cff498",
+      "generated_at": "2026-06-16T12:59:41.819Z",
+      "generation_elapsed_ms": 19259
+    }
+  ],
+  "quota_at_execution": {
+    "general_interval_percent": 52,
+    "general_weekly_percent": 54,
+    "decision": "ALLOW"
+  },
+  "boundaries_enforced": {
+    "model_call_allowed": true,
+    "model_calls_made": 2,
+    "image_api_called": true,
+    "video_api_called": false,
+    "music_api_called": false,
+    "quota_checked_before_call": true,
+    "quota_bypassed": false,
+    "model_downgraded": false,
+    "image_fabricated": false,
+    "no_x_publish": true,
+    "no_timer": true,
+    "no_promote": true,
+    "no_c5n_change": true,
+    "no_secrets_read": true,
+    "no_run1_items": true,
+    "no_run3_items": true,
+    "no_penitence": true,
+    "no_samuraigpt": true,
+    "no_flaws_llm": true,
+    "no_existing_image_overwrite": true,
+    "no_run1_reopen": true,
+    "no_run1_final_closeout_modify": true,
+    "no_6d5_modify": true
+  }
+}

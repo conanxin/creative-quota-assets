@@ -128,5 +128,41 @@
     "parent_score": 43.3,
     "prompt_hash": "83a4a9b43c1b",
     "output_hash": "4b66c35d3c78"
+  },
+  {
+    "asset_id": "cqa-2026-06-16-run2-001",
+    "filename": "cqa-2026-06-16-run2-001_001.jpg",
+    "path": "images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg",
+    "model": "image-01",
+    "prompt": "A developer community discussion poster. topic \"River AI\" as a short hook at the top in rounded sans-serif. central visual: a stylized developer workspace with three monitors showing code, terminal, and chat. bottom one-liner summarizing the pain point in italics. style: editorial flat illustration, pastel pink and slate, soft shadows, minimal. no faces, no company logos",
+    "aspect_ratio": "1:1",
+    "content_pack": "brief-brief-mq8swsla-m-river-ai",
+    "source_type": "dev-community",
+    "generated_at": "2026-06-16T12:59:22.560Z",
+    "watermark": true,
+    "file_size_kb": 134,
+    "prompt_hash": "713fa2351907",
+    "output_hash": "0fa9609b9aff",
+    "run": "run_2",
+    "phase": "6E-J",
+    "item_id": "Q-6E-B-003"
+  },
+  {
+    "asset_id": "cqa-2026-06-16-run2-002",
+    "filename": "cqa-2026-06-16-run2-002_001.jpg",
+    "path": "images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg",
+    "model": "image-01",
+    "prompt": "A polished AI model card visual. model name \"stabilityai/stable-video-diffusion-img2vid-xt\" shown as a large hero badge. central pipeline flow: input (icon) → model block with subtle inner layers → output (icon). task label \"image-to-video\" near the input. two or three monospaced metric tiles on the right: downloads, likes, library. style: Hugging Face inspired, dark slate background, amber-to-magenta gradient, soft glow. no human faces, no company logos",
+    "aspect_ratio": "16:9",
+    "content_pack": "brief-brief-mq8tbqf4-s-stabilityai-stable-video-diffusion-img2vid-xt",
+    "source_type": "ai-ecosystem",
+    "generated_at": "2026-06-16T12:59:41.819Z",
+    "watermark": true,
+    "file_size_kb": 63,
+    "prompt_hash": "5b76a00ddcb7",
+    "output_hash": "200ad2cff498",
+    "run": "run_2",
+    "phase": "6E-J",
+    "item_id": "Q-6E-B-004"
   }
 ]

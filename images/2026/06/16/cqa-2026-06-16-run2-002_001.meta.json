@@ -1,0 +1,25 @@
+{
+  "asset_id": "cqa-2026-06-16-run2-002",
+  "item_id": "Q-6E-B-004",
+  "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+  "source_type": "ai-ecosystem",
+  "risk_level": "low",
+  "aspect_ratio": "16:9",
+  "model": "image-01",
+  "watermark": true,
+  "aigc_watermark": true,
+  "prompt": "A polished AI model card visual. model name \"stabilityai/stable-video-diffusion-img2vid-xt\" shown as a large hero badge. central pipeline flow: input (icon) → model block with subtle inner layers → output (icon). task label \"image-to-video\" near the input. two or three monospaced metric tiles on the right: downloads, likes, library. style: Hugging Face inspired, dark slate background, amber-to-magenta gradient, soft glow. no human faces, no company logos",
+  "prompt_hash": "5b76a00ddcb7",
+  "output_hash": "200ad2cff498",
+  "file_size_bytes": 64917,
+  "dimensions": "1280x720",
+  "generated_at": "2026-06-16T12:59:41.819Z",
+  "generation_elapsed_ms": 19259,
+  "quota_at_execution": {
+    "general_interval_percent": 52,
+    "general_weekly_percent": 54
+  },
+  "phase": "6E-J",
+  "run": "run_2",
+  "run_order": 2
+}

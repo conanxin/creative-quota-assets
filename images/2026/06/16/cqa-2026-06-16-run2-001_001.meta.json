@@ -1,0 +1,25 @@
+{
+  "asset_id": "cqa-2026-06-16-run2-001",
+  "item_id": "Q-6E-B-003",
+  "title": "River AI",
+  "source_type": "dev-community",
+  "risk_level": "low",
+  "aspect_ratio": "1:1",
+  "model": "image-01",
+  "watermark": true,
+  "aigc_watermark": true,
+  "prompt": "A developer community discussion poster. topic \"River AI\" as a short hook at the top in rounded sans-serif. central visual: a stylized developer workspace with three monitors showing code, terminal, and chat. bottom one-liner summarizing the pain point in italics. style: editorial flat illustration, pastel pink and slate, soft shadows, minimal. no faces, no company logos",
+  "prompt_hash": "713fa2351907",
+  "output_hash": "0fa9609b9aff",
+  "file_size_bytes": 137300,
+  "dimensions": "1024x1024",
+  "generated_at": "2026-06-16T12:59:22.560Z",
+  "generation_elapsed_ms": 19974,
+  "quota_at_execution": {
+    "general_interval_percent": 52,
+    "general_weekly_percent": 54
+  },
+  "phase": "6E-J",
+  "run": "run_2",
+  "run_order": 1
+}
