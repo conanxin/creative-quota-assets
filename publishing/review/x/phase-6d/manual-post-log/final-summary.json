@@ -1,0 +1,162 @@
+{
+  "phase": "6D-5",
+  "phase_name": "Manual X Publishing Final Closeout",
+  "mode": "manual_post_logging_closeout",
+  "final_status": "closed",
+  "generated_at": "2026-06-16T10:12:00+08:00",
+  "based_on_phase": "6D-4F",
+  "based_on_assets_commit": "e5bd619",
+  "based_on_harvester_commit": "c777495",
+  "no_x_api": true,
+  "no_baoyu_post_to_x": true,
+  "no_auto_publish": true,
+  "no_model_call": true,
+  "no_media_generation": true,
+  "no_timer": true,
+  "no_telegram_digest": true,
+  "platform_publish_enabled": false,
+  "manual_only": true,
+  "auto_publish": false,
+  "x_api_used": false,
+  "baoyu_post_to_x_used": false,
+  "model_call_used": false,
+  "media_generation_used": false,
+  "approved_total": 5,
+  "awaiting_manual_post_total": 0,
+  "posted_manually_total": 5,
+  "missing_url_total": 0,
+  "all_5_posted": true,
+  "complete": true,
+  "items": [
+    {
+      "rank": 1,
+      "id": "Q-6B-X-brief-brief-mq8c6kp5-u-flaws-i",
+      "title": "Flaws in the LLM Automation Narrative",
+      "topic_slug": "flaws-in-the-llm-automation-narrative",
+      "source_type": "academic",
+      "risk_level": "low",
+      "publish_status": "manually_posted",
+      "posted_manually": true,
+      "x_post_url": "https://x.com/porco7161/status/2066654295135822139?s=46",
+      "posted_at": "2026-06-16T06:51:00+08:00",
+      "posted_by": "@Porco7161",
+      "recorded_in_phase": "6D-4B",
+      "notes": "First manual X UI post recorded."
+    },
+    {
+      "rank": 2,
+      "id": "Q-6B-X-brief-brief-mq8c663q-4-stabili",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "topic_slug": "stabilityai-stable-video-diffusion-img2vid-xt",
+      "source_type": "ai-ecosystem",
+      "risk_level": "low",
+      "publish_status": "manually_posted",
+      "posted_manually": true,
+      "x_post_url": "https://x.com/porco7161/status/2066673108761853983?s=46",
+      "posted_at": "2026-06-16T08:05:00+08:00",
+      "posted_by": "@Porco7161",
+      "recorded_in_phase": "6D-4C",
+      "notes": "Second manual X UI post recorded."
+    },
+    {
+      "rank": 3,
+      "id": "Q-6B-X-brief-brief-mq8c6kp4-7-samurai",
+      "title": "SamurAIGPT/Generative-Media-Skills",
+      "topic_slug": "samuraigpt-generative-media-skills",
+      "source_type": "code",
+      "risk_level": "low",
+      "publish_status": "manually_posted",
+      "posted_manually": true,
+      "x_post_url": "https://x.com/porco7161/status/2066681191529668844?s=46",
+      "posted_at": "2026-06-16T08:36:00+08:00",
+      "posted_by": "@Porco7161",
+      "recorded_in_phase": "6D-4D",
+      "notes": "Third manual X UI post recorded."
+    },
+    {
+      "rank": 4,
+      "id": "Q-6B-X-brief-brief-mq8c663q-v-river-a",
+      "title": "River AI",
+      "topic_slug": "river-ai",
+      "source_type": "dev-community",
+      "risk_level": "medium",
+      "risk_note": "founder-attributed content",
+      "publish_status": "manually_posted",
+      "posted_manually": true,
+      "x_post_url": "https://x.com/Porco7161/status/2066699053195550978?s=20",
+      "posted_at": "2026-06-16T09:47:00+08:00",
+      "posted_by": "@Porco7161",
+      "recorded_in_phase": "6D-4E",
+      "notes": "Fourth manual X UI post recorded."
+    },
+    {
+      "rank": 5,
+      "id": "Q-6B-X-brief-brief-mq8c6kp5-r-the-pen",
+      "title": "The Penitence of Saint Jerome",
+      "topic_slug": "the-penitence-of-saint-jerome",
+      "source_type": "culture-art",
+      "risk_level": "medium",
+      "risk_note": "public-domain artwork",
+      "publish_status": "manually_posted",
+      "posted_manually": true,
+      "x_post_url": "https://x.com/Porco7161/status/2066702239537000945?s=20",
+      "posted_at": "2026-06-16T10:04:00+08:00",
+      "posted_by": "@Porco7161",
+      "recorded_in_phase": "6D-4F",
+      "notes": "Fifth and final manual X UI post recorded."
+    }
+  ],
+  "boundary_compliance": {
+    "no_x_api": true,
+    "no_baoyu_post_to_x": true,
+    "no_auto_publish": true,
+    "no_model_call": true,
+    "no_media_generation": true,
+    "platform_publish_enabled": false,
+    "no_timer": true,
+    "no_telegram_digest": true,
+    "manual_only": true
+  },
+  "passthrough_preserved": {
+    "post_text": "UNCHANGED from Phase 6D-3 (verified by topic_slug + item_id match across all 5 items)",
+    "image_url": "UNCHANGED from Phase 6D-3 (verified by approved pack reference)",
+    "risk_level": "UNCHANGED from Phase 6D-3 (river-ai=medium, the-pen=medium preserved)"
+  },
+  "integrity_checks": {
+    "unique_item_ids": true,
+    "unique_x_post_urls": true,
+    "no_placeholder_urls": true,
+    "no_duplicate_urls": true,
+    "all_5_posted": true,
+    "no_pending_items": true
+  },
+  "next_phase_options": [
+    {
+      "phase": "6E-A",
+      "name": "Controlled Image Generation Readiness Preflight",
+      "description": "Only perform quota/queue/risk checks. Do NOT generate any image directly.",
+      "auto_trigger": false
+    },
+    {
+      "phase": "6F",
+      "name": "X Publishing Reflection / Content Performance Manual Review",
+      "description": "Only perform review after human provides data. Do NOT collect automatically.",
+      "auto_trigger": false
+    }
+  ],
+  "what_did_not_change": [
+    "post_text (verbatim from 6D-3 across all 5 items)",
+    "image_url (UNCHANGED from 6D-3 across all 5 items)",
+    "risk_level (UNCHANGED from 6D-3: low for 3 items, medium for 2 items)",
+    "x_post_url (all 5 URLs preserved as recorded in 6D-4B/4C/4D/4E/4F)",
+    "approved_status (all 5 remain approved)"
+  ],
+  "no_triggers": {
+    "phase_6e_triggered": false,
+    "timer_triggered": false,
+    "digest_triggered": false,
+    "promote_triggered": false,
+    "c5n_triggered": false,
+    "approval_continuation_triggered": false
+  }
+}
