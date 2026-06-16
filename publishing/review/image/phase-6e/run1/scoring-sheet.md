@@ -1,8 +1,10 @@
-# Image Scoring Sheet — Phase 6E-E Run 1
+# Image Scoring Sheet — Phase 6E-E Run 1 (HUMAN SCORED)
 
 **Phase:** 6E-E (Run 1 Human Image Review)
 **Generated:** 2026-06-16T15:30:00+08:00
-**Mode:** READ-ONLY human scoring. No auto-scoring. No model call.
+**Human scored:** 2026-06-16T16:09:50+08:00
+**Reviewer:** Xin Conan (chat_id 1540208324, message_id 50763)
+**Mode:** READ-ONLY scoring. Scores recorded by human. No auto-scoring. No model call.
 
 ---
 
@@ -38,7 +40,7 @@ overall = (prompt_alignment * 0.25
 
 ---
 
-## Item 1: `Q-6E-B-001` — SamurAIGPT/Generative-Media-Skills
+## Item 1: `Q-6E-B-001` — SamurAIGPT/Generative-Media-Skills ✅ APPROVED
 
 - **Path:** `images/2026/06/16/cqa-2026-06-16-run1-001_001.jpg`
 - **URL:** <https://conanxin.github.io/creative-quota-assets/images/2026/06/16/cqa-2026-06-16-run1-001_001.jpg>
@@ -49,22 +51,22 @@ overall = (prompt_alignment * 0.25
 
 | Dimension | Score (0–10) |
 |-----------|--------------|
-| prompt_alignment | ☐ pending |
-| visual_quality | ☐ pending |
-| usefulness_as_asset | ☐ pending |
-| factual_safety | ☐ pending |
-| brand_text_artifact_risk | ☐ pending |
-| **overall_score (0–100)** | ☐ pending |
+| prompt_alignment | **8.5** |
+| visual_quality | **9.0** |
+| usefulness_as_asset | **8.5** |
+| factual_safety | **8.0** |
+| brand_text_artifact_risk | **6.5** |
+| **overall_score (0–100)** | **82.5** |
 
 | Field | Value |
 |-------|-------|
-| `human_decision` | pending |
-| `decision_reason` | (pending human input) |
-| `reviewer_notes` | (pending human input) |
+| `human_decision` | **approve** |
+| `decision_reason` | Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label. |
+| `reviewer_notes` | Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label. |
 
 ---
 
-## Item 2: `Q-6E-B-002` — Flaws in the LLM Automation Narrative
+## Item 2: `Q-6E-B-002` — Flaws in the LLM Automation Narrative ⚠️ NEEDS REGEN
 
 - **Path:** `images/2026/06/16/cqa-2026-06-16-run1-002_001.jpg`
 - **URL:** <https://conanxin.github.io/creative-quota-assets/images/2026/06/16/cqa-2026-06-16-run1-002_001.jpg>
@@ -75,18 +77,19 @@ overall = (prompt_alignment * 0.25
 
 | Dimension | Score (0–10) |
 |-----------|--------------|
-| prompt_alignment | ☐ pending |
-| visual_quality | ☐ pending |
-| usefulness_as_asset | ☐ pending |
-| factual_safety | ☐ pending |
-| brand_text_artifact_risk | ☐ pending |
-| **overall_score (0–100)** | ☐ pending |
+| prompt_alignment | **6.0** |
+| visual_quality | **4.5** |
+| usefulness_as_asset | **4.0** |
+| factual_safety | **3.5** |
+| brand_text_artifact_risk | **2.5** |
+| **overall_score (0–100)** | **43.3** |
 
 | Field | Value |
 |-------|-------|
-| `human_decision` | pending |
-| `decision_reason` | (pending human input) |
-| `reviewer_notes` | (pending human input) |
+| `human_decision` | **needs_regen** |
+| `decision_reason` | Major text artifact issues, unreadable subtitle/body text, unclear chart semantics, fake academic badge feel. Regenerate with cleaner academic poster layout, readable text, 3-4 clear points, and one simple chart only. |
+| `reviewer_notes` | Major text artifact issues, unreadable subtitle/body text, unclear chart semantics, fake academic badge feel. Regenerate with cleaner academic poster layout, readable text, 3-4 clear points, and one simple chart only. |
+| **Regeneration guidance** | Cleaner academic poster layout, readable text, 3-4 clear points, one simple chart only, no fake badges |
 
 ---
 
@@ -94,21 +97,31 @@ overall = (prompt_alignment * 0.25
 
 | # | item_id | overall | decision | reason |
 |---|---------|---------|----------|--------|
-| 1 | `Q-6E-B-001` | ☐ pending | pending | (pending) |
-| 2 | `Q-6E-B-002` | ☐ pending | pending | (pending) |
+| 1 | `Q-6E-B-001` | 82.5 | **approve** | strong visual + good alignment |
+| 2 | `Q-6E-B-002` | 43.3 | **needs_regen** | text artifacts + fake badge feel |
 
 | Counter | Value |
 |---------|-------|
 | total_items | 2 |
-| scoring_complete | false |
-| approved | 0 |
-| needs_regen | 0 |
+| scoring_complete | true |
+| approved | 1 |
+| needs_regen | 1 |
 | rejected | 0 |
-| pending | 2 |
+| pending | 0 |
+| run_1_outcome | **partial_pass** |
 
 ---
 
-## Boundaries enforced
+## Run 1 Overall
+
+> **status:** partial_pass
+> **approved_items:** 1
+> **needs_regen_items:** 1
+> **recommendation:** approve image 1, regenerate image 2, do not treat Run 1 as fully approved yet.
+
+---
+
+## Boundaries enforced (still in force)
 
 - ✅ no_model_call
 - ✅ no_media_generation
@@ -120,3 +133,4 @@ overall = (prompt_alignment * 0.25
 - ✅ no_secrets
 - ✅ no_run_2_approval
 - ✅ no_run_3_approval
+- ✅ no_regeneration_executed (Phase 6E-G NOT triggered)

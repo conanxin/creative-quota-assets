@@ -2,10 +2,12 @@
   "phase": "6E-E",
   "mode": "run1_human_image_scoring_sheet",
   "generated_at": "2026-06-16T15:30:00+08:00",
-  "updated_at": "2026-06-16T15:30:00+08:00",
+  "updated_at": "2026-06-16T16:10:00+08:00",
   "based_on_phase": "6E-D",
   "based_on_assets_commit": "d69b758",
   "based_on_harvester_commit": "af2d38b",
+  "human_scoring_recorded_at": "2026-06-16T16:09:50+08:00",
+  "human_reviewer": "Xin Conan (chat_id 1540208324, message_id 50763)",
   "no_model_call": true,
   "no_media_generation": true,
   "no_x_publish": true,
@@ -15,7 +17,7 @@
   "no_c5n_change": true,
   "no_secrets": true,
   "total_items": 2,
-  "scoring_complete": false,
+  "scoring_complete": true,
   "scoring_dimensions": {
     "prompt_alignment": {
       "label": "Prompt Alignment",
@@ -64,16 +66,17 @@
       "source_type": "code",
       "risk_level": "low",
       "scores": {
-        "prompt_alignment": null,
-        "visual_quality": null,
-        "usefulness_as_asset": null,
-        "factual_safety": null,
-        "brand_text_artifact_risk": null
+        "prompt_alignment": 8.5,
+        "visual_quality": 9.0,
+        "usefulness_as_asset": 8.5,
+        "factual_safety": 8.0,
+        "brand_text_artifact_risk": 6.5
       },
-      "overall_score": null,
-      "human_decision": "pending",
-      "decision_reason": null,
-      "reviewer_notes": null
+      "overall_score": 82.5,
+      "human_decision": "approve",
+      "decision_reason": "Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label.",
+      "reviewer_notes": "Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label.",
+      "scored_at": "2026-06-16T16:09:50+08:00"
     },
     {
       "item_id": "Q-6E-B-002",
@@ -83,16 +86,25 @@
       "source_type": "academic",
       "risk_level": "low",
       "scores": {
-        "prompt_alignment": null,
-        "visual_quality": null,
-        "usefulness_as_asset": null,
-        "factual_safety": null,
-        "brand_text_artifact_risk": null
+        "prompt_alignment": 6.0,
+        "visual_quality": 4.5,
+        "usefulness_as_asset": 4.0,
+        "factual_safety": 3.5,
+        "brand_text_artifact_risk": 2.5
       },
-      "overall_score": null,
-      "human_decision": "pending",
-      "decision_reason": null,
-      "reviewer_notes": null
+      "overall_score": 43.3,
+      "human_decision": "needs_regen",
+      "decision_reason": "Major text artifact issues, unreadable subtitle/body text, unclear chart semantics, fake academic badge feel. Regenerate with cleaner academic poster layout, readable text, 3-4 clear points, and one simple chart only.",
+      "reviewer_notes": "Major text artifact issues, unreadable subtitle/body text, unclear chart semantics, fake academic badge feel. Regenerate with cleaner academic poster layout, readable text, 3-4 clear points, and one simple chart only.",
+      "scored_at": "2026-06-16T16:09:50+08:00"
     }
-  ]
+  ],
+  "summary": {
+    "approved_count": 1,
+    "needs_regen_count": 1,
+    "rejected_count": 0,
+    "pending_count": 0,
+    "run_1_outcome": "partial_pass",
+    "recommendation": "approve image 1, regenerate image 2, do not treat Run 1 as fully approved yet."
+  }
 }

@@ -3,10 +3,12 @@
   "phase_chain": "6E-A → 6E-B → 6E-C → 6E-D → 6E-E",
   "mode": "run1_human_image_review_board",
   "generated_at": "2026-06-16T15:30:00+08:00",
-  "updated_at": "2026-06-16T15:30:00+08:00",
+  "updated_at": "2026-06-16T16:10:00+08:00",
   "based_on_phase": "6E-D",
   "based_on_assets_commit": "d69b758",
   "based_on_harvester_commit": "af2d38b",
+  "human_review_recorded_at": "2026-06-16T16:09:50+08:00",
+  "human_reviewer": "Xin Conan (chat_id 1540208324, message_id 50763)",
   "no_model_call": true,
   "no_media_generation": true,
   "no_image_fabrication": true,
@@ -20,15 +22,18 @@
   "no_run_2_approval": true,
   "no_run_3_approval": true,
   "no_existing_image_overwrite": true,
+  "no_regeneration_executed": true,
+  "regeneration_deferred_to_phase_6eg": true,
   "run_2_status": "pending",
   "run_3_status": "pending",
   "total_items": 2,
-  "reviewed": 0,
-  "approved": 0,
-  "needs_regen": 0,
+  "reviewed": 2,
+  "approved": 1,
+  "needs_regen": 1,
   "rejected": 0,
-  "pending": 2,
-  "human_scoring_complete": false,
+  "pending": 0,
+  "human_scoring_complete": true,
+  "run_1_outcome": "partial_pass",
   "items": [
     {
       "item_id": "Q-6E-B-001",
@@ -47,23 +52,20 @@
       "prompt_hash": "d995605e31fa",
       "output_hash": "d995605e31fa",
       "generated_at": "2026-06-16T15:05:00+08:00",
-      "review_status": "pending_human_review",
-      "human_score": null,
+      "review_status": "approved",
+      "human_score": 82.5,
       "scoring_dimensions": {
-        "prompt_alignment": null,
-        "visual_quality": null,
-        "usefulness_as_asset": null,
-        "factual_safety": null,
-        "brand_text_artifact_risk": null,
-        "overall_score": null
+        "prompt_alignment": 8.5,
+        "visual_quality": 9.0,
+        "usefulness_as_asset": 8.5,
+        "factual_safety": 8.0,
+        "brand_text_artifact_risk": 6.5,
+        "overall_score": 82.5
       },
-      "decision": "pending",
-      "recommended_decision_options": [
-        "approve",
-        "needs_regen",
-        "reject"
-      ],
-      "notes": null
+      "decision": "approve",
+      "decision_source": "human_reviewer (Xin Conan, message_id 50763)",
+      "decided_at": "2026-06-16T16:09:50+08:00",
+      "notes": "Strong visual quality and good code/workflow alignment. Minor artifact risk from small pseudo-text/icons and AI-generated corner label."
     },
     {
       "item_id": "Q-6E-B-002",
@@ -82,43 +84,44 @@
       "prompt_hash": "6d7391a45431",
       "output_hash": "6d7391a45431",
       "generated_at": "2026-06-16T15:06:00+08:00",
-      "review_status": "pending_human_review",
-      "human_score": null,
+      "review_status": "needs_regen",
+      "human_score": 43.3,
       "scoring_dimensions": {
-        "prompt_alignment": null,
-        "visual_quality": null,
-        "usefulness_as_asset": null,
-        "factual_safety": null,
-        "brand_text_artifact_risk": null,
-        "overall_score": null
+        "prompt_alignment": 6.0,
+        "visual_quality": 4.5,
+        "usefulness_as_asset": 4.0,
+        "factual_safety": 3.5,
+        "brand_text_artifact_risk": 2.5,
+        "overall_score": 43.3
       },
-      "decision": "pending",
-      "recommended_decision_options": [
-        "approve",
-        "needs_regen",
-        "reject"
-      ],
-      "notes": null
+      "decision": "needs_regen",
+      "decision_source": "human_reviewer (Xin Conan, message_id 50763)",
+      "decided_at": "2026-06-16T16:09:50+08:00",
+      "notes": "Major text artifact issues, unreadable subtitle/body text, unclear chart semantics, fake academic badge feel. Regenerate with cleaner academic poster layout, readable text, 3-4 clear points, and one simple chart only.",
+      "regeneration_recommendation": {
+        "target_layout": "cleaner academic poster layout",
+        "readable_text": true,
+        "data_points": "3-4 clear points",
+        "charts": "one simple chart only",
+        "no_fake_badges": true
+      }
     }
   ],
   "next_required_human_action": {
-    "action": "review_and_score_two_images",
+    "action": "phase_6eg_regeneration_decision",
     "decision_owner": "爸爸",
     "input_required": [
-      "Open cqa-2026-06-16-run1-001_001.jpg (SamurAIGPT code banner)",
-      "Open cqa-2026-06-16-run1-002_001.jpg (Flaws LLM academic poster)",
-      "Score each image on 5 dimensions (0-10 each)",
-      "Provide overall_score (0-100)",
-      "Provide decision: approve / needs_regen / reject",
-      "Optional: notes"
+      "Decide whether to proceed with Phase 6E-G (Regenerate Q-6E-B-002)",
+      "Regeneration would consume 1 of the original 2-image budget OR require new human approval",
+      "Run 2 / Run 3 still pending — no auto-trigger"
     ],
-    "default_if_no_action": "decision=pending (no auto-progression)"
+    "default_if_no_action": "decision=pending; Run 1 remains partial_pass; Run 2/3 not approved"
   },
   "blocked_until_human_decision": true,
   "next_phase_after_decision": {
-    "if_all_approved": "Phase 6E-F (Approve Run 2 Gate Only) — requires separate human approval",
-    "if_any_needs_regen": "Phase 6E-G (Regenerate rejected/needs_regen items within Run 1 budget) — requires separate human approval",
-    "if_any_rejected": "Mark as terminal; no automatic re-generation",
+    "if_regen_approved": "Phase 6E-G (Regenerate Q-6E-B-002 within Run 1 budget) — requires separate human command",
+    "if_regen_rejected": "Mark Q-6E-B-002 as terminal_rejected; Q-6E-B-001 remains approved",
+    "if_idle": "Wait for separate decision on Run 2/3 and/or Phase 6E-G",
     "auto_trigger": false
   }
 }
