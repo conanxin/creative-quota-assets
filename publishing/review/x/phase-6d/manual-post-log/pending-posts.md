@@ -1,15 +1,15 @@
-# Pending Manual Posts — Phase 6D-4B
+# Pending Manual Posts — Phase 6D-4C
 
-**Phase:** 6D-4B
+**Phase:** 6D-4C
 **Generated:** 2026-06-15T23:00:00+08:00
-**Updated:** 2026-06-16T06:51:00+08:00
-**Status:** 1/5 manually posted. 4/5 awaiting manual X UI post. No auto-publish.
+**Updated:** 2026-06-16T08:05:00+08:00
+**Status:** 2/5 manually posted. 3/5 awaiting manual X UI post. No auto-publish.
 
 ---
 
 ## Purpose
 
-This file lists the 5 approved X posts. **1 has been manually posted** via X UI (recorded in Phase 6D-4B). **4 remain awaiting** human manual posting.
+This file lists the 5 approved X posts. **2 have been manually posted** via X UI (recorded in Phases 6D-4B and 6D-4C). **3 remain awaiting** human manual posting.
 
 After the human posts each remaining item manually in X UI, the human must provide the `x_post_url`, `posted_at`, and `posted_by` to update this log.
 
@@ -20,7 +20,7 @@ After the human posts each remaining item manually in X UI, the human must provi
 | # | ID | Title | source_type | risk | manual_post_status | x_post_url | posted_by |
 |---|----|-------|-------------|------|-------------------|------------|-----------|
 | 1 | `Q-6B-X-brief-brief-mq8c6kp5-u-flaws-i` | Flaws in the LLM Automation Narrative | academic | low | **✅ manually_posted** | https://x.com/porco7161/status/2066654295135822139 | @Porco7161 |
-| 2 | `Q-6B-X-brief-brief-mq8c663q-4-stabili` | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | awaiting_manual_post | null | — |
+| 2 | `Q-6B-X-brief-brief-mq8c663q-4-stabili` | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | **✅ manually_posted** | https://x.com/porco7161/status/2066673108761853983 | @Porco7161 |
 | 3 | `Q-6B-X-brief-brief-mq8c6kp4-7-samurai` | SamurAIGPT/Generative-Media-Skills | code | low | awaiting_manual_post | null | — |
 | 4 | `Q-6B-X-brief-brief-mq8c663q-v-river-a` | River AI | dev-community | **medium** | awaiting_manual_post | null | — |
 | 5 | `Q-6B-X-brief-brief-mq8c6kp5-r-the-pen` | The Penitence of Saint Jerome | culture-art | **medium** | awaiting_manual_post | null | — |
@@ -46,22 +46,26 @@ After the human posts each remaining item manually in X UI, the human must provi
 
 ---
 
-## Awaiting Manual Post (4/5)
+## Phase 6D-4C Recorded Post
 
-### Item #2: stabilityai/stable-video-diffusion-img2vid-xt
+### Item #2: stabilityai/stable-video-diffusion-img2vid-xt ✅ POSTED
 
 - **ID:** `Q-6B-X-brief-brief-mq8c663q-4-stabili`
 - **source_type:** ai-ecosystem
 - **risk_level:** low
 - **approved_status:** approved
-- **publish_status:** not_published
-- **manual_post_status:** awaiting_manual_post
-- **posted_manually:** false
-- **x_post_url:** null
-- **posted_at:** null
-- **posted_by:** null
-- **notes:** (empty)
+- **publish_status:** manually_posted
+- **manual_post_status:** manually_posted
+- **posted_manually:** true
+- **x_post_url:** https://x.com/porco7161/status/2066673108761853983?s=46
+- **posted_at:** 2026-06-16T08:05:00+08:00
+- **posted_by:** @Porco7161
+- **notes:** Second manual X UI post recorded.
 - **approved_pack:** [posts/stabilityai-stable-video-diffusion-img2vid-xt.md](../approved/posts/stabilityai-stable-video-diffusion-img2vid-xt.md)
+
+---
+
+## Awaiting Manual Post (3/5)
 
 ### Item #3: SamurAIGPT/Generative-Media-Skills
 
@@ -133,10 +137,10 @@ This file does **NOT** trigger any external publish action. All posting is **man
 | Counter | Value |
 |---------|-------|
 | approved_total | 5 |
-| awaiting_manual_post_total | 4 |
-| posted_manually_total | 1 |
-| missing_url_total | 4 |
+| awaiting_manual_post_total | 3 |
+| posted_manually_total | 2 |
+| missing_url_total | 3 |
 
 ---
 
-_辛 🔮 — Phase 6D-4B record. 1/5 manually posted. 4/5 awaiting._
+_辛 🔮 — Phase 6D-4C record. 2/5 manually posted. 3/5 awaiting._
