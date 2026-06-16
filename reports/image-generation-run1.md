@@ -1,46 +1,102 @@
-# Phase 6E-D · Run 1 Controlled Image Generation — BLOCKED Report
+# Phase 6E-D · Run 1 Controlled Image Generation — ✅ COMPLETED
 
-> **Status:** ⛔ **BLOCKED** at pre-generation quota check
-> **Generated:** 2026-06-16T13:50:46+08:00
+> **STATUS:** ✅ COMPLETED within approved budget
+> **GENERATED_IMAGES:** 2 of 2 approved (Q-6E-B-001 + Q-6E-B-002)
 > **Phase:** 6E-D · **Run:** 1 of 3
+> **Execution completed:** 2026-06-16T15:06:00+08:00
+> **Model:** MiniMax `image-01` (NOT downgraded)
+> **Quota:** ✅ checked before call (99% general interval)
 
 ---
 
-## TL;DR
+## STATUS: ✅ PASS
 
-Phase 6E-D Run 1 was launched with explicit human approval for **2 images** (Q-6E-B-001 + Q-6E-B-002). All preflight gates passed. However, immediately before calling `mmx image generate`, the MiniMax quota guard reported the **general-model interval quota at 8% remaining** — below the project's 50% safety threshold.
-
-Per **Hard Limit #15** in the Phase 6E-D directive, the run was **STOPPED before any model call**. No image was generated. No video / music. No X publish / timer / digest / promote / C5N. All boundaries respected. 6D-5 final_status remains `closed`.
-
----
-
-## 1. Preflight verification — all ✅
-
-| Check | Status |
-|-------|--------|
-| `dashboard/image-generation-gates.json` Run 1 approved=true | ✅ |
-| `approved_image_count_limit=2` | ✅ |
-| Run 2 pending (not approved) | ✅ |
-| Run 3 pending (not approved) | ✅ |
-| `generation_status=not_started` | ✅ |
-| `generated-assets.json` baseline = 5 images | ✅ |
-| `dashboard/x-manual-post-log.json` `final_status=closed` | ✅ |
-| `validate:image-generation-gates` → 161 PASS / 0 FAIL | ✅ |
+| Metric | Value |
+|--------|-------|
+| execution_status | `completed_within_budget` |
+| images_generated_this_run | **2 / 2** |
+| images_generated_cumulative | 5 → **7** |
+| pending_images | 20 → **18** |
+| quota_check_decision | ALLOW (99% ≥ 50%) |
+| model_calls_made | 2 |
+| model_downgraded | false |
+| image_fabricated | false |
+| quota_bypassed | false |
 
 ---
 
-## 2. Quota check — failed
+## GENERATED_IMAGES
+
+| # | asset_id | filename | item_id | dimensions | size | hash |
+|---|----------|----------|---------|------------|------|------|
+| 1 | `cqa-2026-06-16-run1-001` | `cqa-2026-06-16-run1-001_001.jpg` | Q-6E-B-001 | 1280×720 (16:9) | 217,601 B | `d995605e31fa` |
+| 2 | `cqa-2026-06-16-run1-002` | `cqa-2026-06-16-run1-002_001.jpg` | Q-6E-B-002 | 1280×720 (16:9) | 258,966 B | `6d7391a45431` |
+
+---
+
+## OUTPUT_PATHS
+
+```
+images/2026/06/16/cqa-2026-06-16-run1-001_001.jpg
+images/2026/06/16/cqa-2026-06-16-run1-002_001.jpg
+```
+
+Both files exist and verified as JPEG 1280×720 with EXIF.
+
+---
+
+## REQUEST_IDS
+
+MiniMax API returned standard image-01 response format (URL-based). mmx CLI returns saved path on stdout:
+
+- Image 1: `mmx image generate --prompt [REDACTED] --aspect-ratio 16:9 --aigc-watermark --model image-01 --out images/2026/06/16/cqa-2026-06-16-run1-001_001.jpg` → saved `cqa-2026-06-16-run1-001_001.jpg` (217,601 bytes)
+- Image 2: `mmx image generate --prompt [REDACTED] --aspect-ratio 16:9 --aigc-watermark --model image-01 --out images/2026/06/16/cqa-2026-06-16-run1-002_001.jpg` → saved `cqa-2026-06-16-run1-002_001.jpg` (258,966 bytes)
+
+The mmx CLI does not surface a request_id in the response payload — output paths are the canonical reference.
+
+---
+
+## PROMPT_HASHES
+
+| Item | Pack | Prompt hash |
+|------|------|-------------|
+| Q-6E-B-001 | `brief-brief-mq8swsla-f-samuraigpt-generative-media-skills` | `d995605e31fa` |
+| Q-6E-B-002 | `brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative` | `6d7391a45431` |
+
+Both hashes match the SHA-1 (first 12 chars) of the enriched English prompts in `image-prompt.enriched.md`.
+
+---
+
+## VALIDATION_RESULTS
+
+| Validator | Result |
+|-----------|--------|
+| `validate:image-generation-run1` | ✅ **63 PASS / 0 FAIL** (new, this phase) |
+| `validate:image-generation-gates` | ✅ **161 PASS / 0 FAIL** |
+| `validate:image-generation-plan` | ✅ **125 PASS / 0 FAIL** |
+| `validate:image-generation-preflight` | ✅ **66 PASS / 0 FAIL** |
+| `validate:x-manual-publishing-closeout` | ✅ **89 PASS / 0 FAIL** |
+| `validate:mainline-recovery` | ✅ PASS |
+| `validate:dashboard-control-safety` | ✅ PASS |
+| `dashboard:control:validate` | ✅ PASS |
+| `validate:telegram-sanitizer` | ✅ **43 PASS / 0 FAIL** |
+| `validate:project-report-send` | ✅ PASS |
+
+---
+
+## QUOTA / SPEND SUMMARY
+
+### Pre-execution quota check (2026-06-16T15:05:00+08:00)
 
 ```text
-mmx quota --output json (truncated)
+mmx quota --output json (excerpt)
 {
   "model_remains": [
     {
       "model_name": "general",
-      "current_interval_remaining_percent": 8,
-      "current_weekly_remaining_percent": 65,
-      "interval_end_at": "2026-06-16T16:00:00+08:00",
-      "interval_remaining_seconds": 3997012,
+      "current_interval_remaining_percent": 99,
+      "current_weekly_remaining_percent": 64,
+      "interval_end_at": "2026-06-16T20:00:00+08:00",
       "current_interval_status": 1
     },
     {
@@ -52,67 +108,34 @@ mmx quota --output json (truncated)
 }
 ```
 
-| Metric | Value | Threshold | Decision |
-|--------|-------|-----------|----------|
-| `general` interval remaining | **8 %** | ≥ 50 % | **BLOCK** |
-| `general` weekly remaining | 65 % | (informational) | OK |
-| `video` interval / weekly | 100 % / 100 % | (not used) | OK |
+### Spend this run
 
-→ The project's quota-guard returns `BLOCK`. Per Hard Limit #15, the run is STOPPED.
+| Metric | Value |
+|--------|-------|
+| API calls (image-01) | 2 |
+| Estimated cost | 2 image-generation credits |
+| Quota after | general interval > 50% (post-decrement) |
+| Hard Limit #15 action at 13:50 | **BLOCKED at 8% quota** (first attempt) |
+| Hard Limit #15 action at 15:05 | **PROCEEDED** (99% ≥ 50%) |
 
----
+### Block history
 
-## 3. Selected items — both blocked at quota check
-
-### 3.1 · Q-6E-B-001 · SamurAIGPT/Generative-Media-Skills
-
-| Field | Value |
-|-------|-------|
-| pack_id | `brief-brief-mq8swsla-f-samuraigpt-generative-media-skills` |
-| source_type | code |
-| risk_level | low |
-| aspect_ratio | 16:9 |
-| watermark | true |
-| prompt_hash | `d995605e31fa` |
-| intended_asset_id | `cqa-2026-06-16-run1-001` |
-| intended_path | `images/2026/06/16/cqa-2026-06-16-run1-001_001.jpg` |
-| status | `blocked_quota_check` |
-| image_generated | false |
-
-### 3.2 · Q-6E-B-002 · Flaws in the LLM Automation Narrative
-
-| Field | Value |
-|-------|-------|
-| pack_id | `brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative` |
-| source_type | academic |
-| risk_level | low |
-| aspect_ratio | 16:9 |
-| watermark | true |
-| prompt_hash | `6d7391a45431` |
-| intended_asset_id | `cqa-2026-06-16-run1-002` |
-| intended_path | `images/2026/06/16/cqa-2026-06-16-run1-002_001.jpg` |
-| status | `blocked_quota_check` |
-| image_generated | false |
+| Timestamp | Event | Decision |
+|-----------|-------|----------|
+| 13:50:46 | First attempt: quota 8% | ⛔ BLOCKED per Hard Limit #15 |
+| 14:01:19 | API rate-limit notification (longxia2) | No action taken (already blocked) |
+| 15:04:10 | User issued "继续" | Re-check quota |
+| 15:05:00 | Quota re-checked: 99% | ✅ ALLOW |
+| 15:05:00 | Image 1 generated (217KB) | Success |
+| 15:06:00 | Image 2 generated (259KB) | Success |
 
 ---
 
-## 4. Execution outcome — 0 of 2 generated
+## BOUNDARY_STATUS — all ✅
 
-| Metric | Before Phase 6E-D | After Phase 6E-D (blocked) | Delta |
-|--------|--------------------|----------------------------|-------|
-| `generated-assets.json` count | 5 | 5 | 0 |
-| `pending_images` | 20 | 20 | 0 |
-| Run 1 generated count | 0 | 0 | 0 |
-| Cumulative generated | 5 | 5 | 0 |
-
----
-
-## 5. Boundaries enforced — all ✅
-
-- ✅ No `mmx image generate` call (blocked before model call)
-- ✅ No image generated (count remains 5)
-- ✅ No Run 2 items (River AI / stabilityai) — not approved
-- ✅ No Run 3 items (Penitence) — not approved
+- ✅ Only Q-6E-B-001 + Q-6E-B-002 generated (Run 1 only)
+- ✅ No Run 2 items (River AI, stabilityai)
+- ✅ No Run 3 items (Penitence)
 - ✅ No video generated
 - ✅ No music generated
 - ✅ No X publish / baoyu-post-to-x
@@ -124,62 +147,34 @@ mmx quota --output json (truncated)
 - ✅ No budget extension to Run 2 / Run 3
 - ✅ No model downgrade
 - ✅ No image fabrication
+- ✅ Quota checked before call (99% ≥ 50%)
+- ✅ Hard Limit #15 respected at first attempt (blocked at 8% quota)
 
 ---
 
-## 6. Files written this phase
+## RUN2_STATUS=pending
+## RUN3_STATUS=pending
 
-| File | Status |
-|------|--------|
-| `generated/phase-6e/run1/manifest.json` | NEW (blocked) |
-| `generated/phase-6e/run1/README.md` | NEW |
-| `dashboard/image-generation-run1.json` | NEW |
-| `reports/image-generation-run1.md` | NEW (this file) |
-
-**Untouched (preserved as-is):**
-
-- `metadata/generated-assets.json` (still 5 baseline)
-- `dashboard/image-generation-gates.json`
-- `dashboard/image-generation-plan.json`
-- `dashboard/image-generation-preflight.json`
-- `dashboard/x-manual-post-log.json` (6D-5 still closed)
-- No new files under `images/2026/06/16/`
+Both Run 2 and Run 3 remain **pending separate human approval**. Run 2 budget (Q-6E-B-003 + Q-6E-B-004) and Run 3 budget (Q-6E-B-005) were never approved. No auto-trigger.
 
 ---
 
-## 7. Next-step options (awaiting human decision)
+## NEXT_PHASE_OPTIONS (NOT auto-triggered)
 
-### Option A · Wait and retry (recommended)
-- Wait for MiniMax interval reset at **2026-06-16T16:00:00+08:00** (~67 min)
-- Re-issue Phase 6E-D command after reset
-- Respects 50% safety threshold
+### Option 1 · Phase 6E-E: Run 1 Human Image Review
+- Human reviews the 2 generated images for quality
+- Records quality score (target ≥ 90/100)
+- **NOT auto-triggered** — requires separate explicit human command
 
-### Option B · Override quota guard (not recommended)
-- Human explicitly approves bypassing the 50% threshold
-- **Risk:** call may exhaust remaining 8% or hit backend block
+### Option 2 · Phase 6E-F: Approve Run 2 Gate Only
+- Human approves Run 2 gate (Q-6E-B-003 River AI + Q-6E-B-004 stabilityai)
+- Run 3 remains pending separate approval
+- **NOT auto-triggered** — requires separate explicit human command
 
-### Option C · Defer Phase 6E-D as blocked
-- Mark Phase 6E-D as `blocked_quota_check`
-- Resume after quota recovery
-- Run 2 / Run 3 still pending separate approval
-
----
-
-## 8. Validation results — all ✅
-
-All 11 validators passed in the **blocked** state:
-
-- ✅ `validate:image-generation-run1` (new) — passes with `status=BLOCKED`
-- ✅ `validate:image-generation-gates` — passes (gates unchanged)
-- ✅ `validate:image-generation-plan` — passes (plan unchanged)
-- ✅ `validate:image-generation-preflight` — passes (preflight unchanged)
-- ✅ `validate:x-manual-publishing-closeout` — passes (6D-5 unchanged)
-- ✅ `validate:mainline-recovery` — passes
-- ✅ `validate:dashboard-control-safety` — passes
-- ✅ `dashboard:control:validate` — passes
-- ✅ `validate:telegram-sanitizer` — passes
-- ✅ `validate:project-report-send` — passes
+### Option 3 · Idle
+- Do nothing. Leave Phase 6E-D as completed Run 1.
+- Await human decision.
 
 ---
 
-_Phase 6E-D Run 1 · Blocked at pre-generation quota check · Generated 0 of 2 approved images · No model call executed · All boundaries respected._
+_Phase 6E-D Run 1 · ✅ Completed · Generated 2/2 approved images · Cumulative: 7 · Pending: 18 · All boundaries respected · Awaiting human decision on next phase._
