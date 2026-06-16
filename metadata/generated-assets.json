@@ -109,5 +109,24 @@
     "queue_item_id": "Q-6E-B-002",
     "generation_provider": "minimax-image-01",
     "mmx_command": "mmx image generate --prompt [REDACTED] --aspect-ratio 16:9 --aigc-watermark --model image-01 --out images/2026/06/16/cqa-2026-06-16-run1-002_001.jpg"
+  },
+  {
+    "asset_id": "cqa-2026-06-16-run1-002-regen1",
+    "filename": "cqa-2026-06-16-run1-002-regen1_001.jpg",
+    "path": "images/2026/06/16/cqa-2026-06-16-run1-002-regen1_001.jpg",
+    "model": "image-01",
+    "prompt": "A clean minimal 16:9 academic research cover. Background: deep dark navy with subtle warm off-white panel in the center. Composition: a single abstract conceptual diagram in the center. Diagram: a horizontal pipeline of three rounded nodes connected by clean lines flowing from left to right. The pipeline visually narrows or fragments near the right side, suggesting a reliability gap. On the far right, a small faceless geometric human silhouette stands observing, representing a human oversight layer. Three small readable sans-serif text labels connected by thin lines to the diagram elements: \"Automation Limits\", \"Reliability Gap\", \"Human Oversight\". Color palette: deep navy blue, warm off-white, muted gold accents. Style: modern minimalist information design, Edward Tufte inspired data-ink ratio, generous whitespace. No fake arxiv badge, no journal seal, no fake equations, no paragraphs of body text, no fake logo, no page header/footer. No human face, no recognizable person, no photographic elements. Soft ambient lighting, no harsh shadows, no text overlay clutter. Title at the top in elegant serif: \"Flaws in the LLM Automation Narrative\" (single line, clear, readable).",
+    "aspect_ratio": "16:9",
+    "content_pack": "brief-brief-mq8tbqf4-j-flaws-in-the-llm-automation-narrative",
+    "source_type": "academic",
+    "generated_at": "2026-06-16T08:33:10.202Z",
+    "watermark": true,
+    "file_size_kb": 86,
+    "regen_of": "cqa-2026-06-16-run1-002",
+    "regen_phase": "6E-G",
+    "parent_decision": "needs_regen",
+    "parent_score": 43.3,
+    "prompt_hash": "83a4a9b43c1b",
+    "output_hash": "4b66c35d3c78"
   }
 ]
