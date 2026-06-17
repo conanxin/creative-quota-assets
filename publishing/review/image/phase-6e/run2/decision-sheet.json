@@ -75,6 +75,7 @@
   "no_6d5_modify": true,
   "no_secrets": true,
   "no_run_1_final_closeout_modify": true,
+  "no_run_2_regen_executed": true,
   "no_run_3_approval": true,
   "boundaries_enforced": true,
   "next_required_human_action": {
