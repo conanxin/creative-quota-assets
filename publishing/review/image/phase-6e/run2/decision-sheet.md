@@ -1,17 +1,25 @@
-# Run 2 Human Image Review Board — Phase 6E-K2
+# Run 2 Human Image Decision Sheet — Phase 6E-K2
 
-**Phase:** 6E-K2 · Run 2 Human Image Review Decisions Recorded
-**Generated:** 2026-06-17T06:46:00+08:00
-**Updated:** 2026-06-17T08:41:00+08:00
+**Phase:** 6E-K2 · Run 2 Human Image Decision Sheet
+**Generated:** 2026-06-17T08:41:00+08:00
 **Based on:** Phase 6E-J Run 2 Controlled Image Generation
 **Assets commit:** `a1230a7` · **Harvester commit:** `79c5271`
-**Mode:** READ-ONLY decision records. No model call, no media generation, no regen executed.
-**Run 1 status:** `final_status=closed`, `outcome=approved_after_regen`, `usable_images=2/2` — NOT modified.
-**Run 3 status:** `pending` — NOT approved.
+**Mode:** READ-ONLY decision record. Decisions recorded by 爸爸.
 
 ---
 
-## Run 2 Decisions Summary
+## Decision Owner
+
+**爸爸** (Xin Conan) — human decision authority.
+
+---
+
+## Decisions Summary
+
+| # | item_id | title | decision | overall | recorded_at |
+|---|---------|-------|----------|---------|-------------|
+| 1 | `Q-6E-B-003` | River AI | 🔄 needs_regen | 45.5 | 2026-06-17T08:41:00+08:00 |
+| 2 | `Q-6E-B-004` | stabilityai/stable-video-diffusion-img2vid-xt | 🔄 needs_regen | 50.0 | 2026-06-17T08:41:00+08:00 |
 
 | Outcome | Count |
 |---------|-------|
@@ -20,30 +28,13 @@
 | rejected | 0 |
 | **Run 2 outcome** | **needs_regen_all** |
 
-`total_generated_image_files=10` · `pending_images=16`. No regeneration executed.
-
 ---
 
-## Run 2 Images — Decisions Recorded
+## Decision 1 — Q-6E-B-003: River AI
 
-| # | item_id | title | source_type | risk | aspect | decision |
-|---|---------|-------|-------------|------|--------|----------|
-| 1 | `Q-6E-B-003` | River AI | dev-community | low | 1:1 | 🔄 needs_regen |
-| 2 | `Q-6E-B-004` | stabilityai/stable-video-diffusion-img2vid-xt | ai-ecosystem | low | 16:9 | 🔄 needs_regen |
+**Image:** `images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg`
 
----
-
-## Image 1 — Q-6E-B-003: River AI
-
-**Path:** `images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg`
-**URL:** https://conanxin.github.io/creative-quota-assets/images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg
-**Dimensions:** 1024×1024 px | **Size:** 137,300 bytes | **Aspect:** 1:1
-**Model:** image-01 | **Watermark:** ✅ | **AIGC watermark:** ✅
-**Prompt hash:** `713fa2351907` | **Output hash:** `0fa9609b9aff`
-**Generated:** 2026-06-16T20:59:22+08:00
-**Review status:** `needs_regen` | **Decision recorded:** 2026-06-17T08:41:00+08:00
-
-### Human Scores
+### Scores
 
 | Dimension | Score (0-10) |
 |-----------|--------------|
@@ -55,22 +46,23 @@
 | **Overall** | **45.5 / 100** |
 
 **Decision:** 🔄 `needs_regen`
+
 **Reason:** Severe text artifacts in title area (e.g. "Develoesin UncerPto"), plus fake footer/logo text and weak River AI semantic clarity. The developer workflow direction is usable, but this image is not suitable as a final asset.
+
 **Regen guidance:** Regenerate with minimal or no text, no fake logos, and a cleaner personal-AI/developer-workflow visual.
+
+**Status:**
+- regen_executed: **false**
+- image_overwritten: **false**
+- image_deleted: **false**
 
 ---
 
-## Image 2 — Q-6E-B-004: stabilityai/stable-video-diffusion-img2vid-xt
+## Decision 2 — Q-6E-B-004: stabilityai/stable-video-diffusion-img2vid-xt
 
-**Path:** `images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg`
-**URL:** https://conanxin.github.io/creative-quota-assets/images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg
-**Dimensions:** 1280×720 px | **Size:** 64,917 bytes | **Aspect:** 16:9
-**Model:** image-01 | **Watermark:** ✅ | **AIGC watermark:** ✅
-**Prompt hash:** `5b76a00ddcb7` | **Output hash:** `200ad2cff498`
-**Generated:** 2026-06-16T20:59:41+08:00
-**Review status:** `needs_regen` | **Decision recorded:** 2026-06-17T08:41:00+08:00
+**Image:** `images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg`
 
-### Human Scores
+### Scores
 
 | Dimension | Score (0-10) |
 |-----------|--------------|
@@ -82,17 +74,24 @@
 | **Overall** | **50.0 / 100** |
 
 **Decision:** 🔄 `needs_regen`
+
 **Reason:** Reasonable abstract video-diffusion pipeline direction, but the scene is too dark, the main subject is too small, and most labels are unreadable pseudo-text.
+
 **Regen guidance:** Regenerate with a clearer video generation pipeline visual, stronger central composition, minimal readable labels, and no fake UI metrics.
+
+**Status:**
+- regen_executed: **false**
+- image_overwritten: **false**
+- image_deleted: **false**
 
 ---
 
-## Run Status Snapshot
+## Run Status After 6E-K2
 
 | Run | Status | Detail |
 |-----|--------|--------|
 | Run 1 | closed | `final_status=closed`, `outcome=approved_after_regen`, `usable_images=2/2` — unchanged |
-| Run 2 | needs_regen_all | 2 of 2 generated; both marked `needs_regen`; no regen executed |
+| Run 2 | needs_regen_all | 2/2 generated, both marked `needs_regen`, no regen executed |
 | Run 3 | pending | `Q-6E-B-005 Penitence` — NOT approved, NOT triggered |
 
 `total_generated_image_files=10` · `pending_images=16`. No new images generated in 6E-K2.
@@ -113,8 +112,7 @@
 | 8 | no X publish trigger | ✅ |
 | 9 | no timer / digest / promote / C5N | ✅ |
 | 10 | no secrets committed | ✅ |
-| 11 | no `git add .` used | ✅ |
-| 12 | Run 2 images not overwritten / deleted | ✅ |
+| 11 | Run 2 images not overwritten / deleted | ✅ |
 
 ---
 

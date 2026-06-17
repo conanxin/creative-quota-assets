@@ -1,10 +1,12 @@
 {
-  "phase": "6E-K",
-  "mode": "run2_human_image_scoring_sheet",
+  "phase": "6E-K2",
+  "previous_phase": "6E-K",
+  "mode": "run2_human_image_scoring_sheet_completed",
   "generated_at": "2026-06-17T06:46:00+08:00",
+  "updated_at": "2026-06-17T08:41:00+08:00",
   "based_on_phase": "6E-J",
-  "based_on_assets_commit": "b03580e",
-  "based_on_harvester_commit": "52a69d6",
+  "based_on_assets_commit": "a1230a7",
+  "based_on_harvester_commit": "79c5271",
   "no_model_call": true,
   "no_media_generation": true,
   "no_x_publish": true,
@@ -14,7 +16,7 @@
   "no_c5n_change": true,
   "no_secrets": true,
   "total_items": 2,
-  "scoring_complete": false,
+  "scoring_complete": true,
   "scoring_dimensions": {
     "prompt_alignment": {
       "label": "Prompt Alignment",
@@ -52,7 +54,8 @@
   "decision_thresholds": {
     "approve": "overall_score >= 80 AND factual_safety >= 8 AND brand_text_artifact_risk <= 4",
     "needs_regen": "overall_score 60-79 OR factual_safety 5-7 OR brand_text_artifact_risk 5-7",
-    "reject": "overall_score < 60 OR factual_safety < 5 OR brand_text_artifact_risk >= 8"
+    "reject": "overall_score < 60 OR factual_safety < 5 OR brand_text_artifact_risk >= 8",
+    "human_override_note": "Human decisions are authoritative. needs_regen may be chosen by 爸爸 even when formula suggests reject; recorded as-is."
   },
   "items": [
     {
@@ -65,17 +68,19 @@
       "risk_level": "low",
       "prompt": "A developer community discussion poster. topic \"River AI\" as a short hook at the top in rounded sans-serif. central visual: a stylized developer workspace with three monitors showing code, terminal, and chat. bottom one-liner summarizing the pain point in italics. style: editorial flat illustration, pastel pink and slate, soft shadows, minimal. no faces, no company logos",
       "scores": {
-        "prompt_alignment": null,
-        "visual_quality": null,
-        "usefulness_as_asset": null,
-        "factual_safety": null,
-        "brand_text_artifact_risk": null
+        "prompt_alignment": 5.5,
+        "visual_quality": 5.5,
+        "usefulness_as_asset": 4.5,
+        "factual_safety": 4.0,
+        "brand_text_artifact_risk": 8.0
       },
-      "overall_score": null,
-      "human_decision": "pending",
-      "decision_reason": null,
-      "reviewer_notes": null,
-      "scored_at": null
+      "score_breakdown": "0.25*5.5 + 0.25*5.5 + 0.20*4.5 + 0.15*4.0 + 0.15*(10-8.0) = 1.375 + 1.375 + 0.9 + 0.6 + 0.3 = 4.55; overall = 4.55*10 = 45.5",
+      "overall_score": 45.5,
+      "human_decision": "needs_regen",
+      "decision_source": "human",
+      "decision_reason": "Severe text artifacts in title area (\"Develoesin UncerPto\"), fake footer/logo text, weak River AI semantic clarity. Developer workflow direction is usable but image not suitable as final asset.",
+      "reviewer_notes": "Regenerate with minimal or no text, no fake logos, cleaner personal-AI/developer-workflow visual.",
+      "scored_at": "2026-06-17T08:41:00+08:00"
     },
     {
       "item_id": "Q-6E-B-004",
@@ -87,25 +92,32 @@
       "risk_level": "low",
       "prompt": "A polished AI model card visual. model name \"stabilityai/stable-video-diffusion-img2vid-xt\" shown as a large hero badge. central pipeline flow: input (icon) → model block with subtle inner layers → output (icon). task label \"image-to-video\" near the input. two or three monospaced metric tiles on the right: downloads, likes, library. style: Hugging Face inspired, dark slate background, amber-to-magenta gradient, soft glow. no human faces, no company logos",
       "scores": {
-        "prompt_alignment": null,
-        "visual_quality": null,
-        "usefulness_as_asset": null,
-        "factual_safety": null,
-        "brand_text_artifact_risk": null
+        "prompt_alignment": 6.0,
+        "visual_quality": 5.0,
+        "usefulness_as_asset": 4.5,
+        "factual_safety": 5.5,
+        "brand_text_artifact_risk": 6.5
       },
-      "overall_score": null,
-      "human_decision": "pending",
-      "decision_reason": null,
-      "reviewer_notes": null,
-      "scored_at": null
+      "score_breakdown": "0.25*6.0 + 0.25*5.0 + 0.20*4.5 + 0.15*5.5 + 0.15*(10-6.5) = 1.5 + 1.25 + 0.9 + 0.825 + 0.525 = 5.0; overall = 5.0*10 = 50.0",
+      "overall_score": 50.0,
+      "human_decision": "needs_regen",
+      "decision_source": "human",
+      "decision_reason": "Reasonable abstract video-diffusion pipeline direction, but scene is too dark, main subject too small, most labels unreadable pseudo-text.",
+      "reviewer_notes": "Regenerate with clearer video generation pipeline visual, stronger central composition, minimal readable labels, no fake UI metrics.",
+      "scored_at": "2026-06-17T08:41:00+08:00"
     }
   ],
   "summary": {
     "approved_count": 0,
-    "needs_regen_count": 0,
+    "needs_regen_count": 2,
     "rejected_count": 0,
-    "pending_count": 2,
-    "run_2_outcome": "pending_human_review",
-    "recommendation": "Awaiting human scoring and decision from 爸爸."
+    "pending_count": 0,
+    "run_2_outcome": "needs_regen_all",
+    "recommendation": "Both Run 2 images marked needs_regen. Awaiting 爸爸's choice between Phase 6E-M (Controlled Regeneration) and Idle. No regeneration executed in this phase.",
+    "auto_regen_executed": false,
+    "run_1_final_status": "closed (unchanged)",
+    "run_3_status": "pending (unchanged)",
+    "total_generated_image_files": 10,
+    "pending_images": 16
   }
 }

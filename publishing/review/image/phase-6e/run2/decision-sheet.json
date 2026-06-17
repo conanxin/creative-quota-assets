@@ -1,0 +1,90 @@
+{
+  "phase": "6E-K2",
+  "previous_phase": "6E-K",
+  "mode": "run2_human_image_decision_sheet",
+  "generated_at": "2026-06-17T08:41:00+08:00",
+  "based_on_phase": "6E-J",
+  "based_on_assets_commit": "a1230a7",
+  "based_on_harvester_commit": "79c5271",
+  "decision_owner": "爸爸",
+  "decision_recorded_at": "2026-06-17T08:41:00+08:00",
+  "decision_count": 2,
+  "decisions": [
+    {
+      "item_id": "Q-6E-B-003",
+      "asset_id": "cqa-2026-06-16-run2-001",
+      "title": "River AI",
+      "image_path": "images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg",
+      "decision": "needs_regen",
+      "decision_source": "human",
+      "decided_at": "2026-06-17T08:41:00+08:00",
+      "scores": {
+        "prompt_alignment": 5.5,
+        "visual_quality": 5.5,
+        "usefulness_as_asset": 4.5,
+        "factual_safety": 4.0,
+        "brand_text_artifact_risk": 8.0,
+        "overall_score": 45.5
+      },
+      "reason": "Severe text artifacts in title area (\"Develoesin UncerPto\"), fake footer/logo text, weak River AI semantic clarity. Developer workflow direction is usable but image not suitable as final asset.",
+      "regen_guidance": "Regenerate with minimal or no text, no fake logos, cleaner personal-AI/developer-workflow visual.",
+      "regen_executed": false,
+      "image_overwritten": false,
+      "image_deleted": false
+    },
+    {
+      "item_id": "Q-6E-B-004",
+      "asset_id": "cqa-2026-06-16-run2-002",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "image_path": "images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg",
+      "decision": "needs_regen",
+      "decision_source": "human",
+      "decided_at": "2026-06-17T08:41:00+08:00",
+      "scores": {
+        "prompt_alignment": 6.0,
+        "visual_quality": 5.0,
+        "usefulness_as_asset": 4.5,
+        "factual_safety": 5.5,
+        "brand_text_artifact_risk": 6.5,
+        "overall_score": 50.0
+      },
+      "reason": "Reasonable abstract video-diffusion pipeline direction, but scene too dark, main subject too small, most labels unreadable pseudo-text.",
+      "regen_guidance": "Regenerate with clearer video generation pipeline visual, stronger central composition, minimal readable labels, no fake UI metrics.",
+      "regen_executed": false,
+      "image_overwritten": false,
+      "image_deleted": false
+    }
+  ],
+  "summary": {
+    "approved": 0,
+    "needs_regen": 2,
+    "rejected": 0,
+    "run_2_outcome": "needs_regen_all",
+    "auto_regen_executed": false,
+    "run_2_approval_granted": false,
+    "run_3_approval_granted": false,
+    "run_3_status": "pending"
+  },
+  "no_model_call": true,
+  "no_media_generation": true,
+  "no_x_publish": true,
+  "no_timer": true,
+  "no_digest": true,
+  "no_promote": true,
+  "no_c5n_change": true,
+  "no_6d5_modify": true,
+  "no_secrets": true,
+  "no_run_1_final_closeout_modify": true,
+  "no_run_3_approval": true,
+  "boundaries_enforced": true,
+  "next_required_human_action": {
+    "action": "select_next_phase",
+    "decision_owner": "爸爸",
+    "options": [
+      "Phase 6E-M: Controlled Regeneration for Run 2 (separate human command required)",
+      "Idle: Do nothing, Run 2 remains needs_regen_all, Run 3 still pending"
+    ],
+    "default_if_no_action": "idle",
+    "blocked_until_human_decision": true
+  }
+}
