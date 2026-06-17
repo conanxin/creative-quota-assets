@@ -1,0 +1,111 @@
+{
+  "phase": "6E-K",
+  "mode": "run2_human_image_scoring_sheet",
+  "generated_at": "2026-06-17T06:46:00+08:00",
+  "based_on_phase": "6E-J",
+  "based_on_assets_commit": "b03580e",
+  "based_on_harvester_commit": "52a69d6",
+  "no_model_call": true,
+  "no_media_generation": true,
+  "no_x_publish": true,
+  "no_timer": true,
+  "no_digest": true,
+  "no_promote": true,
+  "no_c5n_change": true,
+  "no_secrets": true,
+  "total_items": 2,
+  "scoring_complete": false,
+  "scoring_dimensions": {
+    "prompt_alignment": {
+      "label": "Prompt Alignment",
+      "description": "How well does the image realize the intent described in the prompt? (subject, composition, style, colors)",
+      "scale": "0-10",
+      "weight_pct": 25
+    },
+    "visual_quality": {
+      "label": "Visual Quality",
+      "description": "Sharpness, lighting, color harmony, no obvious artifacts, no clipping/warping, no extra fingers/limbs (n/a since no humans).",
+      "scale": "0-10",
+      "weight_pct": 25
+    },
+    "usefulness_as_asset": {
+      "label": "Usefulness as Asset",
+      "description": "Would this work as a gallery / blog / X image for the content pack? Does it support the topic clearly?",
+      "scale": "0-10",
+      "weight_pct": 20
+    },
+    "factual_safety": {
+      "label": "Factual Safety",
+      "description": "No factual misrepresentation, no fake citations, no hallucinated logos, no fake author names, no real people implied.",
+      "scale": "0-10",
+      "weight_pct": 15
+    },
+    "brand_text_artifact_risk": {
+      "label": "Brand / Text Artifact Risk",
+      "description": "Lower = safer. 10 = severe brand confusion, garbled text, fake logos. 0 = pristine, no risk.",
+      "scale": "0-10 (lower is better, but score 0-10 normally; final contribution is reversed in overall)",
+      "weight_pct": 15,
+      "scoring_note": "Score like other dimensions; we will subtract risk from overall. (0 = no risk, 10 = severe risk)"
+    }
+  },
+  "overall_score_formula": "(prompt_alignment*0.25 + visual_quality*0.25 + usefulness_as_asset*0.20 + factual_safety*0.15 + (10 - brand_text_artifact_risk)*0.15) * 10 = 0-100",
+  "decision_thresholds": {
+    "approve": "overall_score >= 80 AND factual_safety >= 8 AND brand_text_artifact_risk <= 4",
+    "needs_regen": "overall_score 60-79 OR factual_safety 5-7 OR brand_text_artifact_risk 5-7",
+    "reject": "overall_score < 60 OR factual_safety < 5 OR brand_text_artifact_risk >= 8"
+  },
+  "items": [
+    {
+      "item_id": "Q-6E-B-003",
+      "asset_id": "cqa-2026-06-16-run2-001",
+      "title": "River AI",
+      "image_path": "images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg",
+      "image_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/16/cqa-2026-06-16-run2-001_001.jpg",
+      "source_type": "dev-community",
+      "risk_level": "low",
+      "prompt": "A developer community discussion poster. topic \"River AI\" as a short hook at the top in rounded sans-serif. central visual: a stylized developer workspace with three monitors showing code, terminal, and chat. bottom one-liner summarizing the pain point in italics. style: editorial flat illustration, pastel pink and slate, soft shadows, minimal. no faces, no company logos",
+      "scores": {
+        "prompt_alignment": null,
+        "visual_quality": null,
+        "usefulness_as_asset": null,
+        "factual_safety": null,
+        "brand_text_artifact_risk": null
+      },
+      "overall_score": null,
+      "human_decision": "pending",
+      "decision_reason": null,
+      "reviewer_notes": null,
+      "scored_at": null
+    },
+    {
+      "item_id": "Q-6E-B-004",
+      "asset_id": "cqa-2026-06-16-run2-002",
+      "title": "stabilityai/stable-video-diffusion-img2vid-xt",
+      "image_path": "images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg",
+      "image_url": "https://conanxin.github.io/creative-quota-assets/images/2026/06/16/cqa-2026-06-16-run2-002_001.jpg",
+      "source_type": "ai-ecosystem",
+      "risk_level": "low",
+      "prompt": "A polished AI model card visual. model name \"stabilityai/stable-video-diffusion-img2vid-xt\" shown as a large hero badge. central pipeline flow: input (icon) → model block with subtle inner layers → output (icon). task label \"image-to-video\" near the input. two or three monospaced metric tiles on the right: downloads, likes, library. style: Hugging Face inspired, dark slate background, amber-to-magenta gradient, soft glow. no human faces, no company logos",
+      "scores": {
+        "prompt_alignment": null,
+        "visual_quality": null,
+        "usefulness_as_asset": null,
+        "factual_safety": null,
+        "brand_text_artifact_risk": null
+      },
+      "overall_score": null,
+      "human_decision": "pending",
+      "decision_reason": null,
+      "reviewer_notes": null,
+      "scored_at": null
+    }
+  ],
+  "summary": {
+    "approved_count": 0,
+    "needs_regen_count": 0,
+    "rejected_count": 0,
+    "pending_count": 2,
+    "run_2_outcome": "pending_human_review",
+    "recommendation": "Awaiting human scoring and decision from 爸爸."
+  }
+}
